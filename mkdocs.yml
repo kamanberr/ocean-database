@@ -1,0 +1,126 @@
+site_name: Kamanberr Ocean Database
+site_description: Download routes of various open-access oceanographic datasets
+site_author: Jiuk Hwang
+site_url: https://kamanberr.github.io/ocean-database/
+repo_url: https://github.com/kamanberr/ocean-database
+repo_name: kamanberr/ocean-database
+edit_uri: edit/main/docs/
+copyright: Copyright &copy; 2026 Jiuk Hwang (Kamanberr)
+
+theme:
+  name: material
+  language: en
+  icon:
+    logo: material/waves
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])'
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/kamanberr
+      name: GitHub
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/kamanberr/
+      name: Instagram (update notice)
+    - icon: fontawesome/solid/envelope
+      link: mailto:hwangjiuk34@gmail.com
+      name: Contact
+
+nav:
+  - Home: index.md
+  - Whole Ocean:
+      - whole-ocean/index.md
+      - Satellite:
+          - whole-ocean/satellite/index.md
+          - Sea Surface Temperature: whole-ocean/satellite/sst.md
+          - Ocean Color: whole-ocean/satellite/ocean-color.md
+          - Data Portals & Tools: whole-ocean/satellite/portals.md
+          - Korea · China Centers: whole-ocean/satellite/centers.md
+      - Drifter & Argo: whole-ocean/drifter-argo.md
+      - In Situ: whole-ocean/in-situ.md
+      - Model: whole-ocean/model.md
+      - Atmosphere: whole-ocean/atmosphere.md
+  - Processed Product:
+      - processed/index.md
+      - Ocean & Climate Index: processed/climate-index.md
+      - Sea Level & OHC: processed/sea-level-ohc.md
+      - Atlas & Climatology: processed/atlas-climatology.md
+      - Mixed Layer Depth: processed/mld.md
+  - Topics:
+      - topics/index.md
+      - Typhoon & Hurricane: topics/typhoon.md
+      - Nutrient & Carbon Cycle: topics/nutrient-carbon.md
+      - Ecological Oceanography: topics/ecology.md
+      - Freshwater / River Discharge: topics/river-discharge.md
+      - Wave: topics/wave.md
+      - Marine Heat Wave: topics/marine-heatwave.md
+  - Regional:
+      - regional/index.md
+      - Korea: regional/korea.md
+      - Japan: regional/japan.md
+      - Pacific Ocean: regional/pacific.md
+      - Atlantic Ocean: regional/atlantic.md
+      - Indian Ocean: regional/indian.md
+  - Bathymetry & Boundary:
+      - bathymetry/index.md
+      - Bathymetry: bathymetry/bathymetry.md
+      - Boundary: bathymetry/boundary.md
+  - Etc.:
+      - etc/index.md
+      - Data download with code: etc/download-code.md
+      - Useful MATLAB Code: etc/matlab-code.md
+      - Data used in papers: etc/papers.md
+      - Image of Ocean: etc/images.md
+      - Stommel Diagram: etc/stommel.md
+      - Polar: etc/polar.md
+  - Resources: resources.md
