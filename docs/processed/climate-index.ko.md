@@ -130,9 +130,9 @@
         - [ENSO Index: Vital Signs (NASA Sea Level)](https://sealevel.jpl.nasa.gov/data/vital-signs/el-nino/)
         - [AOML ocean indexes](https://www.aoml.noaa.gov/phod/indexes/index.php)
 
-## 해양·탄소 지표 { #ocean-carbon-indicators }
+## 기타 지표 { #ocean-carbon-indicators }
 
-<div class="grid cards" markdown>
+<div class="grid cards single" markdown>
 
 -   **Ocean Current**
 
@@ -153,6 +153,17 @@
     [:octicons-link-external-24: AOML regional satellite products](https://www.aoml.noaa.gov/phod/regsatprod/)<br>
     [:octicons-link-external-24: AOML ocean indexes](https://www.aoml.noaa.gov/phod/indexes/index.php)
 
+    <figure markdown="span">
+      ![AOML regional satellite products](../assets/processed/climate-index/aoml_regional_satellite_products.png){ loading=lazy }
+      <figcaption>AOML regional satellite products 페이지</figcaption>
+    </figure>
+
+    <figure markdown="span">
+      ![AOML ocean indexes](../assets/processed/climate-index/aoml_ocean_indexes.png){ loading=lazy }
+      <figcaption>AOML ocean indexes 페이지</figcaption>
+    </figure>
+
+
 -   **CO2**
 
     ---
@@ -172,13 +183,3 @@
     [:octicons-link-external-24: Global Land-Ocean Temperature Index Data Set](https://www.nasa.gov/stem-content/global-land-ocean-temperature-index-data-set/)
 
 </div>
-
-<figure markdown="span">
-  ![AOML regional satellite products 화면](../assets/processed/climate-index/aoml_regional_satellite_products.png){ loading=lazy }
-  <figcaption>AOML regional satellite products 화면</figcaption>
-</figure>
-
-<figure markdown="span">
-  ![AOML ocean indexes 화면](../assets/processed/climate-index/aoml_ocean_indexes.png){ loading=lazy }
-  <figcaption>AOML ocean indexes 화면</figcaption>
-</figure>

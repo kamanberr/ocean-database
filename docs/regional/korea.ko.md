@@ -74,6 +74,11 @@ NIFS Serial Oceanographic Observation. 정선을 따라 수행하는 정기 관�
 [:octicons-link-external-24: KODC Atlas 개요](https://www.nifs.go.kr/kodc/ocean-info/atlas/overview)<br>
 [:octicons-download-24: Continuous Gridded Time Series of T/S around the Korean Peninsula using DIVA (v1, SEANOE)](https://www.seanoe.org/data/01006/111799/)
 
+<figure markdown="span">
+  ![KODC 한반도 주변해 수온·염분 기후 평년 자료 (atlas)](../assets/processed/atlas-climatology/korea_kodc_atlas.png){ loading=lazy }
+  <figcaption>KODC 한반도 주변해 수온·염분 기후 평년 자료 (atlas)</figcaption>
+</figure>
+
 </div>
 
 <div class="model-card" markdown>
@@ -88,8 +93,8 @@ NIFS Serial Oceanographic Observation. 정선을 따라 수행하는 정기 관�
 [:octicons-link-external-24: KODC 연안정지관측 개요](https://www.nifs.go.kr/kodc/observe/coastal/overview)
 
 <figure markdown="span">
-  ![KODC 연안정지관측 개요 화면](../assets/regional/korea/kodc_coastal_station_overview.png){ loading=lazy }
-  <figcaption>KODC 연안정지관측 개요 화면</figcaption>
+  ![KODC 연안정지관측 지점 (2023년 운영 종료)](../assets/regional/korea/kodc_coastal_station_overview.png){ loading=lazy }
+  <figcaption>KODC 연안정지관측 지점 (2023년 운영 종료)</figcaption>
 </figure>
 
 </div>
@@ -289,7 +294,7 @@ GOCI, GOCI-II
 
 </div>
 
-## 연구 자료 (동해, 한반도 주변해)
+## 관측 자료 (동해, 한반도 주변해)
 
 <div class="model-card" markdown>
 
@@ -514,5 +519,6 @@ Hydrographic Data Status
 </div>
 
 ??? note "데이터 파일"
-    `Current_schema.zip`(한반도 주변 해류 모식도 데이터), `Basemap.zip`(Korea shapefile),
-    `해양수산부_국립해양조사원_영해한계선및직선기선_20240705.zip`(영해 한계선)은 별도로 호스팅할 예정입니다.
+    Notion 페이지에 첨부되어 있던 파일(`Current_schema.zip`, `Basemap.zip`, 국립해양조사원 영해한계선 zip)은
+    **저장소에 포함하지 않습니다**. 해류 모식도와 영해한계선 자료는 위에 링크된 원 출처에서 직접 받을 수 있습니다.
+

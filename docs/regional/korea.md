@@ -74,6 +74,11 @@ Temperature and salinity climatology, and a DIVA-based gridded time series
 [:octicons-link-external-24: KODC Atlas overview](https://www.nifs.go.kr/kodc/ocean-info/atlas/overview)<br>
 [:octicons-download-24: Continuous Gridded Time Series of T/S around the Korean Peninsula using DIVA (v1, SEANOE)](https://www.seanoe.org/data/01006/111799/)
 
+<figure markdown="span">
+  ![KODC T/S climatology (atlas) around the Korean Peninsula](../assets/processed/atlas-climatology/korea_kodc_atlas.png){ loading=lazy }
+  <figcaption>KODC T/S climatology (atlas) around the Korean Peninsula</figcaption>
+</figure>
+
 </div>
 
 <div class="model-card" markdown>
@@ -88,8 +93,8 @@ Long-term observations at fixed coastal stations
 [:octicons-link-external-24: KODC coastal station overview](https://www.nifs.go.kr/kodc/observe/coastal/overview)
 
 <figure markdown="span">
-  ![KODC coastal station observation overview](../assets/regional/korea/kodc_coastal_station_overview.png){ loading=lazy }
-  <figcaption>KODC coastal station observation overview</figcaption>
+  ![KODC coastal station map; the program was discontinued after 2023](../assets/regional/korea/kodc_coastal_station_overview.png){ loading=lazy }
+  <figcaption>KODC coastal station map; the program was discontinued after 2023</figcaption>
 </figure>
 
 </div>
@@ -289,7 +294,7 @@ SST, sea level, marine precipitation, sea level pressure, marine air temperature
 
 </div>
 
-## Research datasets (East Sea and Korean marginal seas)
+## Observation datasets (East Sea and Korean marginal seas)
 
 <div class="model-card" markdown>
 
@@ -514,5 +519,7 @@ Time-series figures at NIFS; raw data at Badanuri (Download → Shared data → 
 </div>
 
 ??? note "Data files"
-    `Current_schema.zip` (current schematic data), `Basemap.zip` (Korea shapefile), and
-    `해양수산부_국립해양조사원_영해한계선및직선기선_20240705.zip` (territorial sea limits) will be hosted separately.
+    The files that were attached to the Notion page (`Current_schema.zip`, `Basemap.zip`, and the KHOA territorial sea
+    limits zip) are **not included in this repository**. The current schematic and the territorial sea limits can be
+    downloaded from the sources linked above.
+

@@ -38,6 +38,7 @@ Gridded temperature and salinity products built from Argo (EN4, MOAA GPV, CORA5,
 
     Software and training material for working with Argo data
 
+    [:octicons-mark-github-16: argopy (Python)](https://github.com/euroargodev/argopy)<br>
     [:octicons-link-external-24: Argo software tools (UCSD)](https://argo.ucsd.edu/data/argo-software-tools/)<br>
     [:octicons-link-external-24: Argo Online School](https://euroargodev.github.io/argoonlineschool/intro.html)<br>
     [:octicons-link-external-24: KIOST Argo](https://oceanclimate.kr/kiost_argo/)
@@ -68,10 +69,6 @@ Gridded temperature and salinity products built from Argo (EN4, MOAA GPV, CORA5,
       ![GDAC dac directory of the deploying institution](../../assets/whole-ocean/in-situ/argo/wmo_search_dac_directory.png){ loading=lazy }
       <figcaption>GDAC dac directory of the deploying institution</figcaption>
     </figure>
-
-??? note "Needs checking"
-    The Notion page embedded one external object in the "Another sources related to ARGO" section that could not be read
-    through the API. Please check whether it was an extra link worth keeping.
 
 ## Velocity products
 

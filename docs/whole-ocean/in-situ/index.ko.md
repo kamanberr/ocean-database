@@ -13,7 +13,7 @@
 
     WOD, GTSPP, CODC, CMEMS CORA profile, Coriolis
 
-    [:octicons-arrow-right-24: 상세 목록](archives.md)
+    [:octicons-arrow-right-24: Details](archives.md)
 
 -   :material-waves: **Argo**
 
@@ -21,7 +21,7 @@
 
     Argo profile, float 궤적 기반 유속 product
 
-    [:octicons-arrow-right-24: 상세 목록](argo.md)
+    [:octicons-arrow-right-24: Details](argo.md)
 
 -   :material-map-marker-path: **Drifter**
 
@@ -29,7 +29,7 @@
 
     GDP 등 표층 뜰개, drifter 기반 합성 유속장, 지역 부이
 
-    [:octicons-arrow-right-24: 상세 목록](drifter.md)
+    [:octicons-arrow-right-24: Details](drifter.md)
 
 -   :material-ferry: **선박**
 
@@ -37,7 +37,7 @@
 
     반복 관측 hydrography (CCHDO, GO-SHIP, WOCE, CLIVAR), 선박 ADCP, XBT, SOOP
 
-    [:octicons-arrow-right-24: 상세 목록](ship.md)
+    [:octicons-arrow-right-24: Details](ship.md)
 
 -   :material-anchor: **계류**
 
@@ -45,7 +45,7 @@
 
     OceanSITES, TAO/TRITON/PIRATA/RAMA, PMEL Ocean Climate Stations, NDBC
 
-    [:octicons-arrow-right-24: 상세 목록](mooring.md)
+    [:octicons-arrow-right-24: Details](mooring.md)
 
 -   :material-chart-timeline-variant: **조위 관측**
 
@@ -53,7 +53,7 @@
 
     PSMSL, GLOSS, CSIRO 해수면 자료
 
-    [:octicons-arrow-right-24: 상세 목록](tide-gauge.md)
+    [:octicons-arrow-right-24: Details](tide-gauge.md)
 
 -   :material-grid: **격자 수온·염분 product**
 
@@ -61,7 +61,7 @@
 
     EN4, CMEMS CORA OA, MOAA GPV, CORA5, BOA-Argo, WOA 비교표
 
-    [:octicons-arrow-right-24: 상세 목록](gridded.md)
+    [:octicons-arrow-right-24: Details](gridded.md)
 
 </div>
 
@@ -75,7 +75,7 @@
 
     GLODAPv2, CoastDOM v1, RFROM 해양 열용량 지도, iQuam 현장 SST
 
-    [:octicons-arrow-right-24: 상세 목록](others.md)
+    [:octicons-arrow-right-24: Details](others.md)
 
 </div>
 

@@ -18,10 +18,6 @@ The mission of OceanSITES is to collect, deliver and promote the use of high-qua
 [:octicons-link-external-24: oceansites.org](http://www.oceansites.org/) (the site appears to be offline)<br>
 [:octicons-download-24: Data catalog: CORIOLIS-OCEANSITES-GDAC-OBS (TRITON, RAMA, PIRATA, KEO, etc.)](http://tds0.ifremer.fr/thredds/CORIOLIS-OCEANSITES-GDAC-OBS/CORIOLIS-OCEANSITES-GDAC-OBS.html)
 
-<figure markdown="span">
-  ![OceanSITES](../../assets/whole-ocean/in-situ/mooring/oceansites_overview.png){ loading=lazy }
-  <figcaption>OceanSITES</figcaption>
-</figure>
 
 </div>
 

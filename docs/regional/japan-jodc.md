@@ -2,6 +2,11 @@
 
 Datasets served by the Japan Oceanographic Data Center through J-DOSS, by data type.
 
+!!! warning "J-DOSS maintenance"
+    The J-DOSS description links sometimes show「ただいまメンテナンス中のため、ご覧いただけません。」("Currently under maintenance and unavailable").
+    This is temporary server maintenance on the JODC side; try again later.
+
+
 !!! info "Main homepage"
     [J-DOSS: JODC Data On-line Service System](https://www.jodc.go.jp/jodcweb/JDOSS/index.html)
 

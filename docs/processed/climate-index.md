@@ -130,9 +130,9 @@ Climate variability indices (ENSO, PDO, IOD, AMO, MJO, teleconnection patterns) 
         - [ENSO Index: Vital Signs (NASA Sea Level)](https://sealevel.jpl.nasa.gov/data/vital-signs/el-nino/)
         - [AOML ocean indexes](https://www.aoml.noaa.gov/phod/indexes/index.php)
 
-## Ocean & carbon indicators
+## Other indices
 
-<div class="grid cards" markdown>
+<div class="grid cards single" markdown>
 
 -   **Ocean Current**
 
@@ -153,6 +153,17 @@ Climate variability indices (ENSO, PDO, IOD, AMO, MJO, teleconnection patterns) 
     [:octicons-link-external-24: AOML regional satellite products](https://www.aoml.noaa.gov/phod/regsatprod/)<br>
     [:octicons-link-external-24: AOML ocean indexes](https://www.aoml.noaa.gov/phod/indexes/index.php)
 
+    <figure markdown="span">
+      ![AOML regional satellite products](../assets/processed/climate-index/aoml_regional_satellite_products.png){ loading=lazy }
+      <figcaption>AOML regional satellite products page</figcaption>
+    </figure>
+
+    <figure markdown="span">
+      ![AOML ocean indexes](../assets/processed/climate-index/aoml_ocean_indexes.png){ loading=lazy }
+      <figcaption>AOML ocean indexes page</figcaption>
+    </figure>
+
+
 -   **CO₂**
 
     ---
@@ -172,13 +183,3 @@ Climate variability indices (ENSO, PDO, IOD, AMO, MJO, teleconnection patterns) 
     [:octicons-link-external-24: Global Land-Ocean Temperature Index Data Set](https://www.nasa.gov/stem-content/global-land-ocean-temperature-index-data-set/)
 
 </div>
-
-<figure markdown="span">
-  ![AOML regional satellite products](../assets/processed/climate-index/aoml_regional_satellite_products.png){ loading=lazy }
-  <figcaption>AOML regional satellite products</figcaption>
-</figure>
-
-<figure markdown="span">
-  ![AOML ocean indexes](../assets/processed/climate-index/aoml_ocean_indexes.png){ loading=lazy }
-  <figcaption>AOML ocean indexes</figcaption>
-</figure>

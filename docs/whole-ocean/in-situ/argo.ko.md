@@ -38,6 +38,7 @@ Argo 기반 격자 수온·염분 product(EN4, MOAA GPV, CORA5, BOA-Argo)는 [Gr
 
     Argo 자료 활용 소프트웨어와 교육 자료
 
+    [:octicons-mark-github-16: argopy (Python)](https://github.com/euroargodev/argopy)<br>
     [:octicons-link-external-24: Argo software tools (UCSD)](https://argo.ucsd.edu/data/argo-software-tools/)<br>
     [:octicons-link-external-24: Argo Online School](https://euroargodev.github.io/argoonlineschool/intro.html)<br>
     [:octicons-link-external-24: KIOST Argo](https://oceanclimate.kr/kiost_argo/)
@@ -68,10 +69,6 @@ Argo 기반 격자 수온·염분 product(EN4, MOAA GPV, CORA5, BOA-Argo)는 [Gr
       ![투하 기관의 GDAC dac 디렉토리](../../assets/whole-ocean/in-situ/argo/wmo_search_dac_directory.png){ loading=lazy }
       <figcaption>투하 기관의 GDAC dac 디렉토리</figcaption>
     </figure>
-
-??? note "확인 필요"
-    Notion의 "Another sources related to ARGO" 섹션에 API로 읽을 수 없는 외부 임베드가 1개 있었습니다.
-    남겨 둘 만한 링크였는지 확인해 주세요.
 
 ## Velocity products
 

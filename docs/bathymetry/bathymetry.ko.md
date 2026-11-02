@@ -172,8 +172,6 @@ ETOPO 2022, SRTM15+, S2Shores는 아래 MathWorks 툴박스를 설치하고 그 
 </figure>
 
 ??? note "데이터 파일"
-    아래 자료 파일은 용량이 커서 저장소에 넣지 않았습니다. 별도로 호스팅할 예정이며, 그 전까지는 원본 사이트에서 직접 받으시기 바랍니다.
+    Notion 페이지에 첨부되어 있던 GEBCO 2023 영역 자료와 HYCOM depth 파일은 **저장소에 포함하지 않습니다**.
+    위의 GEBCO·HYCOM 다운로드 링크에서 직접 만들 수 있습니다.
 
-    - GEBCO 2023 subsets: `gebco_2023_n41.0_s24.0_w118.0_e130.0_YECS.nc`, `gebco_2023_n41.0_s31.0_w117.0_e128.0_YS.nc`,
-      `gebco_2023_n55.0_s30.0_w125.0_e145.0_EJS.nc`, `gebco_2023_n55.0_s20.0_w115.0_e145.0_KOREA.nc`
-    - HYCOM depth: `depth_GLBb0.08_09m11.nc`, `depth_GLBv0.08_09m11.nc`, `depth_GLBy0.08_09m11.nc`

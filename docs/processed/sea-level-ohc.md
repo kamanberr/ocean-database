@@ -16,80 +16,58 @@ Maps and time series of sea level and ocean heat content (OHC).
 
 ## Sea level
 
-<div class="grid cards" markdown>
+<div class="model-card" markdown>
 
--   **UHSLC** · Tide gauge
+### UHSLC
 
-    ---
+Tide gauge
+{ .spec }
 
-    University of Hawaii Sea Level Center
+University of Hawaii Sea Level Center
 
-    [:octicons-link-external-24: UHSLC Home](https://uhslc.soest.hawaii.edu/)
-
--   **GLOSS**
-
-    ---
-
-    Global Sea Level Observing System
-
-    [:octicons-link-external-24: GLOSS](https://gloss-sealevel.org/)
-
--   **AVISO Mean Sea Level** · Map & Time series
-
-    ---
-
-    Altimetry-based global mean sea level (GMSL) rise indicator since 1993
-
-    [:octicons-link-external-24: Mean Sea Level](https://www.aviso.altimetry.fr/en/data/products/ocean-indicators-products/mean-sea-level.html)<br>
-    [:octicons-download-24: Data access](https://www.aviso.altimetry.fr/en/data/products/ocean-indicators-products/mean-sea-level/data-acces.html)
-
--   **AVISO Barystatic & Manometric SL** · Time series
-
-    ---
-
-    Barystatic and manometric sea level changes from satellite geodesy
-
-    [:octicons-link-external-24: Product page](https://www.aviso.altimetry.fr/en/data/products/ocean-indicators-products/barystatic-and-manometric-sea-level-changes-from-satellite-geodesy.html)<br>
-    [:octicons-download-24: HTTPS download](https://data.aviso.altimetry.fr/aviso-gateway/data/indicators/barystatic_manometric/)
-
--   **NOAA STAR Sea Level Rise** · Time series
-
-    ---
-
-    Altimetry-based sea level rise time series
-
-    [:octicons-link-external-24: LSA SLR time series](https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/LSA_SLR_timeseries.php)
-
--   **NASA** · Time series
-
-    ---
-
-    [:octicons-link-external-24: Sea Level (NASA Climate)](https://climate.nasa.gov/vital-signs/sea-level/)<br>
-    [:octicons-link-external-24: Global Mean Sea Level](https://sealevel.nasa.gov/understanding-sea-level/key-indicators/global-mean-sea-level/)
-
--   **CMEMS Thermosteric Sea Level** · 0–700 m
-
-    ---
-
-    Thermosteric sea level anomaly from reanalysis and multi-observation reprocessing
-
-    [:octicons-link-external-24: Area-averaged anomaly time series](https://data.marine.copernicus.eu/product/GLOBAL_OMI_SL_thsl_area_averaged_anomalies_0_700/description)<br>
-    [:octicons-link-external-24: Trend map](https://data.marine.copernicus.eu/product/GLOBAL_OMI_SL_thsl_trend/description)
-
--   **Ocean Bottom Pressure** · GRACE
-
-    ---
-
-    GFZ Gravity Information Service
-
-    [:octicons-link-external-24: GravIS: OBP](https://gravis.gfz.de/obp)
+[:octicons-link-external-24: UHSLC Home](https://uhslc.soest.hawaii.edu/)
 
 </div>
+
+<div class="model-card" markdown>
+
+### GLOSS
+
+Global Sea Level Observing System
+
+[:octicons-link-external-24: GLOSS](https://gloss-sealevel.org/)
+
+</div>
+
+<div class="model-card" markdown>
+
+### AVISO Mean Sea Level
+
+Map & Time series
+{ .spec }
+
+Altimetry-based global mean sea level (GMSL) rise indicator since 1993
+
+[:octicons-link-external-24: Mean Sea Level](https://www.aviso.altimetry.fr/en/data/products/ocean-indicators-products/mean-sea-level.html)<br>
+[:octicons-download-24: Data access](https://www.aviso.altimetry.fr/en/data/products/ocean-indicators-products/mean-sea-level/data-acces.html)
 
 ??? info "About AVISO Mean Sea Level"
     Continuous altimetry observations from 1993 to the present have made it possible to establish an important climate indicator:
     the rise in Global Mean Sea Level (GMSL). Two main factors related to the current global warming explain this GMSL rise:
     the expansion of the ocean volume and the influx of freshwater from melting ice and glaciers.
+</div>
+
+<div class="model-card" markdown>
+
+### AVISO Barystatic & Manometric SL
+
+Time series
+{ .spec }
+
+Barystatic and manometric sea level changes from satellite geodesy
+
+[:octicons-link-external-24: Product page](https://www.aviso.altimetry.fr/en/data/products/ocean-indicators-products/barystatic-and-manometric-sea-level-changes-from-satellite-geodesy.html)<br>
+[:octicons-download-24: HTTPS download](https://data.aviso.altimetry.fr/aviso-gateway/data/indicators/barystatic_manometric/)
 
 ??? info "Barystatic vs. manometric sea level"
     Barystatic sea level changes are due to freshwater exchanges with the continents, including ice mass changes from Greenland,
@@ -101,6 +79,59 @@ Maps and time series of sea level and ocean heat content (OHC).
     The product (NetCDF) is open access via the [HTTPS server](https://data.aviso.altimetry.fr/aviso-gateway/data/indicators/barystatic_manometric/)
     or non-authenticated FTP (`ftp://ftp.aviso.altimetry.fr/pub/oceano/AVISO/indicators/barystatic_manometric/`),
     under the [AVISO licence agreement](https://www.aviso.altimetry.fr/fileadmin/documents/data/License_Aviso.pdf).
+</div>
+
+<div class="model-card" markdown>
+
+### NOAA STAR Sea Level Rise
+
+Time series
+{ .spec }
+
+Altimetry-based sea level rise time series
+
+[:octicons-link-external-24: LSA SLR time series](https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/LSA_SLR_timeseries.php)
+
+</div>
+
+<div class="model-card" markdown>
+
+### NASA
+
+Time series
+{ .spec }
+
+[:octicons-link-external-24: Sea Level (NASA Climate)](https://climate.nasa.gov/vital-signs/sea-level/)<br>
+[:octicons-link-external-24: Global Mean Sea Level](https://sealevel.nasa.gov/understanding-sea-level/key-indicators/global-mean-sea-level/)
+
+</div>
+
+<div class="model-card" markdown>
+
+### CMEMS Thermosteric Sea Level
+
+0–700 m
+{ .spec }
+
+Thermosteric sea level anomaly from reanalysis and multi-observation reprocessing
+
+[:octicons-link-external-24: Area-averaged anomaly time series](https://data.marine.copernicus.eu/product/GLOBAL_OMI_SL_thsl_area_averaged_anomalies_0_700/description)<br>
+[:octicons-link-external-24: Trend map](https://data.marine.copernicus.eu/product/GLOBAL_OMI_SL_thsl_trend/description)
+
+</div>
+
+<div class="model-card" markdown>
+
+### Ocean Bottom Pressure
+
+GRACE
+{ .spec }
+
+GFZ Gravity Information Service
+
+[:octicons-link-external-24: GravIS: OBP](https://gravis.gfz.de/obp)
+
+</div>
 
 ## Ocean heat content
 
@@ -109,60 +140,17 @@ Maps and time series of sea level and ocean heat content (OHC).
   <figcaption>NOAA/NCEI ocean heat content (source: Levitus et al., 2012)</figcaption>
 </figure>
 
-<div class="grid cards" markdown>
+<div class="model-card" markdown>
 
--   **NOAA/NCEI OHC, Salt Content, Sea Level Anomalies** · Map & Time series
+### NOAA/NCEI OHC, Salt Content, Sea Level Anomalies
 
-    ---
+Map & Time series
+{ .spec }
 
-    Computed from in situ data (World Ocean Database) rather than satellites. 0–2000 m, updated quarterly
+Computed from in situ data (World Ocean Database) rather than satellites. 0–2000 m, updated quarterly
 
-    [:octicons-link-external-24: Ocean Heat Content, Salt Content, and Sea Level Anomalies](https://www.ncei.noaa.gov/products/ocean-heat-salt-sea-level)<br>
-    [:octicons-link-external-24: Levitus et al. (2012)](https://doi.org/10.1029/2012GL051106)
-
--   **NOAA/NCEI Global OHC CDR** · 1955–present
-
-    ---
-
-    Companion to the product above; OPeNDAP access. OHCA time series at 3-monthly, yearly, and pentadal scales
-
-    [:octicons-link-external-24: Global Ocean Heat Content CDR](https://www.ncei.noaa.gov/products/climate-data-records/global-ocean-heat-content)
-
--   **AVISO OHC change & Earth Energy Imbalance** · Time series
-
-    ---
-
-    An alternative OHC-change estimate based on altimetry and gravimetry
-
-    [:octicons-link-external-24: Product page](https://www.aviso.altimetry.fr/en/data/products/ocean-indicators-products/ocean-heat-content-and-earth-energy-imbalance/global-ocean-heat-content-change-and-earth-energy-imbalance.html)<br>
-    [:octicons-download-24: HTTPS download](https://data.aviso.altimetry.fr/aviso-gateway/data/indicators/OHC_EEI/global_OHC_EEI/)
-
--   **IAPv4** · Ocean temperature & OHC gridded
-
-    ---
-
-    Cheng et al. (2024)
-
-    [:octicons-link-external-24: ESSD paper](https://essd.copernicus.org/articles/16/3517/2024/)<br>
-    [:octicons-download-24: Temperature (doi:10.12157/IOCAS.20240117.002)](https://doi.org/10.12157/IOCAS.20240117.002)<br>
-    [:octicons-download-24: OHC (doi:10.12157/IOCAS.20240117.001)](https://doi.org/10.12157/IOCAS.20240117.001)<br>
-    [:octicons-link-external-24: IAP Ocean](http://www.ocean.iap.ac.cn/)
-
--   **NASA** · Time series
-
-    ---
-
-    [:octicons-link-external-24: Ocean Heat Content (NASA Climate)](https://climate.nasa.gov/vital-signs/ocean-warming/)
-
--   **RFROM** · PMEL
-
-    ---
-
-    Ocean heat content anomaly (OHCA) maps produced from profile data with random-forest regression. Described on the In Situ page
-
-    [:octicons-arrow-right-24: Other in situ datasets (In Situ)](../whole-ocean/in-situ/others.md)
-
-</div>
+[:octicons-link-external-24: Ocean Heat Content, Salt Content, and Sea Level Anomalies](https://www.ncei.noaa.gov/products/ocean-heat-salt-sea-level)<br>
+[:octicons-link-external-24: Levitus et al. (2012)](https://doi.org/10.1029/2012GL051106)
 
 ??? info "About the NOAA/NCEI OHC product"
     These fields and time series are **calculated using in situ temperature and salinity data from the
@@ -183,11 +171,36 @@ Maps and time series of sea level and ocean heat content (OHC).
 
     Salinity anomaly fields indicate changes in the ocean's freshwater budget on shorter time scales (evaporation/precipitation, river discharge, etc.)
     and longer time scales (transfer of freshwater from continental glaciers). They also measure halosteric change, the saline contraction that affects sea level.
+</div>
+
+<div class="model-card" markdown>
+
+### NOAA/NCEI Global OHC CDR
+
+1955–present
+{ .spec }
+
+Companion to the product above; OPeNDAP access. OHCA time series at 3-monthly, yearly, and pentadal scales
+
+[:octicons-link-external-24: Global Ocean Heat Content CDR](https://www.ncei.noaa.gov/products/climate-data-records/global-ocean-heat-content)
 
 ??? info "About the Global OHC CDR"
     The Ocean Heat Content Climate Data Record (CDR) is a set of ocean heat content anomaly (OHCA) time series for 1955–present on 3-monthly,
     yearly, and pentadal (five-yearly) scales. It provides time series for multiple depth ranges in the global ocean and each of the major basins
     (Atlantic, Pacific, and Indian) divided by hemisphere (Northern, Southern).
+</div>
+
+<div class="model-card" markdown>
+
+### AVISO OHC change & Earth Energy Imbalance
+
+Time series
+{ .spec }
+
+An alternative OHC-change estimate based on altimetry and gravimetry
+
+[:octicons-link-external-24: Product page](https://www.aviso.altimetry.fr/en/data/products/ocean-indicators-products/ocean-heat-content-and-earth-energy-imbalance/global-ocean-heat-content-change-and-earth-energy-imbalance.html)<br>
+[:octicons-download-24: HTTPS download](https://data.aviso.altimetry.fr/aviso-gateway/data/indicators/OHC_EEI/global_OHC_EEI/)
 
 ??? info "About AVISO OHC change & EEI"
     The OHC change can be estimated directly from net ocean surface heat fluxes measured by CERES, from in situ Argo data, or from ocean
@@ -198,3 +211,45 @@ Maps and time series of sea level and ocean heat content (OHC).
     or non-authenticated FTP (`ftp://ftp.aviso.altimetry.fr/pub/oceano/AVISO/indicators/OHC_EEI/global_OHC_EEI/`),
     under the [AVISO licence agreement](https://www.aviso.altimetry.fr/fileadmin/documents/data/License_Aviso.pdf).
     See also [Ocean Heat Content and Earth Energy Imbalance](https://www.aviso.altimetry.fr/en/data/products/ocean-indicators-products/ocean-heat-content-and-earth-energy-imbalance.html).
+</div>
+
+<div class="model-card" markdown>
+
+### IAPv4
+
+Ocean temperature & OHC gridded
+{ .spec }
+
+Cheng et al. (2024)
+
+[:octicons-link-external-24: ESSD paper](https://essd.copernicus.org/articles/16/3517/2024/)<br>
+[:octicons-download-24: Temperature (doi:10.12157/IOCAS.20240117.002)](https://doi.org/10.12157/IOCAS.20240117.002)<br>
+[:octicons-download-24: OHC (doi:10.12157/IOCAS.20240117.001)](https://doi.org/10.12157/IOCAS.20240117.001)<br>
+[:octicons-link-external-24: IAP Ocean](http://www.ocean.iap.ac.cn/)
+
+</div>
+
+<div class="model-card" markdown>
+
+### NASA
+
+Time series
+{ .spec }
+
+[:octicons-link-external-24: Ocean Heat Content (NASA Climate)](https://climate.nasa.gov/vital-signs/ocean-warming/)
+
+</div>
+
+<div class="model-card" markdown>
+
+### RFROM
+
+PMEL
+{ .spec }
+
+Ocean heat content anomaly (OHCA) maps produced from profile data with random-forest regression. Described on the In Situ page
+
+[:octicons-arrow-right-24: Other in situ datasets (In Situ)](../whole-ocean/in-situ/others.md)
+
+</div>
+

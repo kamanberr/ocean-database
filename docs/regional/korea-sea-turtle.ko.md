@@ -109,6 +109,3 @@ Raw data를 사용할 때는 아래 citation을 함께 병기해 주세요.
   ![결과 예시](../assets/regional/korea-sea-turtle/result_example_2.png){ loading=lazy }
   <figcaption>결과 예시</figcaption>
 </figure>
-
-??? note "데이터 파일"
-    `pone.0290202.s003.zip`(바다거북 movebank 파일)은 별도로 호스팅할 예정이며, 위 figshare 링크에서도 받을 수 있습니다.

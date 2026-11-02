@@ -3,8 +3,8 @@
 Marine heatwave (MHW) datasets, detection codes, and references.
 
 <figure markdown="span">
-  ![NOAA PSL Marine Heatwaves](../assets/topics/marine-heatwave/psl_marine_heatwaves.png){ loading=lazy }
-  <figcaption>NOAA PSL Marine Heatwaves</figcaption>
+  ![Past-30-day marine heatwave magnitude from OISSTv2 (NOAA PSL)](../assets/topics/marine-heatwave/psl_marine_heatwaves.png){ loading=lazy }
+  <figcaption>Past-30-day marine heatwave magnitude from OISSTv2 (NOAA PSL)</figcaption>
 </figure>
 
 ## Data
@@ -33,7 +33,8 @@ Marine heatwave (MHW) datasets, detection codes, and references.
 
     Detecting marine heatwaves below the sea surface globally using dynamics-guided statistical learning (Communications Earth & Environment)
 
-    [:octicons-link-external-24: Data availability](https://www.nature.com/articles/s43247-024-01769-x#data-availability)
+    [:octicons-link-external-24: Data availability](https://www.nature.com/articles/s43247-024-01769-x#data-availability)<br>
+    [:octicons-mark-github-16: Zhang-Koda/Detecting_subsurface_MHWs](https://github.com/Zhang-Koda/Detecting_subsurface_MHWs)
 
 </div>
 
@@ -49,6 +50,14 @@ Marine heatwave (MHW) datasets, detection codes, and references.
 
     [:octicons-mark-github-16: ecjoliver/marineHeatWaves](https://github.com/ecjoliver/marineHeatWaves)<br>
     [:octicons-link-external-24: Marine heatwaves detection code (Research Data Australia)](https://researchdata.edu.au/marine-heatwaves-detection-code/814983)
+
+-   **m_mhw** (MATLAB)
+
+    ---
+
+    MHW detection toolbox for MATLAB (Zhao & Marin)
+
+    [:octicons-mark-github-16: ZijieZhaoMMHW/m_mhw1.0](https://github.com/ZijieZhaoMMHW/m_mhw1.0)
 
 -   **heatwaveR** (R)
 
@@ -80,6 +89,3 @@ Marine heatwave (MHW) datasets, detection codes, and references.
 - [Nature Reviews Earth & Environment article (s44358-025-00058-5)](https://www.nature.com/articles/s44358-025-00058-5)
 - [Marine heatwave topic overview (ScienceDirect)](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/marine-heatwave)
 
-??? note "Needs checking"
-    Two embedded blocks on the original Notion page (next to the JOSS paper in the Codes section, and next to the subsurface-MHW paper)
-    could not be read through the API, so their content has not been transferred.

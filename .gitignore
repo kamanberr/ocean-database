@@ -16,3 +16,6 @@ Thumbs.db
 
 # Notion API token must never be committed
 .env
+
+# Data files staged for GitHub Releases (not committed)
+_release_staging/

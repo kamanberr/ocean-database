@@ -3,8 +3,8 @@
 해양열파(MHW) 자료, 탐지 코드, 참고 문헌 모음입니다.
 
 <figure markdown="span">
-  ![NOAA PSL Marine Heatwaves](../assets/topics/marine-heatwave/psl_marine_heatwaves.png){ loading=lazy }
-  <figcaption>NOAA PSL Marine Heatwaves</figcaption>
+  ![최근 30일 해양열파 강도 (OISSTv2, NOAA PSL)](../assets/topics/marine-heatwave/psl_marine_heatwaves.png){ loading=lazy }
+  <figcaption>최근 30일 해양열파 강도 (OISSTv2, NOAA PSL)</figcaption>
 </figure>
 
 ## 자료 { #data }
@@ -33,7 +33,8 @@
 
     Detecting marine heatwaves below the sea surface globally using dynamics-guided statistical learning (Communications Earth & Environment)
 
-    [:octicons-link-external-24: Data availability](https://www.nature.com/articles/s43247-024-01769-x#data-availability)
+    [:octicons-link-external-24: Data availability](https://www.nature.com/articles/s43247-024-01769-x#data-availability)<br>
+    [:octicons-mark-github-16: Zhang-Koda/Detecting_subsurface_MHWs](https://github.com/Zhang-Koda/Detecting_subsurface_MHWs)
 
 </div>
 
@@ -49,6 +50,14 @@
 
     [:octicons-mark-github-16: ecjoliver/marineHeatWaves](https://github.com/ecjoliver/marineHeatWaves)<br>
     [:octicons-link-external-24: Marine heatwaves detection code (Research Data Australia)](https://researchdata.edu.au/marine-heatwaves-detection-code/814983)
+
+-   **m_mhw** (MATLAB)
+
+    ---
+
+    MATLAB용 MHW 탐지 툴박스 (Zhao & Marin)
+
+    [:octicons-mark-github-16: ZijieZhaoMMHW/m_mhw1.0](https://github.com/ZijieZhaoMMHW/m_mhw1.0)
 
 -   **heatwaveR** (R)
 
@@ -80,5 +89,3 @@
 - [Nature Reviews Earth & Environment article (s44358-025-00058-5)](https://www.nature.com/articles/s44358-025-00058-5)
 - [Marine heatwave topic overview (ScienceDirect)](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/marine-heatwave)
 
-??? note "확인 필요"
-    원본 Notion 페이지의 임베드 블록 2개(Codes 섹션의 JOSS 논문 옆, subsurface MHW 논문 옆)는 API로 읽을 수 없어 내용을 옮기지 못했습니다.

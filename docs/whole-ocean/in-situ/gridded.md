@@ -12,7 +12,7 @@ Use the table to pick a product, then see the cards below for links and notes.
 | **MOAA GPV** | JAMSTEC | 1°, monthly | 25 levels to 2000 dbar | 2001-01-01 – | Argo plus others (optimal interpolation) | [MOAA GPV](#moaa-gpv) |
 | **CORA5** | CMEMS / Coriolis | 1/2°, monthly | 250 levels to 2000 m | 1950 – year N-2 | Argo plus others (optimal interpolation) | [CORA5](#cora5) |
 | **BOA-Argo** | CSIO, MNR | 1°, monthly | 58 levels to 1975 dbar | 2004-01-01 – | Argo only (Barnes method) | [BOA-Argo](#boa-argo) |
-| **WOA** | NOAA NCEI | – | – | climatology | – | [WOA](../../processed/woa.md) |
+| **WOA** | NOAA NCEI | – | – | climatology | – | [WOA](../../processed/atlas-climatology.md#world-ocean-atlas-woa23) |
 
 Full list of monthly gridded Argo products: [Argo data products (UCSD)](https://argo.ucsd.edu/data/argo-data-products/)
 
@@ -95,6 +95,6 @@ CSIO, MNR. **Argo only**, Barnes method. Provided as NetCDF and MATLAB files.
 
 NOAA NCEI World Ocean Atlas: climatological fields derived from the World Ocean Database.
 
-[:octicons-arrow-right-24: World Ocean Atlas](../../processed/woa.md)
+[:octicons-arrow-right-24: World Ocean Atlas](../../processed/atlas-climatology.md#world-ocean-atlas-woa23)
 
 </div>

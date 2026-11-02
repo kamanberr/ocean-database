@@ -81,12 +81,12 @@ CCHDO에 포함된 프로그램:
     [:octicons-link-external-24: XBT Science (NOAA AOML)](https://www.aoml.noaa.gov/phod/goos/xbtscience/index.php)
 
     <figure markdown="span">
-      ![XBT 관측망](../../assets/whole-ocean/in-situ/ship/xbt_1.png){ loading=lazy }
-      <figcaption>XBT 관측망</figcaption>
+      ![평균 역학고도와 지형류 위에 표시한 XBT 관측선(흰 선)](../../assets/whole-ocean/in-situ/ship/xbt_1.png){ loading=lazy }
+      <figcaption>평균 역학고도와 지형류 위에 표시한 XBT 관측선(흰 선)</figcaption>
     </figure>
     <figure markdown="span">
-      ![XBT 관측 장비](../../assets/whole-ocean/in-situ/ship/xbt_2.png){ loading=lazy }
-      <figcaption>XBT 관측 장비</figcaption>
+      ![XBT 관측선의 수온 연직 단면 (상부 800 m)](../../assets/whole-ocean/in-situ/ship/xbt_2.png){ loading=lazy }
+      <figcaption>XBT 관측선의 수온 연직 단면 (상부 800 m)</figcaption>
     </figure>
 
 -   **SOOP**

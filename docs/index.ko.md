@@ -11,7 +11,8 @@ hide:
     웹사이트 주소 변경을 포함한 업데이트 소식은 [Instagram (@kamanberr)](https://www.instagram.com/kamanberr/)에서 알려 드립니다.
     질문이나 제안이 있으시면 이메일 또는 DM으로 연락 주세요.
 
-!!! note "Latest Update: 2026.10.28 (KST)"
+!!! note "Latest Update: 2026.11.02 (KST)"
+    - Moved the website from Notion to GitHub Pages, with a new card layout and an English / Korean switch. Full history: [Update Log](changelog.md).
     - Updated the SST Downloader: 11 GHRSST L4 datasets and OISST v2, with token-based download and automatic retry.
     - Updated the Bathymetry Download: ETOPO 2022, SRTM15+, and the newly added S2Shores coastal bathymetry.
     - 2026.08.25: Updated the Pacific Ocean datasets, refreshed the satellite SST page, and updated the Polar page.
@@ -22,57 +23,66 @@ hide:
 
 ## 카테고리별 보기
 
-<div class="grid cards" markdown>
+<div class="grid cards single" markdown>
 
--   :material-earth: **Whole Ocean**
-
-    ---
-
-    위성, 현장 관측(Argo, drifter, 선박, 계류), 모델, 대기
-
-    [:octicons-arrow-right-24: 이동](whole-ocean/index.md)
-
--   :material-chart-line: **Processed Product**
+-   :material-earth: **[전 지구 자료](whole-ocean/index.md){ .cat-link }**
 
     ---
 
-    기후 지수, 해수면·OHC, atlas·기후값, 혼합층 깊이
+    [:material-satellite-variant: 위성](whole-ocean/satellite/index.md){ .chip .c1 }
+    [:material-ferry: 현장 관측](whole-ocean/in-situ/index.md){ .chip .c2 }
+    [:material-monitor: 모델](whole-ocean/model.md){ .chip .c3 }
+    [:material-weather-partly-cloudy: 대기](whole-ocean/atmosphere.md){ .chip .c4 }
 
-    [:octicons-arrow-right-24: 이동](processed/index.md)
-
--   :material-lightbulb-on-outline: **Interesting Topics**
-
-    ---
-
-    태풍, 탄소 순환, 생태, 하천 유출, 파랑, 해양 열파
-
-    [:octicons-arrow-right-24: 이동](topics/index.md)
-
--   :material-map-marker-radius: **Local Area / Country**
+-   :material-chart-line: **[가공 자료](processed/index.md){ .cat-link }**
 
     ---
 
-    한국, 일본, 태평양, 대서양, 인도양
+    [:material-chart-bell-curve-cumulative: 해양·기후 지수](processed/climate-index.md){ .chip .c1 }
+    [:material-earth-box: Atlas & Climatology](processed/atlas-climatology.md){ .chip .c2 }
+    [:material-waves-arrow-up: 해수면·해양 열용량](processed/sea-level-ohc.md){ .chip .c3 }
+    [:material-layers-triple-outline: 혼합층 깊이](processed/mld.md){ .chip .c4 }
+    [:material-swap-vertical: 해류 수송량](processed/volume-transport.md){ .chip .c5 }
 
-    [:octicons-arrow-right-24: 이동](regional/index.md)
-
--   :material-terrain: **Bathymetry & Boundary**
-
-    ---
-
-    GEBCO, ETOPO 2022, SRTM15+, KHOA, HYCOM topo, EEZ
-
-    [:octicons-arrow-right-24: 이동](bathymetry/index.md)
-
--   :material-toolbox-outline: **Etc.**
+-   :material-lightbulb-on-outline: **[주제별](topics/index.md){ .cat-link }**
 
     ---
 
-    다운로드 코드, 유용한 MATLAB 코드, 논문에 쓰인 자료
+    [:material-weather-hurricane: 태풍·허리케인](topics/typhoon.md){ .chip .c1 }
+    [:material-flask-outline: 영양염·탄소 순환](topics/nutrient-carbon.md){ .chip .c2 }
+    [:material-fish: 생태 해양학](topics/ecology.md){ .chip .c3 }
+    [:material-water: 담수·하천 유출](topics/river-discharge.md){ .chip .c4 }
+    [:material-waves: 파랑](topics/wave.md){ .chip .c5 }
+    [:material-thermometer-alert: 해양 열파](topics/marine-heatwave.md){ .chip .c6 }
 
-    [:octicons-arrow-right-24: 이동](etc/index.md)
+-   :material-map-marker-radius: **[지역별](regional/index.md){ .cat-link }**
 
-</div>
+    ---
+
+    [:material-map-marker-radius: 한국](regional/korea.md){ .chip .c1 }
+    [:material-map-marker-outline: 일본](regional/japan.md){ .chip .c2 }
+    [:material-earth: 태평양](regional/pacific.md){ .chip .c3 }
+    [:material-earth: 대서양](regional/atlantic.md){ .chip .c4 }
+    [:material-earth: 인도양](regional/indian.md){ .chip .c5 }
+
+-   :material-terrain: **[수심·경계](bathymetry/index.md){ .cat-link }**
+
+    ---
+
+    [:material-terrain: 수심](bathymetry/bathymetry.md){ .chip .c1 }
+    [:material-map-outline: 경계](bathymetry/boundary.md){ .chip .c2 }
+
+-   :material-toolbox-outline: **[기타](etc/index.md){ .cat-link }**
+
+    ---
+
+    [:material-download-box-outline: 코드로 자료 받기](etc/download-code.md){ .chip .c1 }
+    [:material-code-braces: 유용한 MATLAB 코드](etc/matlab-code.md){ .chip .c2 }
+    [:material-file-document-multiple-outline: 논문에 쓰인 자료](etc/papers.md){ .chip .c3 }
+    [:material-image-multiple-outline: 바다 이미지](etc/images.md){ .chip .c4 }
+    [:material-database-outline: CMEMS / Copernicus](etc/cmems-copernicus.md){ .chip .c5 }
+    [:material-chart-scatter-plot: Stommel 다이어그램](etc/stommel.md){ .chip .c6 }
+    [:material-snowflake: 극지](etc/polar.md){ .chip .c7 }</div>
 
 자료 포털, 시각화 도구, 강의 영상은 [참고 자료](resources.md)에서 확인하세요.
 

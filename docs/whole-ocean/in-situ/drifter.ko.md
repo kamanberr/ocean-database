@@ -101,10 +101,8 @@ Argo float 자료는 [Argo](argo.md) 페이지를 참고하세요.
        (예: drifting buoy를 요청했을 때 300개 안팎까지만 허용되었음). 기간을 나눠서 다운받는 것을 권합니다.
 
 ??? note "데이터 파일"
-    2024-08-19에 내려받은 CORA drifter 자료는 사이트 밖에 두고 별도로 제공할 예정입니다:
-    동중국해 `cora_ecs_drf_1970_2000.tgz`, `_2001_2005`, `_2006_2008`, `_2009_2010`, `_2011_2013`, `_2014_2019`, `_2020_2024`;
-    동해 `cora_es_drf_1950_1998.tgz`, `_1999_2003`, `_2004_2006`, `_2007_2008`, `_2009_2010`, `_2011_2013`, `_2014_2017`, `_2018_2024`;
-    CMEMS drifter 원자료 `cmems_obs-ins_glo_phy-cur_nrt_drifter_irr_ECS.csv`, `cmems_obs-ins_glo_phy-cur_nrt_drifter_irr_ES.csv`.
+    Notion 페이지에 첨부되어 있던 지역 추출 자료(동중국해·동해 CMEMS drifter CSV, CORA drifter 묶음)는
+    **여기서는 재배포하지 않습니다**. 위에 링크된 CMEMS 제품 페이지와 Coriolis data selection에서 직접 받을 수 있습니다.
 
 ## WOCE surface drifters
 

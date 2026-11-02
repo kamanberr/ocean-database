@@ -187,5 +187,7 @@
 
     [APEC 기후센터 (APCC)](https://www.apcc21.org/?lang=ko)
 
-??? note "확인 필요"
-    Notion 원본 상단에 있던 "Toolbox" 링크 미리보기는 대상 주소를 읽을 수 없어 옮기지 못했습니다.
+## Toolbox
+
+- [:octicons-mark-github-16: sea-mat/air-sea: 해양-대기 플럭스 MATLAB 툴박스](https://github.com/sea-mat/air-sea)
+

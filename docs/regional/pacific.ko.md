@@ -121,12 +121,12 @@ China Kuroshio Extension Observatory. 쿠로시오–오야시오 전이대의 �
 [:octicons-download-24: CKEO dataset (Zenodo)](https://doi.org/10.5281/zenodo.16569633)
 
 <figure markdown="span">
-  ![CKEO 계류 부이 위치](../assets/regional/pacific/ckeo_buoy_location.png){ loading=lazy }
-  <figcaption>CKEO 계류 부이 위치</figcaption>
+  ![CKEO 데이터셋 개요 (기간·위치·파일 구성)](../assets/regional/pacific/ckeo_buoy_location.png){ loading=lazy }
+  <figcaption>CKEO 데이터셋 개요 (기간·위치·파일 구성)</figcaption>
 </figure>
 <figure markdown="span">
-  ![CKEO 자료 개요](../assets/regional/pacific/ckeo_dataset_overview.png){ loading=lazy }
-  <figcaption>CKEO 자료 개요</figcaption>
+  ![쿠로시오 확장역의 KEO·JKEO·CKEO 표층 계류 위치](../assets/regional/pacific/ckeo_dataset_overview.png){ loading=lazy }
+  <figcaption>쿠로시오 확장역의 KEO·JKEO·CKEO 표층 계류 위치</figcaption>
 </figure>
 
 </div>
@@ -177,7 +177,7 @@ Kuroshio Extension Mooring System. 계류 자료는 KEMS 웹사이트에서 분�
 
     국내 관측망, 격자 자료, 다운로드 방법을 정리한 페이지입니다.
 
-    [:octicons-arrow-right-24: 상세 목록](korea.md)
+    [:octicons-arrow-right-24: Details](korea.md)
 
 -   **한반도 주변 지역 격자 자료**
 
@@ -774,9 +774,8 @@ IAP/CAS의 격자 수온·해양 열용량 자료입니다.
     </figure>
 
 ??? note "데이터 파일"
-    Notion 페이지에 첨부되어 있던 자료 파일은 저장소에 포함하지 않으며 별도로 제공할 예정입니다:
-    `其它_DATA2022000022_data-1641797062238.rar` (1번 계류), `论文_PAPER2024030002_PAPER2024030002-01_submitdata-1710731532006.rar` (8번 계류),
-    `论文_PAPER2023110013_PAPER2023110013-01_near_inertial_flow-1699596322135.mat` (7번 계류).
+    Notion 페이지에 첨부되어 있던 자료 파일(중국 자료센터 제출본·아카이브, near-inertial flow MAT 파일)은
+    원 자료센터가 가입·승인제로 운영되므로 **여기서는 재배포하지 않습니다**. 링크된 자료센터를 직접 이용해 주세요.
 
 ## 대만
 
@@ -810,7 +809,7 @@ IAP/CAS의 격자 수온·해양 열용량 자료입니다.
 
     대한민국, 일본, 중국, 러시아 공동 프로젝트입니다. JMA와 JODC가 실시간·지연 모드 데이터베이스를 운영합니다.
 
-    [:octicons-arrow-right-24: 상세 목록](pacific-near-goos.md)
+    [:octicons-arrow-right-24: Details](pacific-near-goos.md)
 
 -   **IMOS / AODN (호주)**
 

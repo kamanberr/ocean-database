@@ -31,5 +31,5 @@ Download routes for the NIFS (KODC) serial oceanographic observations, plus comp
     `_2015_2022_동해.xls`, `_2000_2014_동해.xls`, `_1993_1999_동해.xls`.
 
 ??? note "Data files"
-    `NIFS_KODC_ALL_1969_2024.zip`, the bi-yearly `정선해양_관측정보_*.xlsx` files (31 files), and the older `정선해양관측정보_*.xls` files (6 files)
-    will be hosted separately.
+    The compiled files that were attached to the Notion page (`NIFS_KODC_ALL_1969_2024.zip`, the bi-yearly `정선해양_관측정보_*.xlsx` files, and the older `정선해양관측정보_*.xls` files) are institutional data and are **not redistributed here**. Please download the data yourself from KODC using the method above.
+

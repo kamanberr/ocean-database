@@ -2,6 +2,11 @@
 
 일본 해양자료센터(JODC)가 J-DOSS로 제공하는 자료를 종류별로 정리했습니다.
 
+!!! warning "J-DOSS 점검 안내"
+    자료 설명(Description) 링크에서「ただいまメンテナンス中のため、ご覧いただけません。」라는 문구가 보일 때가 있습니다.
+    "현재 점검 중이라 열람할 수 없습니다"라는 뜻으로, JODC 서버 측의 일시적인 점검이니 나중에 다시 시도해 주세요.
+
+
 !!! info "메인 홈페이지"
     [J-DOSS: JODC Data On-line Service System](https://www.jodc.go.jp/jodcweb/JDOSS/index.html)
 

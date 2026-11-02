@@ -81,12 +81,12 @@ Programs on CCHDO:
     [:octicons-link-external-24: XBT Science (NOAA AOML)](https://www.aoml.noaa.gov/phod/goos/xbtscience/index.php)
 
     <figure markdown="span">
-      ![XBT network](../../assets/whole-ocean/in-situ/ship/xbt_1.png){ loading=lazy }
-      <figcaption>XBT network</figcaption>
+      ![An XBT transect (white line) over mean dynamic topography and mean geostrophic velocity](../../assets/whole-ocean/in-situ/ship/xbt_1.png){ loading=lazy }
+      <figcaption>An XBT transect (white line) over mean dynamic topography and mean geostrophic velocity</figcaption>
     </figure>
     <figure markdown="span">
-      ![XBT probe](../../assets/whole-ocean/in-situ/ship/xbt_2.png){ loading=lazy }
-      <figcaption>XBT probe</figcaption>
+      ![Vertical temperature section along an XBT transect (upper 800 m)](../../assets/whole-ocean/in-situ/ship/xbt_2.png){ loading=lazy }
+      <figcaption>Vertical temperature section along an XBT transect (upper 800 m)</figcaption>
     </figure>
 
 -   **SOOP**

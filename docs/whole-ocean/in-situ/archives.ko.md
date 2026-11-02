@@ -15,7 +15,7 @@
 
     [:octicons-link-external-24: WOD (NOAA NCEI)](https://www.ncei.noaa.gov/products/world-ocean-database)<br>
     [:octicons-arrow-right-24: WOD 다운로드 방법](wod-download.md)<br>
-    [:octicons-arrow-right-24: World Ocean Atlas (WOA)](../../processed/woa.md)
+    [:octicons-arrow-right-24: World Ocean Atlas (WOA)](../../processed/atlas-climatology.md#world-ocean-atlas-woa23)
 
 -   **GTSPP**
 

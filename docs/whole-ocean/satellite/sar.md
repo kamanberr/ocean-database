@@ -5,12 +5,12 @@ Synthetic-aperture radar imagery of the sea surface from Sentinel-1, ERS and ALO
 ## About SAR
 
 <figure markdown="span">
-  ![Principle of synthetic-aperture radar](../../assets/whole-ocean/satellite/sar/sar_principle_1.png){ loading=lazy }
-  <figcaption>Principle of synthetic-aperture radar</figcaption>
+  ![Timeline of spaceborne SAR missions by radar band (1978-2025)](../../assets/whole-ocean/satellite/sar/sar_principle_1.png){ loading=lazy }
+  <figcaption>Timeline of spaceborne SAR missions by radar band (1978-2025)</figcaption>
 </figure>
 <figure markdown="span">
-  ![SAR imaging geometry](../../assets/whole-ocean/satellite/sar/sar_principle_2.png){ loading=lazy }
-  <figcaption>SAR imaging geometry</figcaption>
+  ![SAR missions grouped by radar band, with frequencies, revisit times, and spatial resolutions](../../assets/whole-ocean/satellite/sar/sar_principle_2.png){ loading=lazy }
+  <figcaption>SAR missions grouped by radar band, with band frequencies, revisit times, and spatial resolutions</figcaption>
 </figure>
 
 - [:octicons-link-external-24: SAR: Synthetic Aperture Radar (Detektia)](https://detektia.com/en/sar-synthetic-aperture-radar/)
@@ -26,12 +26,12 @@ Synthetic-aperture radar imagery of the sea surface from Sentinel-1, ERS and ALO
 - [:octicons-link-external-24: Sentinel-1 at ASF DAAC](https://asf.alaska.edu/datasets/daac/sentinel-1/)
 
 <figure markdown="span">
-  ![Sentinel-1 acquisition modes](../../assets/whole-ocean/satellite/sar/sentinel1_acquisition_modes.png){ loading=lazy }
-  <figcaption>Sentinel-1 acquisition modes</figcaption>
+  ![Sentinel-1 Level 2 Ocean (OCN) product page on the Copernicus Data Space](../../assets/whole-ocean/satellite/sar/sentinel1_acquisition_modes.png){ loading=lazy }
+  <figcaption>Sentinel-1 Level 2 Ocean (OCN) product page on the Copernicus Data Space</figcaption>
 </figure>
 <figure markdown="span">
-  ![Sentinel-1 product types](../../assets/whole-ocean/satellite/sar/sentinel1_product_types.png){ loading=lazy }
-  <figcaption>Sentinel-1 product types</figcaption>
+  ![Sentinel-1 OCN example: radial velocity (RVL) Doppler anomaly over Hurricane Irma, 7 September 2017](../../assets/whole-ocean/satellite/sar/sentinel1_product_types.png){ loading=lazy }
+  <figcaption>Sentinel-1 OCN example: radial velocity (RVL) Doppler anomaly over Hurricane Irma, 7 September 2017 (ESA documentation)</figcaption>
 </figure>
 
 Sentinel-1 normally observes wide areas at low resolution and switches to high-resolution, narrow-swath modes over regions of interest. Its strength is that it is weather-independent; its weaknesses are that interpretation is difficult and, above all, that coverage of the ocean is limited (coastal acquisitions exist, but open-sea acquisitions are few).
@@ -137,7 +137,6 @@ ALOS data from Japan can be downloaded the same way. The example below covers th
     ```matlab title="Plot OCN wind speed"
     clc; clear; close all;
 
-
     fnm = "C:\Users\User\OneDrive\문서\MATLAB\2024_Kuro" + ...
         "\khanun_SAR\S1A_EW_OCN__2SDV_20230804T213456_20230804T213559_049731_05FAEB_00F4.SAFE" + ...
         "\measurement\s1a-ew-ocn-vv-20230804t213456-20230804t213559-049731-05FAEB-001.nc";
@@ -189,8 +188,7 @@ ALOS data from Japan can be downloaded the same way. The example below covers th
 
 ## Sea state from Sentinel-1 (Ifremer)
 
-??? note "Needs checking"
-    The Notion page embedded an external object for the "SAR Sentinel-1 ESA mission sea state Ifremer processor" that could not be read. The target link has to be restored by hand.
+- [:octicons-mark-github-16: umr-lops/sarwaveifrproc](https://github.com/umr-lops/sarwaveifrproc): processor that generates Level-2 WAV sea-state products from Sentinel-1 SAR (UMR LOPS)
 
 ## Related links
 

@@ -101,10 +101,9 @@ Argo float data are on the [Argo](argo.md) page.
        (for drifting buoys, roughly 300 was the limit). Splitting the period into several downloads is recommended.
 
 ??? note "Data files"
-    CORA drifter extracts retrieved on 2024-08-19 are kept outside the site and will be hosted separately:
-    East China Sea `cora_ecs_drf_1970_2000.tgz`, `_2001_2005`, `_2006_2008`, `_2009_2010`, `_2011_2013`, `_2014_2019`, `_2020_2024`;
-    East/Japan Sea `cora_es_drf_1950_1998.tgz`, `_1999_2003`, `_2004_2006`, `_2007_2008`, `_2009_2010`, `_2011_2013`, `_2014_2017`, `_2018_2024`;
-    CMEMS raw drifter data `cmems_obs-ins_glo_phy-cur_nrt_drifter_irr_ECS.csv`, `cmems_obs-ins_glo_phy-cur_nrt_drifter_irr_ES.csv`.
+    The regional extractions that were attached to the Notion page (CMEMS drifter CSV for the East China Sea and East Sea,
+    and the CORA drifter archives) are **not redistributed here**. They can be retrieved from the CMEMS product page and the
+    Coriolis data selection linked above.
 
 ## WOCE surface drifters
 

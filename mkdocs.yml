@@ -71,7 +71,6 @@ plugins:
             Processed Product: 가공 자료
             Ocean & Climate Index: 해양·기후 지수
             Sea Level & OHC: 해수면·해양 열용량
-            Atlas & Climatology: 아틀라스·기후값
             Mixed Layer Depth: 혼합층 깊이
             Topics: 주제별
             Typhoon & Hurricane: 태풍·허리케인
@@ -97,6 +96,7 @@ plugins:
             Stommel Diagram: Stommel 다이어그램
             Polar: 극지
             Resources: 참고 자료
+            Update Log: 업데이트 기록
             GHRSST: GHRSST
             Ocean Color Download Manual: 해색 자료 지역 다운로드
             GOCI & GOCI-II: GOCI & GOCI-II
@@ -121,7 +121,6 @@ plugins:
             How to download HYCOM: HYCOM 다운로드 방법
             How to download ERA5: ERA5 다운로드 방법
             Volume Transport: 해류 수송량
-            World Ocean Atlas: World Ocean Atlas
             In Situ Observations: 실측 관측 자료
             Satellite Observations: 위성 관측 자료
             Fisheries Catch Statistics: 어획량 자료
@@ -206,11 +205,10 @@ nav:
   - Processed Product:
       - processed/index.md
       - Ocean & Climate Index: processed/climate-index.md
-      - Volume Transport: processed/volume-transport.md
-      - Sea Level & OHC: processed/sea-level-ohc.md
       - Atlas & Climatology: processed/atlas-climatology.md
-      - World Ocean Atlas: processed/woa.md
+      - Sea Level & OHC: processed/sea-level-ohc.md
       - Mixed Layer Depth: processed/mld.md
+      - Volume Transport: processed/volume-transport.md
   - Topics:
       - topics/index.md
       - Typhoon & Hurricane: topics/typhoon.md
@@ -251,3 +249,4 @@ nav:
       - Stommel Diagram: etc/stommel.md
       - Polar: etc/polar.md
   - Resources: resources.md
+  - Update Log: changelog.md

@@ -6,8 +6,8 @@ EN4 (Met Office Hadley Centre) consists of two products:
 - Objective analyses formed from the profile data with uncertainty estimates
 
 <figure markdown="span">
-  ![EN4 overview (Met Office Hadley Centre)](../../assets/whole-ocean/in-situ/en4/en4_overview.png){ loading=lazy }
-  <figcaption>EN4 overview (Met Office Hadley Centre)</figcaption>
+  ![EN4 profile distribution for a single month (August 2024, 14,755 profiles)](../../assets/whole-ocean/in-situ/en4/en4_overview.png){ loading=lazy }
+  <figcaption>EN4 profile distribution for a single month (August 2024, 14,755 profiles)</figcaption>
 </figure>
 
 ## Which file to download

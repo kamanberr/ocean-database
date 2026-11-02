@@ -12,7 +12,8 @@ hide:
     [Instagram (@kamanberr)](https://www.instagram.com/kamanberr/).
     If you have any questions or suggestions, please contact me by email or DM.
 
-!!! note "Latest Update: 2026.10.28 (KST)"
+!!! note "Latest Update: 2026.11.02 (KST)"
+    - Moved the website from Notion to GitHub Pages, with a new card layout and an English / Korean switch. Full history: [Update Log](changelog.md).
     - Updated the SST Downloader: 11 GHRSST L4 datasets and OISST v2, with token-based download and automatic retry.
     - Updated the Bathymetry Download: ETOPO 2022, SRTM15+, and the newly added S2Shores coastal bathymetry.
     - 2026.08.25: Updated the Pacific Ocean datasets, refreshed the satellite SST page, and updated the Polar page.
@@ -23,57 +24,66 @@ hide:
 
 ## Browse by category
 
-<div class="grid cards" markdown>
+<div class="grid cards single" markdown>
 
--   :material-earth: **Whole Ocean**
-
-    ---
-
-    Satellite, in situ (Argo, drifters, ships, moorings), model, atmosphere
-
-    [:octicons-arrow-right-24: Go](whole-ocean/index.md)
-
--   :material-chart-line: **Processed Product**
+-   :material-earth: **[Whole Ocean](whole-ocean/index.md){ .cat-link }**
 
     ---
 
-    Climate indices, sea level and OHC, atlas and climatology, mixed layer depth
+    [:material-satellite-variant: Satellite](whole-ocean/satellite/index.md){ .chip .c1 }
+    [:material-ferry: In Situ](whole-ocean/in-situ/index.md){ .chip .c2 }
+    [:material-monitor: Model](whole-ocean/model.md){ .chip .c3 }
+    [:material-weather-partly-cloudy: Atmosphere](whole-ocean/atmosphere.md){ .chip .c4 }
 
-    [:octicons-arrow-right-24: Go](processed/index.md)
-
--   :material-lightbulb-on-outline: **Interesting Topics**
-
-    ---
-
-    Typhoon, carbon cycle, ecology, river discharge, wave, marine heat wave
-
-    [:octicons-arrow-right-24: Go](topics/index.md)
-
--   :material-map-marker-radius: **Local Area / Country**
+-   :material-chart-line: **[Processed Product](processed/index.md){ .cat-link }**
 
     ---
 
-    Korea, Japan, Pacific, Atlantic, Indian Ocean
+    [:material-chart-bell-curve-cumulative: Ocean & Climate Index](processed/climate-index.md){ .chip .c1 }
+    [:material-earth-box: Atlas & Climatology](processed/atlas-climatology.md){ .chip .c2 }
+    [:material-waves-arrow-up: Sea Level & OHC](processed/sea-level-ohc.md){ .chip .c3 }
+    [:material-layers-triple-outline: Mixed Layer Depth](processed/mld.md){ .chip .c4 }
+    [:material-swap-vertical: Volume Transport](processed/volume-transport.md){ .chip .c5 }
 
-    [:octicons-arrow-right-24: Go](regional/index.md)
-
--   :material-terrain: **Bathymetry & Boundary**
-
-    ---
-
-    GEBCO, ETOPO 2022, SRTM15+, KHOA, HYCOM topo, EEZ
-
-    [:octicons-arrow-right-24: Go](bathymetry/index.md)
-
--   :material-toolbox-outline: **Etc.**
+-   :material-lightbulb-on-outline: **[Interesting Topics](topics/index.md){ .cat-link }**
 
     ---
 
-    Download code, useful MATLAB code, data used in papers
+    [:material-weather-hurricane: Typhoon & Hurricane](topics/typhoon.md){ .chip .c1 }
+    [:material-flask-outline: Nutrient & Carbon Cycle](topics/nutrient-carbon.md){ .chip .c2 }
+    [:material-fish: Ecological Oceanography](topics/ecology.md){ .chip .c3 }
+    [:material-water: Freshwater / River Discharge](topics/river-discharge.md){ .chip .c4 }
+    [:material-waves: Wave](topics/wave.md){ .chip .c5 }
+    [:material-thermometer-alert: Marine Heat Wave](topics/marine-heatwave.md){ .chip .c6 }
 
-    [:octicons-arrow-right-24: Go](etc/index.md)
+-   :material-map-marker-radius: **[Local Area / Country](regional/index.md){ .cat-link }**
 
-</div>
+    ---
+
+    [:material-map-marker-radius: Korea](regional/korea.md){ .chip .c1 }
+    [:material-map-marker-outline: Japan](regional/japan.md){ .chip .c2 }
+    [:material-earth: Pacific Ocean](regional/pacific.md){ .chip .c3 }
+    [:material-earth: Atlantic Ocean](regional/atlantic.md){ .chip .c4 }
+    [:material-earth: Indian Ocean](regional/indian.md){ .chip .c5 }
+
+-   :material-terrain: **[Bathymetry & Boundary](bathymetry/index.md){ .cat-link }**
+
+    ---
+
+    [:material-terrain: Bathymetry](bathymetry/bathymetry.md){ .chip .c1 }
+    [:material-map-outline: Boundary](bathymetry/boundary.md){ .chip .c2 }
+
+-   :material-toolbox-outline: **[Etc.](etc/index.md){ .cat-link }**
+
+    ---
+
+    [:material-download-box-outline: Data download with code](etc/download-code.md){ .chip .c1 }
+    [:material-code-braces: Useful MATLAB Code](etc/matlab-code.md){ .chip .c2 }
+    [:material-file-document-multiple-outline: Data used in papers](etc/papers.md){ .chip .c3 }
+    [:material-image-multiple-outline: Image of Ocean](etc/images.md){ .chip .c4 }
+    [:material-database-outline: CMEMS / Copernicus](etc/cmems-copernicus.md){ .chip .c5 }
+    [:material-chart-scatter-plot: Stommel Diagram](etc/stommel.md){ .chip .c6 }
+    [:material-snowflake: Polar](etc/polar.md){ .chip .c7 }</div>
 
 Looking for general data portals, visualization tools, or lectures? See [Resources](resources.md).
 

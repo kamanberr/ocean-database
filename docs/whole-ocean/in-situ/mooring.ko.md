@@ -18,10 +18,6 @@ OceanSITES는 외양의 고정 지점에서 장기간 고빈도로 관측한 고
 [:octicons-link-external-24: oceansites.org](http://www.oceansites.org/) (사이트가 없어진 것으로 보입니다)<br>
 [:octicons-download-24: 자료 카탈로그: CORIOLIS-OCEANSITES-GDAC-OBS (TRITON, RAMA, PIRATA, KEO 등)](http://tds0.ifremer.fr/thredds/CORIOLIS-OCEANSITES-GDAC-OBS/CORIOLIS-OCEANSITES-GDAC-OBS.html)
 
-<figure markdown="span">
-  ![OceanSITES](../../assets/whole-ocean/in-situ/mooring/oceansites_overview.png){ loading=lazy }
-  <figcaption>OceanSITES</figcaption>
-</figure>
 
 </div>
 

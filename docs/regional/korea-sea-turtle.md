@@ -109,6 +109,3 @@ The steps below are independent of the paper above. They describe how to downloa
   ![Example result](../assets/regional/korea-sea-turtle/result_example_2.png){ loading=lazy }
   <figcaption>Example result</figcaption>
 </figure>
-
-??? note "Data files"
-    `pone.0290202.s003.zip` (the sea turtle movebank file) will be hosted separately; it is also available from figshare above.

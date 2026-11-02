@@ -12,7 +12,7 @@
 | **MOAA GPV** | JAMSTEC | 1°, monthly | 25 levels to 2000 dbar | 2001-01-01 – | Argo plus others (optimal interpolation) | [MOAA GPV](#moaa-gpv) |
 | **CORA5** | CMEMS / Coriolis | 1/2°, monthly | 250 levels to 2000 m | 1950 – year N-2 | Argo plus others (optimal interpolation) | [CORA5](#cora5) |
 | **BOA-Argo** | CSIO, MNR | 1°, monthly | 58 levels to 1975 dbar | 2004-01-01 – | Argo only (Barnes method) | [BOA-Argo](#boa-argo) |
-| **WOA** | NOAA NCEI | – | – | 기후값 | – | [WOA](../../processed/woa.md) |
+| **WOA** | NOAA NCEI | – | – | 기후값 | – | [WOA](../../processed/atlas-climatology.md#world-ocean-atlas-woa23) |
 
 월별 격자 Argo product 전체 목록: [Argo data products (UCSD)](https://argo.ucsd.edu/data/argo-data-products/)
 
@@ -95,6 +95,6 @@ CSIO, MNR. **Argo only**, Barnes method. NetCDF와 MATLAB 파일로 제공.
 
 NOAA NCEI World Ocean Atlas. World Ocean Database로 만든 기후값 자료입니다.
 
-[:octicons-arrow-right-24: World Ocean Atlas](../../processed/woa.md)
+[:octicons-arrow-right-24: World Ocean Atlas](../../processed/atlas-climatology.md#world-ocean-atlas-woa23)
 
 </div>

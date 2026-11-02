@@ -12,13 +12,13 @@ Indices, time series, and climatologies derived from observations and model outp
 
     [:octicons-arrow-right-24: Details](climate-index.md)
 
--   :material-swap-vertical: **Volume Transport**
+-   :material-earth-box: **Atlas & Climatology**
 
     ---
 
-    Global volume transport time series by Rick Lumpkin (NOAA AOML, CMEMS OMI)
+    WOA, WOCE, Argo climatologies, regional atlases for Korea and Northeast Asia
 
-    [:octicons-arrow-right-24: Details](volume-transport.md)
+    [:octicons-arrow-right-24: Details](atlas-climatology.md)
 
 -   :material-waves-arrow-up: **Sea Level & Ocean Heat Content**
 
@@ -28,22 +28,6 @@ Indices, time series, and climatologies derived from observations and model outp
 
     [:octicons-arrow-right-24: Details](sea-level-ohc.md)
 
--   :material-earth-box: **Atlas & Climatology**
-
-    ---
-
-    WOA, WOCE, Argo climatologies, regional atlases for Korea and Northeast Asia
-
-    [:octicons-arrow-right-24: Details](atlas-climatology.md)
-
--   :material-book-open-page-variant: **World Ocean Atlas (WOA)**
-
-    ---
-
-    WOA23 objectively analyzed T, S, oxygen, and nutrient fields from the WOD
-
-    [:octicons-arrow-right-24: Details](woa.md)
-
 -   :material-layers-triple-outline: **Mixed Layer Depth**
 
     ---
@@ -51,5 +35,13 @@ Indices, time series, and climatologies derived from observations and model outp
     MLD climatologies, reanalysis MLD, and toolboxes for computing MLD
 
     [:octicons-arrow-right-24: Details](mld.md)
+
+-   :material-swap-vertical: **Volume Transport**
+
+    ---
+
+    Global volume transport time series by Rick Lumpkin (NOAA AOML, CMEMS OMI)
+
+    [:octicons-arrow-right-24: Details](volume-transport.md)
 
 </div>

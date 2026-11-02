@@ -121,12 +121,12 @@ China Kuroshio Extension Observatory: moored buoy observations in the Kuroshio�
 [:octicons-download-24: CKEO dataset (Zenodo)](https://doi.org/10.5281/zenodo.16569633)
 
 <figure markdown="span">
-  ![CKEO moored buoy location](../assets/regional/pacific/ckeo_buoy_location.png){ loading=lazy }
-  <figcaption>CKEO moored buoy location</figcaption>
+  ![CKEO dataset profile: period, locations and files](../assets/regional/pacific/ckeo_buoy_location.png){ loading=lazy }
+  <figcaption>CKEO dataset profile: period, locations and files</figcaption>
 </figure>
 <figure markdown="span">
-  ![CKEO dataset overview](../assets/regional/pacific/ckeo_dataset_overview.png){ loading=lazy }
-  <figcaption>CKEO dataset overview</figcaption>
+  ![KEO, JKEO and CKEO surface moorings in the Kuroshio Extension](../assets/regional/pacific/ckeo_dataset_overview.png){ loading=lazy }
+  <figcaption>KEO, JKEO and CKEO surface moorings in the Kuroshio Extension</figcaption>
 </figure>
 
 </div>
@@ -776,9 +776,9 @@ The numbering follows the original Notion page. Several datasets share stations 
     </figure>
 
 ??? note "Data files"
-    Data archives attached to the Notion page are not stored in this repository and will be hosted separately:
-    `其它_DATA2022000022_data-1641797062238.rar` (mooring 1), `论文_PAPER2024030002_PAPER2024030002-01_submitdata-1710731532006.rar` (mooring 8),
-    `论文_PAPER2023110013_PAPER2023110013-01_near_inertial_flow-1699596322135.mat` (mooring 7).
+    The data files that were attached to the Notion page (submissions and archives from Chinese data centers, and a
+    near-inertial flow MAT file) are **not redistributed here**, because access to the original archives requires
+    registration. Please use the linked data centers directly.
 
 ## Taiwan
 

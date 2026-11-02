@@ -10,23 +10,7 @@
 
     ENSO, PDO, IOD, AMO, MJO, teleconnection, CO₂, 해류 지수
 
-    [:octicons-arrow-right-24: 상세 목록](climate-index.md)
-
--   :material-swap-vertical: **Volume Transport**
-
-    ---
-
-    Rick Lumpkin의 전 지구 해류 수송량 시계열 (NOAA AOML, CMEMS OMI)
-
-    [:octicons-arrow-right-24: 상세 목록](volume-transport.md)
-
--   :material-waves-arrow-up: **Sea Level & Ocean Heat Content**
-
-    ---
-
-    전 지구 평균 해수면, steric sea level, OHC 지도·시계열
-
-    [:octicons-arrow-right-24: 상세 목록](sea-level-ohc.md)
+    [:octicons-arrow-right-24: Details](climate-index.md)
 
 -   :material-earth-box: **Atlas & Climatology**
 
@@ -34,15 +18,15 @@
 
     WOA, WOCE, Argo climatology, 한반도·동북아 지역 atlas
 
-    [:octicons-arrow-right-24: 상세 목록](atlas-climatology.md)
+    [:octicons-arrow-right-24: Details](atlas-climatology.md)
 
--   :material-book-open-page-variant: **World Ocean Atlas (WOA)**
+-   :material-waves-arrow-up: **Sea Level & Ocean Heat Content**
 
     ---
 
-    WOD 기반 WOA23 객관분석 수온·염분·산소·영양염 평균장
+    전 지구 평균 해수면, steric sea level, OHC 지도·시계열
 
-    [:octicons-arrow-right-24: 상세 목록](woa.md)
+    [:octicons-arrow-right-24: Details](sea-level-ohc.md)
 
 -   :material-layers-triple-outline: **Mixed Layer Depth**
 
@@ -50,6 +34,14 @@
 
     MLD climatology, 재분석 MLD, 계산 툴박스
 
-    [:octicons-arrow-right-24: 상세 목록](mld.md)
+    [:octicons-arrow-right-24: Details](mld.md)
+
+-   :material-swap-vertical: **Volume Transport**
+
+    ---
+
+    Rick Lumpkin의 전 지구 해류 수송량 시계열 (NOAA AOML, CMEMS OMI)
+
+    [:octicons-arrow-right-24: Details](volume-transport.md)
 
 </div>

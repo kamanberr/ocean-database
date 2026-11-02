@@ -5,12 +5,12 @@ Sentinel-1, ERS, ALOS 등 합성개구레이더(SAR)의 해면 영상 자료와 
 ## SAR란
 
 <figure markdown="span">
-  ![합성개구레이더의 원리](../../assets/whole-ocean/satellite/sar/sar_principle_1.png){ loading=lazy }
-  <figcaption>합성개구레이더의 원리</figcaption>
+  ![레이더 밴드별 위성 SAR 임무 연표 (1978-2025)](../../assets/whole-ocean/satellite/sar/sar_principle_1.png){ loading=lazy }
+  <figcaption>레이더 밴드별 위성 SAR 임무 연표 (1978-2025)</figcaption>
 </figure>
 <figure markdown="span">
-  ![SAR 관측 기하](../../assets/whole-ocean/satellite/sar/sar_principle_2.png){ loading=lazy }
-  <figcaption>SAR 관측 기하</figcaption>
+  ![레이더 밴드별 SAR 임무와 주파수·재방문 주기·공간 해상도](../../assets/whole-ocean/satellite/sar/sar_principle_2.png){ loading=lazy }
+  <figcaption>레이더 밴드별 SAR 임무와 주파수·재방문 주기·공간 해상도</figcaption>
 </figure>
 
 - [:octicons-link-external-24: SAR: Synthetic Aperture Radar (Detektia)](https://detektia.com/en/sar-synthetic-aperture-radar/)
@@ -26,12 +26,12 @@ Sentinel-1, ERS, ALOS 등 합성개구레이더(SAR)의 해면 영상 자료와 
 - [:octicons-link-external-24: Sentinel-1 at ASF DAAC](https://asf.alaska.edu/datasets/daac/sentinel-1/)
 
 <figure markdown="span">
-  ![Sentinel-1 관측 모드](../../assets/whole-ocean/satellite/sar/sentinel1_acquisition_modes.png){ loading=lazy }
-  <figcaption>Sentinel-1 관측 모드</figcaption>
+  ![Copernicus Data Space의 Sentinel-1 Level 2 Ocean (OCN) 제품 페이지](../../assets/whole-ocean/satellite/sar/sentinel1_acquisition_modes.png){ loading=lazy }
+  <figcaption>Copernicus Data Space의 Sentinel-1 Level 2 Ocean (OCN) 제품 페이지</figcaption>
 </figure>
 <figure markdown="span">
-  ![Sentinel-1 자료 종류](../../assets/whole-ocean/satellite/sar/sentinel1_product_types.png){ loading=lazy }
-  <figcaption>Sentinel-1 자료 종류</figcaption>
+  ![Sentinel-1 OCN 예시: 허리케인 Irma의 RVL 도플러 아노말리 (2017-09-07)](../../assets/whole-ocean/satellite/sar/sentinel1_product_types.png){ loading=lazy }
+  <figcaption>Sentinel-1 OCN 예시: 허리케인 Irma의 레이더 시선방향 속도(RVL) 도플러 아노말리 (2017-09-07, ESA 문서)</figcaption>
 </figure>
 
 평소에는 저해상도로 넓은 영역을 관측하다가, 관심 영역에서는 고해상도로 좁은 영역을 관측할 수 있습니다. 장점은 날씨와 무관하게 관측할 수 있다는 점이고, 단점은 해석이 어렵다는 점입니다. 무엇보다 해양에 대한 관측이 충분치 않습니다(연안 관측은 있으나 외해 관측은 적습니다).
@@ -137,7 +137,6 @@ GRD_HS, GRD_HD는 Vertex에서 미리보기가 되지만 OCN은 미리보기가 
     ```matlab title="Plot OCN wind speed"
     clc; clear; close all;
 
-
     fnm = "C:\Users\User\OneDrive\문서\MATLAB\2024_Kuro" + ...
         "\khanun_SAR\S1A_EW_OCN__2SDV_20230804T213456_20230804T213559_049731_05FAEB_00F4.SAFE" + ...
         "\measurement\s1a-ew-ocn-vv-20230804t213456-20230804t213559-049731-05FAEB-001.nc";
@@ -188,9 +187,6 @@ GRD_HS, GRD_HD는 Vertex에서 미리보기가 되지만 OCN은 미리보기가 
 - [:octicons-link-external-24: Sentinel-6A MF Jason-CS L3 P4 Altimeter LR NTC Ocean Surface Topography, F08](https://podaac.jpl.nasa.gov/dataset/JASON_CS_S6A_L3_ALT_LR_OST_NTC_F08)
 
 ## Sentinel-1 기반 해상 상태 (Ifremer)
-
-??? note "확인 필요"
-    Notion 페이지의 "SAR Sentinel-1 ESA mission sea state Ifremer processor" 항목은 읽을 수 없는 외부 임베드였습니다. 원래 링크를 직접 복원해야 합니다.
 
 ## 관련 링크
 

@@ -172,8 +172,6 @@ Open the `topo` folder inside the directory of the HYCOM experiment you use and 
 </figure>
 
 ??? note "Data files"
-    The following data files are too large for the repository. They will be hosted separately; until then, please download them from the original sources.
+    The GEBCO 2023 regional subsets and the HYCOM depth files that were attached to the Notion page are **not included
+    in this repository**. They can be regenerated from the GEBCO and HYCOM download links above.
 
-    - GEBCO 2023 subsets: `gebco_2023_n41.0_s24.0_w118.0_e130.0_YECS.nc`, `gebco_2023_n41.0_s31.0_w117.0_e128.0_YS.nc`,
-      `gebco_2023_n55.0_s30.0_w125.0_e145.0_EJS.nc`, `gebco_2023_n55.0_s20.0_w115.0_e145.0_KOREA.nc`
-    - HYCOM depth: `depth_GLBb0.08_09m11.nc`, `depth_GLBv0.08_09m11.nc`, `depth_GLBy0.08_09m11.nc`

@@ -15,7 +15,7 @@ For a single platform, see the [Argo](argo.md), [Drifter](drifter.md), [Ship](sh
 
     [:octicons-link-external-24: WOD (NOAA NCEI)](https://www.ncei.noaa.gov/products/world-ocean-database)<br>
     [:octicons-arrow-right-24: How to download WOD](wod-download.md)<br>
-    [:octicons-arrow-right-24: World Ocean Atlas (WOA)](../../processed/woa.md)
+    [:octicons-arrow-right-24: World Ocean Atlas (WOA)](../../processed/atlas-climatology.md#world-ocean-atlas-woa23)
 
 -   **GTSPP**
 

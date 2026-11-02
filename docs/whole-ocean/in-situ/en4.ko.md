@@ -6,8 +6,8 @@ EN4(Met Office Hadley Centre)는 두 가지 product로 구성됩니다.
 - Objective analyses formed from the profile data with uncertainty estimates
 
 <figure markdown="span">
-  ![EN4 개요 (Met Office Hadley Centre)](../../assets/whole-ocean/in-situ/en4/en4_overview.png){ loading=lazy }
-  <figcaption>EN4 개요 (Met Office Hadley Centre)</figcaption>
+  ![EN4 한 달치 profile 분포 (2024년 8월, 14,755개)](../../assets/whole-ocean/in-situ/en4/en4_overview.png){ loading=lazy }
+  <figcaption>EN4 한 달치 profile 분포 (2024년 8월, 14,755개)</figcaption>
 </figure>
 
 ## 어떤 파일을 받아야 하나
