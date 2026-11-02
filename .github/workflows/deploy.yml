@@ -1,12 +1,10 @@
-# Deploys the site to GitHub Pages.
-# Currently MANUAL ONLY (workflow_dispatch) so nothing is published while the repo is private.
-# When you are ready to go public, add:
-#   push:
-#     branches: [main]
-# under "on:" and enable Pages (Settings > Pages > Source: GitHub Actions).
+# Deploys the site to GitHub Pages on every push to main.
+# Requires: Settings > Pages > Source: GitHub Actions.
 name: Deploy site
 
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
