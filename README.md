@@ -1,7 +1,10 @@
 # Kamanberr Ocean Database
 
-Download routes of various open-access oceanographic datasets.
+**Website → https://kamanberr.github.io/ocean-database/** (한국어: https://kamanberr.github.io/ocean-database/ko/)
+
+This repository holds the source of the website above: download routes of various open-access oceanographic datasets.
 Built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/), migrated from the original Notion site.
+Edits pushed to `main` are deployed automatically by GitHub Actions in 1-2 minutes.
 
 ## Local preview
 

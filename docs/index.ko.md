@@ -114,8 +114,26 @@ hide:
 
 ## 연락처
 
-| | |
-|---|---|
-| **운영자** | 황지욱 (Jiuk Hwang) · [hwangjiuk34@gmail.com](mailto:hwangjiuk34@gmail.com) |
-| **GitHub** | [kamanberr](https://github.com/kamanberr) |
-| **MATLAB Central** | [Jiuk Hwang](https://kr.mathworks.com/matlabcentral/profile/authors/23689574) |
+<div class="grid cards" markdown>
+
+-   :material-card-account-mail-outline: **Contact**
+
+    ---
+
+    | | |
+    |---|---|
+    | **운영자** | 황지욱 (Jiuk Hwang) · [hwangjiuk34@gmail.com](mailto:hwangjiuk34@gmail.com) |
+    | **GitHub** | [kamanberr](https://github.com/kamanberr) |
+    | **MATLAB Central** | [Jiuk Hwang](https://kr.mathworks.com/matlabcentral/profile/authors/23689574) |
+
+-   :material-qrcode: **이 웹사이트의 QR 코드**
+
+    ---
+
+    자유롭게 공유해 주세요!
+
+    <figure markdown="span">
+      ![kamanberr.github.io/ocean-database QR 코드](assets/home/qr_site.png){ loading=lazy, width="180" }
+    </figure>
+
+</div>

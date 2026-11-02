@@ -116,8 +116,26 @@ Looking for general data portals, visualization tools, or lectures? See [Resourc
 
 ## Contact
 
-| | |
-|---|---|
-| **Manager** | Jiuk Hwang · [hwangjiuk34@gmail.com](mailto:hwangjiuk34@gmail.com) |
-| **GitHub** | [kamanberr](https://github.com/kamanberr) |
-| **MATLAB Central** | [Jiuk Hwang](https://kr.mathworks.com/matlabcentral/profile/authors/23689574) |
+<div class="grid cards" markdown>
+
+-   :material-card-account-mail-outline: **Contact**
+
+    ---
+
+    | | |
+    |---|---|
+    | **Manager** | Jiuk Hwang · [hwangjiuk34@gmail.com](mailto:hwangjiuk34@gmail.com) |
+    | **GitHub** | [kamanberr](https://github.com/kamanberr) |
+    | **MATLAB Central** | [Jiuk Hwang](https://kr.mathworks.com/matlabcentral/profile/authors/23689574) |
+
+-   :material-qrcode: **QR code for this website**
+
+    ---
+
+    You can share it!
+
+    <figure markdown="span">
+      ![QR code for kamanberr.github.io/ocean-database](assets/home/qr_site.png){ loading=lazy, width="180" }
+    </figure>
+
+</div>
