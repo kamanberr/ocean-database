@@ -1,6 +1,6 @@
 # :material-terrain: Bathymetry & Boundary
 
-수심, 해안선, 해양 경계(EEZ, LME) 자료입니다.
+Bathymetry, coastlines, and marine boundaries (EEZ, LME).
 
 <div class="grid cards" markdown>
 
@@ -10,14 +10,14 @@
 
     GEBCO, ETOPO 2022, SRTM15+, GMRT, KHOA, S2Shores, JODC, JTOPO30, IBCAO, HYCOM topo
 
-    [:octicons-arrow-right-24: 상세 목록](bathymetry.md)
+    [:octicons-arrow-right-24: Details](bathymetry.md)
 
 -   :material-map-outline: **Boundary**
 
     ---
 
-    EEZ, Large Marine Ecosystems (LME), 해역 경계 shapefile
+    EEZ, Large Marine Ecosystems (LME), coastlines, and area-calculation tools
 
-    [:octicons-arrow-right-24: 상세 목록](boundary.md)
+    [:octicons-arrow-right-24: Details](boundary.md)
 
 </div>

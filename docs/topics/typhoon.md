@@ -1,6 +1,6 @@
-# :material-weather-hurricane: Typhoon & Hurricane
+# :material-weather-hurricane: Typhoon & Hurricane <span class="date">[2024.12.04]</span>
 
-태풍·허리케인 best track, 위성 영상, 현장 관측 자료 모음입니다. <span class="date">[2024.12.04]</span>
+Typhoon and hurricane best tracks, satellite imagery, and field observations.
 
 ## Best track
 
@@ -10,11 +10,11 @@
 
     ---
 
-    International Best Track Archive for Climate Stewardship. 여러 기관의 best track 통합 자료
+    International Best Track Archive for Climate Stewardship. Merged best tracks from multiple agencies
 
     [:octicons-download-24: IBTrACS](https://www.ncei.noaa.gov/products/international-best-track-archive)
 
--   **JTWC** (미국 합동태풍경보센터)
+-   **JTWC** (U.S. Joint Typhoon Warning Center)
 
     ---
 
@@ -22,15 +22,15 @@
 
     [:octicons-link-external-24: JTWC](https://www.metoc.navy.mil/jtwc/jtwc.html?western-pacific)
 
--   **KMA** (기상청)
+-   **KMA** (Korea Meteorological Administration)
 
     ---
 
-    기상자료개방포털 태풍 자료
+    Typhoon data from the KMA Open MET Data Portal
 
-    [:octicons-download-24: KMA 태풍 정보](https://data.kma.go.kr/data/typhoonData/typInfoTYList.do?pgmNo=689)
+    [:octicons-download-24: KMA typhoon information](https://data.kma.go.kr/data/typhoonData/typInfoTYList.do?pgmNo=689)
 
--   **JMA** (일본 기상청)
+-   **JMA** (Japan Meteorological Agency)
 
     ---
 
@@ -40,7 +40,7 @@
 
 </div>
 
-??? example "MATLAB: IBTrACS에서 USA agency 정보 읽기"
+??? example "MATLAB: read the USA-agency fields from IBTrACS"
 
     ```matlab title="Read TYPHOON data (USA agency)"
     %% Read TYPHOON data (USA data)
@@ -106,7 +106,7 @@
     end
     ```
 
-??? info "IBTrACS (WP v04r00) USA agency 변수 목록 (MATLAB `ncdisp` 결과 요약)"
+??? info "IBTrACS (WP v04r00) USA-agency variables (summary of MATLAB `ncdisp` output)"
 
     | Variable | Dimensions | Description | Units |
     |---|---|---|---|
@@ -117,7 +117,7 @@
     | `usa_atcf_id` | char32, date_time, storm | ATCF ID for the storm | |
     | `usa_lat`, `usa_lon` | date_time, storm | Latitude / Longitude (U.S. Agency) | degrees_north / degrees_east |
     | `usa_record` | char1, date_time, storm | Storm record type (C, G, I, L, P, R, S, T, W) | |
-    | `usa_status` | char2, date_time, storm | Storm status (TD, TS, TY, ST, HU, EX 등) | |
+    | `usa_status` | char2, date_time, storm | Storm status (TD, TS, TY, ST, HU, EX, etc.) | |
     | `usa_wind` | date_time, storm | Maximum sustained wind speed | kts |
     | `usa_pres` | date_time, storm | Minimum central pressure | mb |
     | `usa_sshs` | date_time, storm | Saffir-Simpson Hurricane Wind Scale category (-5 to 5) | 1 |
@@ -149,15 +149,20 @@
 
     ---
 
-    태풍 위성 영상 라이브러리 (Colorado State Univ.)
+    Tropical cyclone satellite imagery library (Colorado State Univ.)
 
     [:octicons-link-external-24: CIRA SatLib](https://satlib.cira.colostate.edu/)
+
+    <figure markdown="span">
+      <video src="../assets/topics/typhoon/cira_khanun_example.mp4" autoplay loop muted playsinline controls style="max-width:100%"></video>
+      <figcaption>CIRA satellite imagery example (Typhoon Khanun)</figcaption>
+    </figure>
 
 -   **IFREMER CyclObs**
 
     ---
 
-    L-band radiometer와 C-band SAR로 추정한 **ocean surface wind speed**
+    **Ocean surface wind speed** estimated from L-band radiometers and C-band SAR
 
     [:octicons-link-external-24: CyclObs (tropical)](https://cyclobs.ifremer.fr/app/tropical)
 
@@ -165,17 +170,27 @@
 
     ---
 
-    National Hurricane Center and Central Pacific Hurricane Center 위성 영상
+    Satellite imagery from the National Hurricane Center and Central Pacific Hurricane Center
 
     [:octicons-link-external-24: NHC Satellite](https://www.nhc.noaa.gov/satellite.php)
 
 </div>
 
-??? info "CyclObs 자료 인용 방법"
+??? info "How to cite CyclObs data"
     If you have to use SAR images from CyclObs, please be sure to credit Ifremer. Please include the following citation:
     "This image/product was obtained from Ifremer/Cyclobs and produced with SAR wind processor co-developped by IFREMER and CLS"
 
 ## NOAA hurricane observations
+
+<figure markdown="span">
+  ![NOAA AOML observational instruments](../assets/topics/typhoon/noaa_hurricane_observational_instruments.png){ loading=lazy }
+  <figcaption>NOAA AOML observational instruments</figcaption>
+</figure>
+
+<figure markdown="span">
+  ![NOAA AOML hurricane data products](../assets/topics/typhoon/noaa_hurricane_data_products.png){ loading=lazy }
+  <figcaption>NOAA AOML hurricane data products</figcaption>
+</figure>
 
 <div class="grid cards" markdown>
 
@@ -183,7 +198,7 @@
 
     ---
 
-    NOAA AOML 관측 장비 소개
+    Overview of NOAA AOML observing instruments
 
     [:octicons-link-external-24: Observational Instruments](https://www.aoml.noaa.gov/observational-instruments/)<br>
     [:octicons-link-external-24: AOML Hurricane Data Products](https://www.aoml.noaa.gov/data-products/#hurricanedata)
@@ -192,7 +207,7 @@
 
     ---
 
-    항공기 등 허리케인 현장 관측 자료
+    Hurricane field observations, including aircraft data
 
     [:octicons-download-24: Hurricane Field Data](https://www.aoml.noaa.gov/hrd/data_sub/hurr.html)
 
@@ -200,7 +215,7 @@
 
     ---
 
-    허리케인 레이더 자료
+    Hurricane radar data
 
     [:octicons-download-24: Radar Data](https://www.aoml.noaa.gov/hrd/data_sub/radar.html)
 
@@ -208,7 +223,7 @@
 
     ---
 
-    무인 해상 드론(Saildrone) 허리케인 관측
+    Hurricane observations by uncrewed surface vehicles (Saildrone)
 
     [:octicons-link-external-24: PMEL Saildrone Hurricane](https://www.pmel.noaa.gov/saildrone-hurricane/)
 
@@ -216,11 +231,8 @@
 
     ---
 
-    NWS Key West 과거 열대저기압 관측·피해 요약
+    NWS Key West summaries of past tropical cyclone observations and impacts
 
     [:octicons-link-external-24: Tropical Event Summary](https://www.weather.gov/key/TropicalEventSummary)
 
 </div>
-
-??? note "Notion 첨부 파일 (이전 예정)"
-    `khanun_2.gif` (CIRA 위성 영상 예시), NOAA hurricane observation 이미지 2개

@@ -1,10 +1,10 @@
 # :material-file-document-multiple-outline: Data used in papers <span class="date">[2024.11.02]</span>
 
-출판된 논문에 사용한 자료를 저자들이 직접 open source로 공개하는 경우가 최근 많아지는 추세입니다(매우 좋은 일이죠).
-아래는 과학자들이 raw data를 공유·업로드하는 대표적인 사이트입니다.
-방장이 알고 있는 사이트만 모아 둔 것이니, 제안 사항이 있다면 연락 바랍니다.
+Authors increasingly release the data behind their published papers as open resources, which is very welcome.
+Below are the main sites where scientists share and upload raw data.
+The list covers only the sites I know of; suggestions are welcome.
 
-## General research data repositories
+## Data repositories
 
 <div class="grid cards" markdown>
 
@@ -12,13 +12,13 @@
 
     ---
 
-    범용 연구 데이터 저장소
+    General-purpose research data repository
 
 -   **SEANOE**
 
     ---
 
-    SEA scieNtific Open data Edition. 해양 과학 자료 출판
+    SEA scieNtific Open data Edition: publication of marine science data
 
     [:octicons-link-external-24: SEANOE](https://www.seanoe.org/)
 
@@ -26,7 +26,7 @@
 
     ---
 
-    지구·환경 과학 자료 출판 (Oceans)
+    Publisher for earth and environmental science data (Oceans)
 
     [:octicons-link-external-24: PANGAEA: Oceans](https://www.pangaea.de/?t=Oceans)
 
@@ -34,7 +34,7 @@
 
     ---
 
-    범용 연구 데이터 저장소
+    General-purpose research data repository
 
     [:octicons-link-external-24: Mendeley Data](https://data.mendeley.com/)
 
@@ -42,7 +42,7 @@
 
     ---
 
-    범용 연구 데이터 저장소
+    General-purpose research data repository
 
     [:octicons-link-external-24: figshare](https://figshare.com/)
 
@@ -50,21 +50,15 @@
 
     ---
 
-    범용 연구 데이터 저장소
+    General-purpose research data repository
 
     [:octicons-link-external-24: Dryad: "ocean" search](https://datadryad.org/search?q=ocean)
-
-</div>
-
-## Code & national portals
-
-<div class="grid cards" markdown>
 
 -   **Papers with Code**
 
     ---
 
-    논문과 코드 검색
+    Search papers together with their code
 
     [:octicons-link-external-24: Papers with Code: "ocean" search](https://paperswithcode.com/search?q_meta=&q_type=&q=ocean)
 
@@ -72,8 +66,8 @@
 
     ---
 
-    국가 연구데이터 플랫폼
+    Korean national research data platform
 
-    [:octicons-link-external-24: DataON 검색](https://dataon.kisti.re.kr/search/index.do)
+    [:octicons-link-external-24: DataON search](https://dataon.kisti.re.kr/search/index.do)
 
 </div>

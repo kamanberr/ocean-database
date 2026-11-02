@@ -1,6 +1,11 @@
-# :material-thermometer-alert: Marine Heat Wave
+# :material-thermometer-alert: Marine Heat Wave <span class="date">[2025.05.21]</span>
 
-해양열파(MHW) 자료, 탐지 코드, 참고 문헌 모음입니다. <span class="date">[2025.05.21]</span>
+Marine heatwave (MHW) datasets, detection codes, and references.
+
+<figure markdown="span">
+  ![NOAA PSL Marine Heatwaves](../assets/topics/marine-heatwave/psl_marine_heatwaves.png){ loading=lazy }
+  <figcaption>NOAA PSL Marine Heatwaves</figcaption>
+</figure>
 
 ## Data
 
@@ -10,7 +15,7 @@
 
     ---
 
-    NOAA Physical Sciences Laboratory 해양열파 모니터링·예측
+    Marine heatwave monitoring and forecasts from the NOAA Physical Sciences Laboratory
 
     [:octicons-link-external-24: PSL Marine Heatwaves](https://psl.noaa.gov/marine-heatwaves/)
 
@@ -40,7 +45,7 @@
 
     ---
 
-    Hobday et al. 정의 기반 MHW 탐지 코드 (E. C. J. Oliver)
+    MHW detection code following the Hobday et al. definition (E. C. J. Oliver)
 
     [:octicons-mark-github-16: ecjoliver/marineHeatWaves](https://github.com/ecjoliver/marineHeatWaves)<br>
     [:octicons-link-external-24: Marine heatwaves detection code (Research Data Australia)](https://researchdata.edu.au/marine-heatwaves-detection-code/814983)
@@ -75,5 +80,6 @@
 - [Nature Reviews Earth & Environment article (s44358-025-00058-5)](https://www.nature.com/articles/s44358-025-00058-5)
 - [Marine heatwave topic overview (ScienceDirect)](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/marine-heatwave)
 
-??? note "Notion 첨부 파일 (이전 예정)"
-    대표 이미지 1개, Notion 임베드 블록 2개 (내용 확인 필요)
+??? note "Needs checking"
+    Two embedded blocks on the original Notion page (next to the JOSS paper in the Codes section, and next to the subsurface-MHW paper)
+    could not be read through the API, so their content has not been transferred.

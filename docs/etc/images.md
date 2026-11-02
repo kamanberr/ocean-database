@@ -1,6 +1,6 @@
-# :material-image-multiple-outline: Image of Ocean
+# :material-image-multiple-outline: Image of Ocean <span class="date">[2026.09.21]</span>
 
-해양 관련 사진·영상 아카이브입니다.
+Photo and video archives related to the ocean.
 
 <div class="grid cards" markdown>
 
@@ -32,7 +32,7 @@
 
     ---
 
-    심해 해양쓰레기 영상 데이터베이스
+    Database of deep-sea debris imagery
 
     [:octicons-link-external-24: Deep-sea Debris Database](https://www.godac.jamstec.go.jp/dsdebris/view/base?lang=en)
 
@@ -46,5 +46,7 @@
 
 </div>
 
-??? note "Notion 첨부 파일 (이전 예정)"
-    이미지 1개 (`image.png`)
+<figure markdown="span">
+  ![Example of the J-EDI deep-sea image search](../assets/etc/images/jedi_deep_sea_image_example.png){ loading=lazy }
+  <figcaption>Example of the J-EDI deep-sea image search</figcaption>
+</figure>

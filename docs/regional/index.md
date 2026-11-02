@@ -1,6 +1,6 @@
 # Local Area / Country
 
-국가·해역별로 정리했습니다. 카드를 눌러 상세 목록을 확인하세요.
+Datasets organized by country and ocean basin. Click a card for the detailed list.
 
 <div class="grid cards" markdown>
 
@@ -8,47 +8,47 @@
 
     ---
 
-    해양수산부, NIFS, KHOA, KIOST, KOPRI 등 국내 기관 및 동해 연구 자료
+    MOF, NIFS, KHOA, KIOST, KOPRI, and East Sea research datasets
 
-    [:octicons-arrow-right-24: 상세 목록](korea.md)
+    [:octicons-arrow-right-24: Details](korea.md)
 
 -   :material-map-marker-radius: **Japan Oceanographic Database** <span class="date">[2025.03.03]</span>
 
     ---
 
-    JMA, JODC, JAMSTEC, FRA 등 일본 기관 관측·모델 자료
+    JMA, JODC, JAMSTEC, FRA observations and models
 
-    [:octicons-arrow-right-24: 상세 목록](japan.md)
+    [:octicons-arrow-right-24: Details](japan.md)
 
 -   :material-earth: **Pacific Ocean** <span class="date">[2026.05.12]</span>
 
     ---
 
-    장기 계류, 쿠로시오 확장역, 서태평양 계류(중국), 대만 ODB
+    Long-term moorings, Kuroshio Extension, western Pacific moorings (China), Taiwan ODB
 
-    [:octicons-arrow-right-24: 상세 목록](pacific.md)
+    [:octicons-arrow-right-24: Details](pacific.md)
 
 -   :material-earth: **Atlantic Ocean** <span class="date">[2025.03.15]</span>
 
     ---
 
-    AMOC 모니터링, PIRATA, Gulf of Mexico, 반복 관측선
+    AMOC monitoring, PIRATA, Gulf of Mexico, repeat sections
 
-    [:octicons-arrow-right-24: 상세 목록](atlantic.md)
+    [:octicons-arrow-right-24: Details](atlantic.md)
 
 -   :material-earth: **Indian Ocean** <span class="date">[2025.05.29]</span>
 
     ---
 
-    RAMA, ITF 수송량, INCOIS, Agulhas Current
+    RAMA, ITF transport, INCOIS, Agulhas Current
 
-    [:octicons-arrow-right-24: 상세 목록](indian.md)
+    [:octicons-arrow-right-24: Details](indian.md)
 
 -   :material-weather-sunny: **Tropical Ocean**
 
     ---
 
-    TPOS (Tropical Pacific Observing System) 자료 접근 링크 모음
+    Data access links of the Tropical Pacific Observing System (TPOS)
 
     [:octicons-link-external-24: Data Access Links](https://tropicalpacific.org/observations/data-access-links/)
 

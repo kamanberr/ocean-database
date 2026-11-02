@@ -1,7 +1,6 @@
-# :material-layers-triple-outline: Mixed Layer Depth
+# :material-layers-triple-outline: Mixed Layer Depth <span class="date">[2025.03.22]</span>
 
-혼합층 깊이(MLD) 자료와 직접 계산할 수 있는 툴박스를 모았습니다.
-<span class="date">[2025.03.22]</span>
+Mixed layer depth (MLD) datasets and toolboxes for computing MLD yourself.
 
 ## Climatology & observation-based
 
@@ -11,9 +10,10 @@
 
     ---
 
-    Annual, seasonal, monthly. **A5B7 (2005–2017)**과 **decav81B0 (1981–2010)** 두 기간만 제공
+    Annual, seasonal, monthly. Provided only for two time spans: **A5B7 (2005–2017)** and **decav81B0 (1981–2010)**
 
-    [:octicons-download-24: WOA18 MLD netCDF](https://www.ncei.noaa.gov/data/oceans/woa/WOA18/DATA/mld/netcdf/)
+    [:octicons-download-24: WOA18 MLD netCDF](https://www.ncei.noaa.gov/data/oceans/woa/WOA18/DATA/mld/netcdf/)<br>
+    [:octicons-arrow-right-24: WOA page](woa.md)
 
 -   **MILA GPV (JAMSTEC)** · Argo
 
@@ -28,7 +28,7 @@
 
     ---
 
-    Argo product 2. 등밀도면·혼합층 수괴 특성 격자 자료 (front-finding, bathymetry-following 객관분석)
+    Argo product 2. Gridded isopycnal and mixed-layer water properties (objective mapping with front-finding and bathymetry-following algorithms)
 
     [:octicons-link-external-24: MIMOC](https://www.pmel.noaa.gov/mimoc/)
 
@@ -36,7 +36,7 @@
 
     ---
 
-    Argo product 3 (툴박스 2도 참고)
+    Argo product 3 (see also toolbox 2)
 
     [:octicons-link-external-24: mixedlayer.ucsd.edu](https://mixedlayer.ucsd.edu/)
 
@@ -44,7 +44,7 @@
 
     ---
 
-    MLD 계산하는 여러 reference를 소개. 5 m 기준 밀도 차 0.03 kg/m³ 기준 전지구 climatology
+    Introduces several MLD references. Global climatology with a density threshold of 0.03 kg/m³ relative to 5 m
 
     [:octicons-link-external-24: Surface Mixed Layer Depth (Ifremer)](https://cerweb.ifremer.fr/deboyer/mld/Surface_Mixed_Layer_Depth.php)<br>
     [:octicons-download-24: MLD climatology, 0.03 kg/m³ criterion (SEANOE)](https://www.seanoe.org/data/00870/98226/)
@@ -58,7 +58,7 @@
     [:octicons-link-external-24: GOSML](https://www.pmel.noaa.gov/gosml/)<br>
     [:octicons-link-external-24: Reference (pdf)](https://www.pmel.noaa.gov/gosml/5294_Johnson_Lyman_GOSML_v4_clean_with_figures_ASACCEPTED_508.pdf)
 
--   **MLD in Polar Region**
+-   **MLD in Polar Regions**
 
     ---
 
@@ -66,6 +66,22 @@
     [:octicons-download-24: SEANOE 00806/91774](https://www.seanoe.org/data/00806/91774/)
 
 </div>
+
+??? info "What the WOA18 MLD folder names mean"
+    The download link contains two folders with somewhat unusual names. Their meaning is as follows.
+
+    <figure markdown="span">
+      ![WOA18 MLD download folders](../assets/processed/mld/woa18_mld_folders.png){ loading=lazy }
+      <figcaption>WOA18 MLD download folders</figcaption>
+    </figure>
+
+    > Mixed Layer Depth fields are available on one-degree and quarter-degree grids, annual, seasonal, and monthly, ONLY for
+    > **A5B7 (Time Span: 2005~2017)** and **decav81B0 (Time Span: 1981~2010)** time spans.
+
+    <figure markdown="span">
+      ![WOA18 MLD time spans](../assets/processed/mld/woa18_mld_time_spans.png){ loading=lazy }
+      <figcaption>WOA18 MLD time spans</figcaption>
+    </figure>
 
 ## Model & reanalysis
 
@@ -75,7 +91,7 @@
 
     ---
 
-    변수명 `mlotst` (Ocean Mixed Layer Thickness)
+    Variable `mlotst` (Ocean Mixed Layer Thickness)
 
     [:octicons-link-external-24: GLOBAL_MULTIYEAR_PHY_001_030](https://data.marine.copernicus.eu/product/GLOBAL_MULTIYEAR_PHY_001_030/description)<br>
     [:octicons-link-external-24: How is mlotst defined?](https://help.marine.copernicus.eu/en/articles/5676870-how-is-the-ocean-mixed-layer-thickness-mlotst-variable-defined)
@@ -102,36 +118,40 @@
 
 <div class="grid cards" markdown>
 
--   **툴박스 1** · Chad Greene `mld.m`
+-   **Toolbox 1** · Chad Greene `mld.m`
 
     ---
 
-    Climate Data Toolbox의 MLD 함수
+    MLD function from the Climate Data Toolbox
 
-    [:octicons-link-external-24: mld documentation](https://www.chadagreene.com/CDT/mld_documentation.html)
+    [:octicons-link-external-24: mld documentation](https://www.chadagreene.com/CDT/mld_documentation.html)<br>
+    [:octicons-file-24: mld.m (Chad Greene)](../assets/files/processed/mld/mld.m)
 
--   **툴박스 2** · Subjective method (MATLAB)
-
-    ---
-
-    인용한 원본 논문(de Boyer Montégut et al., 2004)은 인용수 3000회 이상. 단, 툴박스를 논문 저자가 작성한 것은 아님
-
-    [:octicons-download-24: File Exchange: compute MLD based on subjective method](https://kr.mathworks.com/matlabcentral/fileexchange/53370-to-compute-mixed-layer-depth-based-on-subjective-method)
-
--   **툴박스 3** · Holte & Talley algorithm
+-   **Toolbox 2** · Subjective method (MATLAB)
 
     ---
 
-    [:octicons-link-external-24: GitHub: rsignell-usgs/mld_demo](https://github.com/rsignell-usgs/mld_demo)
+    The original paper it cites (de Boyer Montégut et al., 2004) has more than 3,000 citations. Note that the toolbox was not written by the paper's authors
 
--   **툴박스 4** · Neutral surfaces (MATLAB)
+    [:octicons-download-24: File Exchange: compute MLD based on subjective method](https://kr.mathworks.com/matlabcentral/fileexchange/53370-to-compute-mixed-layer-depth-based-on-subjective-method)<br>
+    [:octicons-book-24: de Boyer Montégut et al. (2004), JGR Oceans](https://doi.org/10.1029/2004JC002378)
+
+    <figure markdown="span">
+      ![Toolbox 2 example](../assets/processed/mld/toolbox2_subjective_method_example.png){ loading=lazy }
+      <figcaption>Toolbox 2 example</figcaption>
+    </figure>
+
+-   **Toolbox 3** · Holte & Talley algorithm
+
+    ---
+
+    [:octicons-link-external-24: GitHub: rsignell-usgs/mld_demo](https://github.com/rsignell-usgs/mld_demo)<br>
+    [:octicons-file-24: Holte MLD algorithm files (zip)](../assets/files/processed/mld/jaot09_holte_mld_algorithm_files.zip)
+
+-   **Toolbox 4** · Neutral surfaces (MATLAB)
 
     ---
 
     [:octicons-download-24: File Exchange: Neutral Surfaces](https://kr.mathworks.com/matlabcentral/fileexchange/124650-neutral-surfaces)
 
 </div>
-
-??? note "Notion 첨부 파일 (이전 예정)"
-    `mld.m` (Chad Greene), `de_Boyer_Montgut_et_al_2004_Mixed_layer_depth_over_the_global_ocean.pdf`,
-    `jaot09_holte_mld_algorithm_files.zip`, WOA18 MLD 화면 이미지 2개, 툴박스 2 예시 이미지 1개

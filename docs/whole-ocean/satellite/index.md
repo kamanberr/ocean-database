@@ -1,7 +1,6 @@
-# :material-satellite-variant: Satellite
+# :material-satellite-variant: Satellite <span class="date">[2026.10.29]</span>
 
-자료 종류별로 정리했습니다. 카드를 눌러 상세 목록을 확인하세요.
-**Notion** 배지가 붙은 링크는 아직 이전 중인 페이지로, 원래 Notion 페이지가 열립니다.
+Satellite datasets grouped by variable and sensor. Open a card for the detailed list.
 
 ## Ocean surface variables
 
@@ -13,46 +12,45 @@
 
     GHRSST (OSTIA, MUR), OISST, ERSST, HadISST, GISTEMP, KHOA SST
 
-    [:octicons-arrow-right-24: 상세 목록](sst.md)
+    [:octicons-arrow-right-24: Details](sst.md)
 
 -   :material-flower-poppy: **Ocean Color**
 
     ---
 
-    Chl-a 등 해색: OC-CCI, NASA Ocean Color, CMEMS GlobColour, CDS, GOCI
+    Chl-a and other ocean color: OC-CCI, NASA Ocean Color, CMEMS GlobColour, CDS, GOCI
 
-    [:octicons-arrow-right-24: 상세 목록](ocean-color.md)
+    [:octicons-arrow-right-24: Details](ocean-color.md)
 
 -   :material-waves-arrow-up: **Sea Surface Height & Altimeter**
 
     ---
 
-    해수면 높이, 고도계 자료
+    CMEMS gridded and along-track SSH, AVISO, CDS, SWOT
 
-    [:octicons-arrow-right-24: 상세 보기](https://app.notion.com/p/215d6194d59183eeab0f015ea83ac713){ .notion }
+    [:octicons-arrow-right-24: Details](ssh.md)
 
 -   :material-arrow-decision: **Current**
 
     ---
 
-    위성 기반 표층 해류 (OSCAR 등)
+    Altimeter geostrophic currents, GLOBCURRENT, OSCAR
 
-    [:octicons-arrow-right-24: 상세 보기](https://app.notion.com/p/e23d6194d591838b91b2819f8153fbc3){ .notion }
+    [:octicons-arrow-right-24: Details](current.md)
 
 -   :material-shaker-outline: **Sea Surface Salinity**
 
     ---
 
-    SMAP, Aquarius 등 위성 염분
+    SMOS, Aquarius, SMAP and the combined products, with an RSS SMAP download script
 
-    [:octicons-arrow-right-24: 상세 보기](https://app.notion.com/p/183d6194d59182e48caf01387418d58e){ .notion }<br>
-    [:octicons-download-24: SMAP SSS from RSS](https://app.notion.com/p/aa4d6194d59183bba770016a3cbd3306){ .notion }
+    [:octicons-arrow-right-24: Details](sss.md)
 
 -   :material-weather-windy: **Scatterometer: Wind**
 
     ---
 
-    해상풍 (ASCAT)
+    Ocean surface wind (ASCAT)
 
     [:octicons-link-external-24: ASCAT-B Data (NOAA STAR)](https://manati.star.nesdis.noaa.gov/datasets/ASCATBData.php)
 
@@ -66,26 +64,26 @@
 
     ---
 
-    SST, Rain, Wind 등 (AMSR-2)
+    AMSR-2: SST, rain, wind, water vapor, with download scripts
 
-    [:octicons-download-24: Download AMSR-2](https://app.notion.com/p/f14d6194d59182c08420817715d0122c){ .notion }
+    [:octicons-arrow-right-24: Details](microwave.md)
 
 -   :material-radar: **SAR (Synthetic-Aperture Radar)**
 
     ---
 
-    고해상도 해면 영상, 내부파
+    Sentinel-1, ERS, ALOS: high-resolution sea surface imagery, internal waves
 
-    [:octicons-arrow-right-24: 상세 보기](https://app.notion.com/p/265d6194d5918300b84a0171ee8036bc){ .notion }<br>
+    [:octicons-arrow-right-24: Details](sar.md)<br>
     [:octicons-link-external-24: Atlas of Internal Waves](https://www.internalwaveatlas.com/)
 
 -   :material-earth-arrow-down: **GRACE**
 
     ---
 
-    Gravity Recovery and Climate Experiment: 질량·수량 변화
+    Gravity Recovery and Climate Experiment: mass and water storage change
 
-    [:octicons-arrow-right-24: 상세 보기](https://app.notion.com/p/7f7d6194d59183428ef20138ca56eb35){ .notion }<br>
+    [:octicons-arrow-right-24: Details](grace.md)<br>
     [:octicons-link-external-24: GRACE Data Analysis Tool](https://grace.jpl.nasa.gov/data-analysis-tool/)
 
 </div>
@@ -98,16 +96,24 @@
 
     ---
 
-    PO.DAAC 다운로드 매뉴얼, NASA, NOAA CoastWatch, 시각화 도구
+    PO.DAAC download manual, NASA, NOAA CoastWatch, visualization tools
 
-    [:octicons-arrow-right-24: 상세 목록](portals.md)
+    [:octicons-arrow-right-24: Details](portals.md)
 
--   :material-map-marker-radius: **Korea · China Satellite Centers**
+-   :material-map-marker-radius: **Korea Satellite Centers**
 
     ---
 
-    KOSC, NOSC, SOIS, NMSC, NSOAS
+    KOSC, NOSC, SOIS, NMSC
 
-    [:octicons-arrow-right-24: 상세 목록](centers.md)
+    [:octicons-arrow-right-24: Details](korea-centers.md)
+
+-   :material-map-marker-outline: **China Satellite Center**
+
+    ---
+
+    NSOAS Ocean Satellite Data Distribution System
+
+    [:octicons-link-external-24: NSOAS](https://osdds.nsoas.org.cn/home)
 
 </div>

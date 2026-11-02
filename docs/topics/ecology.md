@@ -1,24 +1,24 @@
-# :material-fish: Ecological Oceanography
+# :material-fish: Ecological Oceanography <span class="date">[2026.10.08]</span>
 
-해양 생물 이동 추적, 생물다양성, 서식지(갯벌·맹그로브·해초) 및 블루카본 자료 모음입니다.
+Animal tracking, marine biodiversity, habitats (tidal flats, mangroves, seagrass), and blue carbon data.
 
 ## Biologging / Animal telemetry
 
 <div class="grid cards" markdown>
 
--   **바다거북 이동경로**
+-   **Sea turtle tracks (Korea)**
 
     ---
 
-    국내 바다거북 이동경로 논문 자료와 국립해양생물자원관 OpenAPI 다운로드 방법
+    Published sea turtle tracking data around Korea and how to download them from the MABIK OpenAPI
 
-    [:octicons-arrow-right-24: 다운로드 방법](https://app.notion.com/p/020d6194d59182b8bb8d8173ca00587e){ .notion }
+    [:octicons-arrow-right-24: How to download](../regional/korea-sea-turtle.md)
 
 -   **OBIS-SEAMAP**
 
     ---
 
-    해양 포유류·바다거북·바닷새 분포 및 추적 자료 (바다거북)
+    Distribution and tracking data for marine mammals, sea turtles, and seabirds (sea turtles)
 
     [:octicons-link-external-24: OBIS-SEAMAP](https://seamap.env.duke.edu/swot)
 
@@ -26,7 +26,7 @@
 
     ---
 
-    동물 이동 추적 자료 저장소
+    Repository of animal movement tracking data
 
     [:octicons-link-external-24: Movebank](https://www.movebank.org/cms/movebank-main)
 
@@ -34,7 +34,7 @@
 
     ---
 
-    IOOS가 관리하는 animal telemetry network. 한국 주변은 일본이 연구한 데이터가 많은 듯
+    Animal telemetry network run by IOOS. Around Korea, much of the data appears to come from Japanese studies
 
     [:octicons-link-external-24: ATN Portal](https://portal.atn.ioos.us/#)
 
@@ -42,15 +42,15 @@
 
     ---
 
-    야생동물 GIS 자료
+    Wildlife GIS data
 
     [:octicons-link-external-24: GIS4Wildlife Data](https://gis4-wildlife.com/data/)
 
 </div>
 
-??? info "Animal Telemetry Network 사용법"
-    - Project → 특정 project 접근 → "Add project to map" → 상단 map에서 경로 확인 가능
-    - 다운로드: 특정 project 내에서 Archives 혹은 Project data 접근 후 다운로드
+??? info "Using the Animal Telemetry Network"
+    - Project → open a project → "Add project to map" → the tracks appear on the map at the top
+    - Download: inside a project, open Archives or Project data and download from there
 
 ## Ocean biodiversity
 
@@ -60,7 +60,7 @@
 
     ---
 
-    Ocean Biodiversity Information System. 플랑크톤 데이터가 많은 것으로 보임
+    Ocean Biodiversity Information System. Appears to hold a large amount of plankton data
 
     [:octicons-download-24: OBIS Data Access](https://obis.org/data/access/#)<br>
     [:octicons-link-external-24: OBIS](https://www.obis.org/)
@@ -77,7 +77,7 @@
 
     ---
 
-    ICES 해양 생물·환경 자료 지도 검색
+    Map search of ICES marine biological and environmental data
 
     [:octicons-link-external-24: ICES DataPortal](https://data.ices.dk/view-map)
 
@@ -93,7 +93,7 @@
 
     ---
 
-    California Cooperative Oceanic Fisheries Investigations 자료
+    California Cooperative Oceanic Fisheries Investigations data
 
     [:octicons-download-24: CalCOFI Data](https://calcofi.org/data/)<br>
     [:octicons-download-24: EDI Data Package (knb-lter-cce.262.2)](https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-cce.262.2)
@@ -108,10 +108,10 @@
 
 </div>
 
-??? info "OBIS에서 특정 해역 자료 받기"
-    상단의 DATA > Mapper로 들어가서 좌측의 다각형 모양을 클릭하고 원하는 해역을 설정한다.
-    우측 상단의 사각형 여러 개 겹친 'Layer'를 클릭하고, 가로선 세 개가 그려진 버튼을 클릭한다.
-    'View data'를 클릭하거나 'Download'를 클릭해서 이메일로 자료를 받을 수 있다.
+??? info "Downloading OBIS data for a specific region"
+    Go to DATA > Mapper at the top, click the polygon tool on the left, and draw the region you want.
+    Click 'Layer' (the stacked squares) at the top right, then the button with three horizontal lines.
+    Click 'View data' or 'Download' to receive the data by e-mail.
 
 ## Habitat & ecoregions
 
@@ -121,7 +121,7 @@
 
     ---
 
-    IW:LEARN GeoNode LME 경계 레이어
+    LME boundary layer on IW:LEARN GeoNode
 
     [:octicons-download-24: LMEs layer](http://geonode.iwlearn.org/layers/geonode:lmes)
 
@@ -129,7 +129,7 @@
 
     ---
 
-    연안·대륙붕 생물지리 구분 (WWF)
+    Biogeographic regionalization of coastal and shelf areas (WWF)
 
     [:octicons-link-external-24: MEOW (WWF)](https://www.worldwildlife.org/publications/marine-ecoregions-of-the-world-a-bioregionalization-of-coastal-and-shelf-areas)
 
@@ -137,7 +137,7 @@
 
     ---
 
-    전 지구 맹그로브·해초 분포
+    Global distribution of mangroves and seagrasses
 
     [:octicons-download-24: Mangroves](https://data.marine.copernicus.eu/product/EXT_UNEP_WCMC_MANGROVE/description)<br>
     [:octicons-download-24: Seagrasses](https://data.marine.copernicus.eu/product/EXT_UNEP_WCMC_SEAGRASSES/description)
@@ -160,7 +160,7 @@
 
     ---
 
-    산호 모니터링. 정점별 자료를 CSV로 다운로드 가능
+    Coral reef monitoring. Site data can be downloaded as CSV
 
     [:octicons-link-external-24: Aqualink Map](https://aqualink.org/map)
 
@@ -168,47 +168,61 @@
 
     ---
 
-    산호 모니터링, 산호와 관련된 MHW 자료
+    Coral reef monitoring and coral-related MHW data
 
     [:octicons-link-external-24: Coral Reef Watch](https://coralreefwatch.noaa.gov/main/)<br>
     [:octicons-download-24: Marine Heatwave Product](https://coralreefwatch.noaa.gov/product/marine_heatwave/)
 
 </div>
 
-??? info "Aqualink에서 CSV 파일 다운받기"
-    1. 특정 정점을 클릭한다.
-    2. 상단의 Selected Site를 클릭하거나, 우측 지도 상에서 Explorer를 클릭한다. 해당 정점의 데이터가 자세히 나온다.
-    3. 스크롤을 아래로 내리면 CSV를 다운받을 수 있다.
+??? info "Downloading a CSV file from Aqualink"
+    1. Click a site.
 
-## 대한민국 / Republic of Korea
+        <figure markdown="span">
+          ![Aqualink: select a site](../assets/topics/ecology/aqualink_step01_select_site.png){ loading=lazy }
+          <figcaption>Aqualink: select a site</figcaption>
+        </figure>
 
-| 출처 | 내용 |
+    2. Click Selected Site at the top, or Explorer on the map to the right. Detailed data for the site appear.
+
+        <figure markdown="span">
+          ![Aqualink: site details](../assets/topics/ecology/aqualink_step02_site_details.png){ loading=lazy }
+          <figcaption>Aqualink: site details</figcaption>
+        </figure>
+
+    3. Scroll down to download the CSV.
+
+        <figure markdown="span">
+          ![Aqualink: CSV download](../assets/topics/ecology/aqualink_step03_download_csv.png){ loading=lazy }
+          <figcaption>Aqualink: CSV download</figcaption>
+        </figure>
+
+## Republic of Korea
+
+| Source | Content |
 |---|---|
-| [해양수산부 공동활용체계 (VADAHUB)](https://www.vadahub.go.kr/bigdata/observe/space/index.do) | 해양 생물 분포 종합 조사 자료 |
-| [e-나라지표](https://www.index.go.kr/unity/potal/main/EachDtlPageDetail.do?idx_cd=1275) | 연안습지(갯벌) 면적의 변동 추이 |
-| [국가발전지표](https://www.index.go.kr/unity/potal/indicator/IndexInfo.do?clasCd=2&idxCd=4286&upCd=15) | 연안습지 면적 |
-| [해양수산통계](https://www.mof.go.kr/statPortal/stp/ofs/stl/ztlStatsList.do) | 해양보호구역 지정 현황, 갯벌 현황 |
-| [e-나라지표](https://www.index.go.kr/unity/potal/main/EachDtlPageDetail.do?idx_cd=3056) | 해양보호구역 지정 현황 |
+| [MOF data-sharing platform (VADAHUB)](https://www.vadahub.go.kr/bigdata/observe/space/index.do) | Comprehensive marine biological distribution surveys |
+| [e-National Indicators](https://www.index.go.kr/unity/potal/main/EachDtlPageDetail.do?idx_cd=1275) | Trends in coastal wetland (tidal flat) area |
+| [National Development Indicators](https://www.index.go.kr/unity/potal/indicator/IndexInfo.do?clasCd=2&idxCd=4286&upCd=15) | Coastal wetland area |
+| [Marine and Fisheries Statistics](https://www.mof.go.kr/statPortal/stp/ofs/stl/ztlStatsList.do) | Marine protected area designations, tidal flat status |
+| [e-National Indicators](https://www.index.go.kr/unity/potal/main/EachDtlPageDetail.do?idx_cd=3056) | Marine protected area designations |
 
 ### Blue Carbon Monitoring
 
-국가 블루카본 정보 시스템 (K-BIS 연계) → [:octicons-link-external-24: 블루카본 | Blue Carbon](https://bluecarbon.kr/kor/#/)
-: 기초자료 입력 및 관리, 면적 및 흡수량 등 결과 공개, 블루카본 관련 콘텐츠 제공 및 홍보
+National Blue Carbon Information System (linked with K-BIS) → [:octicons-link-external-24: Blue Carbon](https://bluecarbon.kr/kor/#/)
+: Entry and management of baseline data, publication of results such as area and carbon uptake, and blue carbon outreach content
 
-??? info "모니터링 방법"
-    - 원격탐사 기반으로 1990년부터 전년도까지 연단위의 연안습지 종류별 분포면적 생산 및 재계산
-    - 위성영상 수집·분석을 통한 면적자료 생산, 현장조사를 통한 검·보정 실시
-    - 조간대 결과는 면적결과가 아닌 신뢰도 및 경향 분석을 위한 자료로 활용
+??? info "Monitoring method"
+    - Annual distribution area by coastal wetland type, produced and recomputed from remote sensing for 1990 through the previous year
+    - Area data derived from satellite imagery, with validation and correction by field surveys
+    - Intertidal results are used for reliability and trend analysis rather than as area estimates
 
-    | 연안습지 종류 | 염습지 | 해초대 | 조간대\* |
+    | Coastal wetland type | Salt marsh | Seagrass bed | Intertidal zone\* |
     |---|---|---|---|
-    | **기반 영상** | Landsat 위성영상 | Sentinel 위성영상 | Landsat 위성영상 |
+    | **Base imagery** | Landsat | Sentinel | Landsat |
 
 ## Memo
 
-- [:octicons-link-external-24: Ocean Data Bank (National Taiwan University)](https://www.odb.ntu.edu.tw/bio/) ← 대만 관측 자료를 모아 두는 데이터베이스인 것으로 보임
+- [:octicons-link-external-24: Ocean Data Bank (National Taiwan University)](https://www.odb.ntu.edu.tw/bio/) ← appears to be a database collecting Taiwanese observations
 - [:octicons-link-external-24: Global ocean carbon data (NOAA NCEI OCADS)](https://www.ncei.noaa.gov/access/ocean-carbon-acidification-data-system/oceans/)
-  · [하위 페이지: Carbon data](https://www.ncei.noaa.gov/access/ocean-carbon-acidification-data-system/oceans/doc.html)
-
-??? note "Notion 첨부 파일 (이전 예정)"
-    Aqualink CSV 다운로드 안내 스크린샷 3개
+  · [Sub-page: Carbon data](https://www.ncei.noaa.gov/access/ocean-carbon-acidification-data-system/oceans/doc.html)

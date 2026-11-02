@@ -1,8 +1,13 @@
-# :material-map-outline: Boundary
+# :material-map-outline: Boundary <span class="date">[2026.04.02]</span>
 
-배타적 경제수역(EEZ), 대해양생태계(LME) 등 해양 경계 자료입니다.
+Marine boundary data such as exclusive economic zones (EEZ) and large marine ecosystems (LME), plus coastlines and area-calculation tools.
 
 ## Boundary datasets
+
+<figure markdown="span">
+  ![Large Marine Ecosystems map (source: NOAA)](../assets/bathymetry/boundary/noaa_lme_map.jpg){ loading=lazy }
+  <figcaption>Large Marine Ecosystems map (source: NOAA)</figcaption>
+</figure>
 
 <div class="grid cards" markdown>
 
@@ -10,7 +15,7 @@
 
     ---
 
-    EEZ, LME 등 해양 경계 shapefile
+    Shapefiles of EEZ, LME, and other marine boundaries
 
     [:octicons-download-24: Marine Regions](https://www.marineregions.org/)
 
@@ -18,7 +23,7 @@
 
     ---
 
-    IW:LEARN GeoNode의 LME 레이어와 지도
+    LME layers and maps on IW:LEARN GeoNode
 
     [:octicons-link-external-24: Global Large Marine Ecosystems](http://geonode.iwlearn.org/layers/geonode:lmes)<br>
     [:octicons-link-external-24: LME-66 Offshore](http://geonode.iwlearn.org/layers/geonode:lme66_offshore)<br>
@@ -28,7 +33,7 @@
 
     ---
 
-    해양 구분 폴리곤 (IW:LEARN GeoNode)
+    Ocean division polygons (IW:LEARN GeoNode)
 
     [:octicons-link-external-24: Oceans of the World](http://geonode.iwlearn.org/layers/geonode:iwl_oceans_polygon)<br>
     [:octicons-link-external-24: World Oceans and Large Marine Ecosystems (map)](http://geonode.iwlearn.org/maps/3873)
@@ -37,16 +42,44 @@
 
     ---
 
-    NOAA 200주년 기념 페이지의 LME 지도
+    LME map from the NOAA 200th anniversary pages
 
     [:octicons-link-external-24: Large Marine Ecosystems map (NOAA)](https://celebrating200years.noaa.gov/breakthroughs/ecosystems/sup_lmes_map.html)
 
 </div>
 
+## Coastline & tools
+
+<div class="grid cards" markdown>
+
+-   **Global Coastline**
+
+    ---
+
+    Coastline data (GSHHS and others)
+
+    [:octicons-link-external-24: Shoreline / Coastline Resources (NOAA NCEI)](https://www.ncei.noaa.gov/products/shoreline-coastline-resources)<br>
+    [:octicons-download-24: GSHHS (NOAA NGDC)](https://www.ngdc.noaa.gov/mgg/shorelines/data/gshhs/)
+
+-   **Area on sphere / ellipsoid**
+
+    ---
+
+    Polygon area on spherical or ellipsoidal coordinates (MATLAB Mapping Toolbox)
+
+    [:octicons-link-external-24: `areaint` documentation](https://kr.mathworks.com/help/map/ref/areaint.html)
+
+</div>
+
 ## EEZ in MATLAB
 
-[Marine Regions](https://www.marineregions.org/)에서 EEZ **Low res** 파일을 다운받은 후, `.dbf`, `.shp`, `.shx` 파일을 한 폴더에 넣습니다.
-`shaperead`를 쓰려면 Mapping Toolbox 애드온 설치가 필요합니다.
+<figure markdown="span">
+  ![Marine Regions EEZ download page](../assets/bathymetry/boundary/marine_regions_eez_download.png){ loading=lazy }
+  <figcaption>Marine Regions EEZ download page</figcaption>
+</figure>
+
+Download the EEZ **Low res** file from [Marine Regions](https://www.marineregions.org/) and put the `.dbf`, `.shp`, and `.shx` files in one folder.
+`shaperead` requires the Mapping Toolbox add-on.
 
 ??? example "Clip EEZ polygons to a region and draw them with m_map"
 
@@ -120,6 +153,3 @@
             end
         end
     ```
-
-??? note "Notion 첨부 파일 (이전 예정)"
-    LME 지도 이미지 1개, Marine Regions EEZ 다운로드 화면 이미지 1개

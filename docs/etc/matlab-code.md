@@ -1,6 +1,6 @@
-# :material-code-braces: Useful MATLAB Code
+# :material-code-braces: Useful MATLAB Code <span class="date">[2026.09.21]</span>
 
-해수 물성 계산 toolbox와 격자 자료 처리 코드입니다.
+Seawater property toolboxes and code for handling gridded data.
 
 ## Sea water toolbox
 
@@ -10,7 +10,7 @@
 
     ---
 
-    Gibbs SeaWater Oceanographic Toolbox. GitHub의 툴박스는 공식 사이트에서 제공하는 것과 동일합니다.
+    Gibbs SeaWater Oceanographic Toolbox. The GitHub repository is identical to the toolbox distributed on the official site.
 
     [:octicons-download-24: TEOS-10 software](https://www.teos-10.org/software.htm)<br>
     [:octicons-mark-github-16: GitHub: TEOS-10/GSW-Matlab](https://github.com/TEOS-10/GSW-Matlab)
@@ -19,7 +19,7 @@
 
     ---
 
-    UCSD SIO 210 수업의 해수 물성 MATLAB 코드
+    MATLAB seawater property code from the UCSD SIO 210 course
 
     [:octicons-link-external-24: ppsw_matlab (UCSD)](http://sam.ucsd.edu/sio210/propseawater/ppsw_matlab/ppsw_matlab.htm)
 
@@ -27,7 +27,7 @@
 
     ---
 
-    해양학용 MATLAB 툴 모음
+    Collection of MATLAB tools for oceanography
 
     [:octicons-link-external-24: SEA-MAT](https://sea-mat.github.io/sea-mat/)
 

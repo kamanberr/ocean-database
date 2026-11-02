@@ -12,11 +12,14 @@ hide:
     [Instagram (@kamanberr)](https://www.instagram.com/kamanberr/).
     If you have any questions or suggestions, please contact me by email or DM.
 
-!!! note "Latest Update: 2026.08.25 (KST)"
-    Pacific Ocean dataset 업데이트 + 위성 SST page 정보 갱신 + Polar 갱신
+!!! note "Latest Update: 2026.10.28 (KST)"
+    - Updated the SST Downloader: 11 GHRSST L4 datasets and OISST v2, with token-based download and automatic retry.
+    - Updated the Bathymetry Download: ETOPO 2022, SRTM15+, and the newly added S2Shores coastal bathymetry.
+    - 2026.08.25: Updated the Pacific Ocean datasets, refreshed the satellite SST page, and updated the Polar page.
 
-??? abstract "업데이트 예정 사항"
-    - HYCOM download (MATLAB Toolbox): Bottom 값 다운로드 이슈 개선, 경도 범위(0도) 관련 에러 여부 검토
+??? abstract "Upcoming updates"
+    - HYCOM download (MATLAB toolbox): fix the bottom-value download issue and check for errors related to the longitude range around 0°.
+    - Polar page update.
 
 ## Browse by category
 
@@ -26,7 +29,7 @@ hide:
 
     ---
 
-    Satellite, Drifter & Argo, In situ, Model, Atmosphere
+    Satellite, in situ (Argo, drifters, ships, moorings), model, atmosphere
 
     [:octicons-arrow-right-24: Go](whole-ocean/index.md)
 
@@ -34,7 +37,7 @@ hide:
 
     ---
 
-    Climate indices, Sea level & OHC, Atlas & Climatology, MLD
+    Climate indices, sea level and OHC, atlas and climatology, mixed layer depth
 
     [:octicons-arrow-right-24: Go](processed/index.md)
 
@@ -42,7 +45,7 @@ hide:
 
     ---
 
-    Typhoon, Carbon cycle, Ecology, River discharge, Wave, MHW
+    Typhoon, carbon cycle, ecology, river discharge, wave, marine heat wave
 
     [:octicons-arrow-right-24: Go](topics/index.md)
 
@@ -74,23 +77,32 @@ hide:
 
 Looking for general data portals, visualization tools, or lectures? See [Resources](resources.md).
 
-## Notice [2024.10.05]
+## Notice
 
-1.  OSTIA, OISST, MUR 자료를 다운받는 사이트를 [PO.DAAC](https://podaac.jpl.nasa.gov/cloud-datasets)과
-    [psl.noaa](https://psl.noaa.gov/data/gridded/data.noaa.oisst.v2.highres.html)를 사용하는 방향으로 코드를 크게 수정했습니다.
-    현재 다운받을 수 있는 자료는 **OSTIA v2, OSTIA Reprocessed, OISST v2, MUR 4.1, MUR 4.2**입니다.
-    → [GHRSST download - OSTIA, MUR, OISST](https://kr.mathworks.com/matlabcentral/fileexchange/173480-ghrsst-download-ostia-mur-oisst)
+1.  **SST Downloader (GHRSST L4 & OISST)** · 2026.10
 
-    [PO.DAAC에서 자료를 직접 다운받을 수 있는 MATLAB 스크립트를 작성하는 방법](https://app.notion.com/p/5f1d6194d59183b79573015c49e891eb){ .notion }을
-    매뉴얼로 만들어 두었으니, 이외의 자료가 필요하신 분은 해당 매뉴얼을 참고해 주세요.
+    MATLAB scripts that download daily SST for a user-defined area and period through OPeNDAP.
+    They support **11 GHRSST L4 analyses** from PO.DAAC (OSTIA, OSTIA Reprocessed, MUR 4.1, MUR 0.25°, GAMSSA, DMI, OSPO, K10, REMSS MW_OI and MW_IR_OI, and others)
+    and **NOAA OISST v2**. New in this release: Earthdata token-based download, automatic retry of failed dates, variable selection, automatic grid caching,
+    MAT or NetCDF output for OISST, and OISST domains crossing 0°E.
+    → [SST Downloader (MATLAB File Exchange)](https://kr.mathworks.com/matlabcentral/fileexchange/173480-sst-downloader-ghrsst-l4-po-daac-and-oisst-subset-by-area-and-period)
 
-2.  Bathymetry 자료를 다운받는 MATLAB 코드에서 ETOPO 1, 2, 5와 GEBCO 2019를 제외하였습니다.
-    해당 스크립트를 사용하여 **ETOPO 2022 30 arc, 60 arc** 그리고 **SRTM 15+**를 다운받을 수 있습니다.
-    → [Bathymetry Download (ETOPO 2022, SRTM 15)](https://kr.mathworks.com/matlabcentral/fileexchange/173370-bathymetry-download-etopo-2022-srtm-15)
+    For other PO.DAAC products, see the
+    [PO.DAAC MATLAB download manual](whole-ocean/satellite/podaac-manual.md).
 
-3.  **Chl-a 등을 관측하는 해색 위성**의 경우,
-    [공식 사이트에서 원하는 지역, 원하는 기간을 빠르게 다운받는 방법](https://app.notion.com/p/3f6d6194d591833f9b5901533509de59){ .notion }을
-    게시해 두었습니다. 다운로드 속도가 상당히 빠르니 해당 매뉴얼을 이용하실 것을 권장합니다.
+2.  **Bathymetry Download (ETOPO 2022, SRTM15+, S2Shores)** · 2026.10.28
+
+    MATLAB scripts that retrieve regional subsets of three bathymetry products.
+    They support **ETOPO 2022** (30 and 60 arc-second), **SRTM15+ V2.4**, and the newly added **S2Shores** coastal bathymetry (AVISO+ account required).
+    Longitude may be given in either the −180~180 or 0~360 convention, regions crossing the dateline or the prime meridian are handled automatically,
+    and all datasets are saved in a common MAT or NetCDF layout.
+    → [Bathymetry Download (MATLAB File Exchange)](https://kr.mathworks.com/matlabcentral/fileexchange/173370-bathymetry-download-etopo-2022-srtm-15-s2shores)
+
+3.  **Ocean color satellite data (Chl-a and others)** · 2024.10.05
+
+    Ocean color datasets are collected on the [Ocean Color](whole-ocean/satellite/ocean-color.md) page.
+    It also explains how to download only the region and period you need directly from the official sites;
+    the download is considerably faster, so this manual is recommended.
 
 ## Contact
 

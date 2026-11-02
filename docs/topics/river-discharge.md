@@ -1,6 +1,6 @@
-# :material-water: Freshwater / River Discharge
+# :material-water: Freshwater / River Discharge <span class="date">[2025.04.10]</span>
 
-전 지구 및 지역별 하천 유출량 자료 모음입니다. <span class="date">[2025.04.10]</span>
+Global and regional river discharge datasets.
 
 ## Global
 
@@ -10,7 +10,7 @@
 
     ---
 
-    전 지구 하천 유량 관측 자료
+    Global river discharge observations
 
     [:octicons-download-24: GRDC Data Portal](https://grdc.bafg.de/data/data_portal/)
 
@@ -18,7 +18,7 @@
 
     ---
 
-    Climate Data Guide (UCAR) 소개 페이지
+    Overview page on the Climate Data Guide (UCAR)
 
     [:octicons-link-external-24: Climate Data Guide](https://climatedataguide.ucar.edu/climate-data/freshwater-discharge-1948-2004)
 
@@ -26,7 +26,7 @@
 
     ---
 
-    Arctic Great Rivers Observatory 유량 자료와 대화형 그래프
+    Arctic Great Rivers Observatory discharge data with interactive plots
 
     [:octicons-download-24: ArcticGRO Discharge](https://arcticgreatrivers.org/discharge/)
 
@@ -40,16 +40,16 @@
 
     ---
 
-    해양기후예측센터 장강 유출량 자료. 자료 사용 동의서 제출 필요
+    Changjiang (Yangtze) discharge from the Ocean Climate Prediction Center. A data-use agreement must be submitted
 
-    [:octicons-download-24: 해양기후정보 서비스](https://oceanclimate.kr/discharge_en/)<br>
-    [:octicons-link-external-24: 자료 사용 동의서](https://docs.google.com/forms/d/e/1FAIpQLSfM9gXGLC-ZAlaoUbmkm4DlM0c6fuQD7_6DINmY0dboihWAXA/viewform)
+    [:octicons-download-24: Ocean Climate Information Service](https://oceanclimate.kr/discharge_en/)<br>
+    [:octicons-link-external-24: Data-use agreement form](https://docs.google.com/forms/d/e/1FAIpQLSfM9gXGLC-ZAlaoUbmkm4DlM0c6fuQD7_6DINmY0dboihWAXA/viewform)
 
 -   **Korea** (WAMIS)
 
     ---
 
-    국가수자원관리종합정보시스템 장기 유출 자료
+    Long-term runoff data from the Water Resources Management Information System
 
     [:octicons-download-24: WAMIS Long-Term Runoff](http://wamis.go.kr/ENG/WKW_CMS_LST.do)
 

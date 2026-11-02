@@ -1,12 +1,8 @@
-# :material-terrain: Bathymetry
+# :material-terrain: Bathymetry <span class="date">[2026.10.29]</span>
 
-전 지구 및 지역 수심 자료와, 이를 다운로드하고 처리하는 코드입니다.
+Global and regional bathymetry datasets, with code to download and process them.
 
-??? tip "시각화 팁 · Visualization tip"
-    어느 자료이건 bathymetry가 완벽하게 정확하거나 흠결 없이 깔끔하게 나오지는 않습니다.
-    `pcolor` 함수와 높은 colormap level을 쓰면 꽤 이질적인 직선 형태가 종종 나타나며, 이는 해저 지형도를 시각화할 때 애로 사항이 됩니다.
-    시각화에 앞서 MATLAB의 `griddata` 혹은 `interp2` 함수로 자료의 해상도를 낮추는 것도 차선책이 될 수 있습니다.
-
+??? tip "Visualization tip"
     No bathymetry dataset is perfectly accurate or entirely free of artifacts. With `pcolor` and high colormap levels,
     spurious straight lines often appear, which complicates the visualization of seafloor topography.
     As a workaround, MATLAB's `griddata` or `interp2` can be used to coarsen the data before plotting.
@@ -19,26 +15,31 @@
 
     ---
 
-    꾸준히 버전을 업데이트하여 제공. **가장 최신 버전은 2024입니다.**
+    Updated regularly. **The latest version is 2024.**
 
     [:octicons-download-24: GEBCO Gridded Bathymetry Data Download](https://download.gebco.net/)
+
+    <figure markdown="span">
+      ![GEBCO download page](../assets/bathymetry/bathymetry/gebco_download_preview.png){ loading=lazy }
+      <figcaption>GEBCO download page</figcaption>
+    </figure>
 
 -   **ETOPO 2022** · 30, 60 arc-second
 
     ---
 
-    NOAA NCEI global relief model (ETOPO 1, 2, 5는 구버전)
+    NOAA NCEI global relief model (ETOPO 1, 2, and 5 are older versions)
 
     [:octicons-link-external-24: ETOPO Global Relief Model (NOAA NCEI)](https://www.ncei.noaa.gov/products/etopo-global-relief-model)<br>
-    [:octicons-download-24: MATLAB 다운로드 코드](#matlab-download-script)
+    [:octicons-download-24: MATLAB download script](#matlab-download-script)
 
 -   **SRTM15+**
 
     ---
 
-    아래 MATLAB 툴박스로 원하는 지역을 다운로드
+    Download any region with the MATLAB toolbox below
 
-    [:octicons-download-24: MATLAB 다운로드 코드](#matlab-download-script)
+    [:octicons-download-24: MATLAB download script](#matlab-download-script)
 
 -   **GMRT**
 
@@ -52,7 +53,7 @@
 
     ---
 
-    Sentinel-2 wave inversion 기반 전 지구 연안 수심. AVISO+ 계정 필요
+    Global coastal bathymetry from Sentinel-2 wave inversion. AVISO+ account required
 
     [:octicons-arrow-right-24: Data access & references](#s2shores)
 
@@ -60,12 +61,18 @@
 
 ### MATLAB download script
 
-ETOPO 2022, SRTM15+, S2Shores는 아래 MathWorks 툴박스를 설치하고 그 안에 있는 script를 사용하시면 됩니다.
+For ETOPO 2022, SRTM15+, and S2Shores, install the MathWorks toolbox below and run the script it contains.
 
 - [:octicons-download-24: Bathymetry Download (ETOPO 2022, SRTM 15, S2Shores), MATLAB File Exchange](https://kr.mathworks.com/matlabcentral/fileexchange/173370-bathymetry-download-etopo-2022-srtm-15-s2shores)
 - [:octicons-mark-github-16: GitHub: kamanberr/Ocean-Data-Download/Bathy_Down](https://github.com/kamanberr/Ocean-Data-Download/tree/main/Bathy_Down)
 
-툴박스를 사용하시는 분들은 해당 MathWorks 페이지에서 **[Review → 별점]**을 달아 주시면 큰 보람이 될 것 같습니다. 감사합니다.
+If you use the toolbox, a **rating under Review** on the MathWorks page would be much appreciated. Thank you.
+
+??? example "Example of bathymetry"
+    <figure markdown="span">
+      ![ETOPO 2022 60 arc-second, East Asia](../assets/bathymetry/bathymetry/etopo2022_60arc_east_asia.jpg){ loading=lazy }
+      <figcaption>ETOPO 2022 60 arc-second, East Asia</figcaption>
+    </figure>
 
 ### S2Shores
 
@@ -86,28 +93,29 @@ ETOPO 2022, SRTM15+, S2Shores는 아래 MathWorks 툴박스를 설치하고 그 
 
 <div class="grid cards" markdown>
 
--   **KHOA** (국립해양조사원)
+-   **KHOA** (Korea Hydrographic and Oceanographic Agency)
 
     ---
 
-    영해 경계 문제 때문에 대한민국 주변 해역에 대해서만 수심 자료를 처리한 것으로 보임
+    Bathymetry appears to be processed only for the seas around Korea, presumably because of territorial boundary issues
 
-    [:octicons-link-external-24: KHOA 바다누리: 수심 자료](http://www.khoa.go.kr/oceangrid/gis/category/observe/observeSearch.do?type=EYS#none)<br>
-    [:octicons-arrow-right-24: 읽기 코드 (MATLAB)](#khoa-bada)
+    [:octicons-link-external-24: KHOA Badanuri: bathymetry](http://www.khoa.go.kr/oceangrid/gis/category/observe/observeSearch.do?type=EYS#none)<br>
+    [:octicons-arrow-right-24: Reading code (MATLAB)](#khoa-bada)<br>
+    [:octicons-book-24: Reference: Bathymetry data for ocean numerical models from survey data (JKSCOE, 2019, in Korean)](https://doi.org/10.9765/KSCOE.2019.31.3.146)
 
 -   **JODC** · 500 m
 
     ---
 
-    Japan Oceanographic Data Center gridded bathymetry
+    Japan Oceanographic Data Center gridded bathymetry. Covered on the JODC page of the Japan Oceanographic Database
 
-    [:octicons-arrow-right-24: 500 m Gridded Bathymetry Data](https://app.notion.com/p/e50d6194d591827aaa8a81fb3d372206){ .notion }
+    [:octicons-arrow-right-24: JODC data (Japan)](../regional/japan-jodc.md)
 
 -   **JTOPO30**
 
     ---
 
-    일본 주변 해역 수심 (MIRC)
+    Bathymetry around Japan (MIRC)
 
     [:octicons-link-external-24: MIRC JTOPO30](http://www.mirc.jha.jp/products/finished/JTOPO30/)
 
@@ -122,6 +130,16 @@ ETOPO 2022, SRTM15+, S2Shores는 아래 MathWorks 툴박스를 설치하고 그 
 </div>
 
 ### KHOA BADA
+
+<figure markdown="span">
+  ![KHOA bathymetry, screen 1](../assets/bathymetry/bathymetry/khoa_bathymetry_1.png){ loading=lazy }
+  <figcaption>KHOA bathymetry, screen 1</figcaption>
+</figure>
+
+<figure markdown="span">
+  ![KHOA bathymetry, screen 2](../assets/bathymetry/bathymetry/khoa_bathymetry_2.png){ loading=lazy }
+  <figcaption>KHOA bathymetry, screen 2</figcaption>
+</figure>
 
 ??? example "Read BADA bathymetry (xyz) and grid it"
 
@@ -138,72 +156,24 @@ ETOPO 2022, SRTM15+, S2Shores는 아래 MathWorks 툴박스를 설치하고 그 
 
 ## Model grid: HYCOM 3.1 topo
 
-사용하는 HYCOM experiment 버전 디렉터리 안의 `topo` 폴더에 접근하여 `depth` 파일을 다운로드합니다.
+Open the `topo` folder inside the directory of the HYCOM experiment you use and download the `depth` file.
 
 - [:octicons-download-24: https://data.hycom.org/datasets/](https://data.hycom.org/datasets/)
-- 예시: [GLBb0.08/expt_93.0/topo/](https://data.hycom.org/datasets/GLBb0.08/expt_93.0/topo/),
+- Examples: [GLBb0.08/expt_93.0/topo/](https://data.hycom.org/datasets/GLBb0.08/expt_93.0/topo/),
   [GLBy0.08/expt_93.0/topo/](https://data.hycom.org/datasets/GLBy0.08/expt_93.0/topo/)
 
 !!! tip
-    사용하는 HYCOM 버전(GLBb, GLBv, GLBy)에 맞는 depth 파일을 쓰면 HYCOM의 lon/lat 격자와 정확히 일치하므로 보간이 필요 없습니다.
-    Layer thickness 정보도 같은 폴더의 `regional.grid` 파일에 있는 것으로 보입니다.
+    Use the depth file that matches your HYCOM version (GLBb, GLBv, GLBy).
+    Layer thickness information also appears to be in the `regional.grid` file in the same folder.
 
-??? example "Convert curvilinear grid into regular grid (GLBb)"
+<figure markdown="span">
+  ![Comparison of HYCOM grids (GLBb, GLBv, GLBy)](../assets/bathymetry/bathymetry/hycom_grid_comparison.png){ loading=lazy }
+  <figcaption>Comparison of HYCOM grids (GLBb, GLBv, GLBy)</figcaption>
+</figure>
 
-    ```matlab title="Convert curvilinear grid into regular grid"
-    clc; clear; close all;
+??? note "Data files"
+    The following data files are too large for the repository. They will be hosted separately; until then, please download them from the original sources.
 
-    % Curvilinear grid
-    hycbathy = "Bathy\depth_GLBb0.08_09m11.nc";
-    % ncdisp(hycbathy)
-    hyclon = double(ncread(hycbathy, 'Longitude'));
-    hyclat = double(ncread(hycbathy, 'Latitude'));
-    hycdepth = double(ncread(hycbathy, 'depth'));
-
-    % Set the lon and lat range
-    lo = [117, 128]; la = [32 42];
-
-    % New query grid
-    [xq,yq] = meshgrid(lo(1):0.08:lo(2), la(1):0.08:la(2));
-
-    % Regular grid
-    newdep = griddata(hyclon,hyclat,hycdepth,xq,yq);
-    ```
-
-## Coastline, boundary & tools
-
-<div class="grid cards" markdown>
-
--   **Global Coastline**
-
-    ---
-
-    해안선 자료 (GSHHS 등)
-
-    [:octicons-link-external-24: Shoreline / Coastline Resources (NOAA NCEI)](https://www.ncei.noaa.gov/products/shoreline-coastline-resources)<br>
-    [:octicons-download-24: GSHHS (NOAA NGDC)](https://www.ngdc.noaa.gov/mgg/shorelines/data/gshhs/)
-
--   **Maritime Boundaries (EEZ etc.)**
-
-    ---
-
-    EEZ, LME 경계와 MATLAB 그리기 코드
-
-    [:octicons-arrow-right-24: Boundary](boundary.md)
-
--   **Area on sphere / ellipsoid**
-
-    ---
-
-    구면·타원체 좌표에서 폴리곤 면적 계산 (MATLAB Mapping Toolbox)
-
-    [:octicons-link-external-24: `areaint` documentation](https://kr.mathworks.com/help/map/ref/areaint.html)
-
-</div>
-
-??? note "Notion 첨부 파일 (이전 예정)"
     - GEBCO 2023 subsets: `gebco_2023_n41.0_s24.0_w118.0_e130.0_YECS.nc`, `gebco_2023_n41.0_s31.0_w117.0_e128.0_YS.nc`,
-      `gebco_2023_n55.0_s30.0_w125.0_e145.0_EJS.nc`, `gebco_2023_n55.0_s20.0_w115.0_e145.0_KOREA.nc`, 미리보기 이미지 1개
-    - Example of bathymetry: `Bathy_ETOPO_2022_60arc_EastAsia.jpg`
-    - KHOA reference: `수심측량자료를_사용한_해양수치모델_전용_수심_데이터_제작_2019_JKSCOE.pdf`, 미리보기 이미지 2개
-    - HYCOM: `depth_GLBb0.08_09m11.nc`, `depth_GLBv0.08_09m11.nc`, `depth_GLBy0.08_09m11.nc`, 격자 비교 이미지 1개
+      `gebco_2023_n55.0_s30.0_w125.0_e145.0_EJS.nc`, `gebco_2023_n55.0_s20.0_w115.0_e145.0_KOREA.nc`
+    - HYCOM depth: `depth_GLBb0.08_09m11.nc`, `depth_GLBv0.08_09m11.nc`, `depth_GLBy0.08_09m11.nc`

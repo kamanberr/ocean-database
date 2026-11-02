@@ -1,10 +1,10 @@
-# :material-flower-poppy: Ocean Color
+# :material-flower-poppy: Ocean Color <span class="date">[2026.10.29]</span>
 
-Chl-a 등을 관측하는 해색 위성 자료입니다.
+Ocean color satellite data such as chlorophyll-a.
 
-!!! tip "빠른 다운로드"
-    공식 사이트에서 원하는 지역·기간만 빠르게 받는 방법을 정리해 두었습니다:
-    [Ocean Color Satellite Data Download for Specific Area and Period](https://app.notion.com/p/3f6d6194d591833f9b5901533509de59){ .notion } <span class="date">[2024.09.28]</span>
+!!! tip "Fast regional download"
+    A step-by-step guide to extracting only the region and period you need from the official site:
+    [Ocean Color Download for a Specific Area and Period](ocean-color-download.md) <span class="date">[2024.09.28]</span>
 
 ## Global products
 
@@ -14,7 +14,7 @@ Chl-a 등을 관측하는 해색 위성 자료입니다.
 
     ---
 
-    Ocean Colour Climate Change Initiative. 다중 센서 병합 장기 기후 자료
+    Ocean Colour Climate Change Initiative. Long-term, multi-sensor merged climate record
 
     [:octicons-link-external-24: OceanColour - CCI](https://www.oceancolour.org/)
 
@@ -22,23 +22,23 @@ Chl-a 등을 관측하는 해색 위성 자료입니다.
 
     ---
 
-    SeaWiFS, MODIS, VIIRS 등 NASA 해색 자료
+    NASA ocean color data from SeaWiFS, MODIS, VIIRS and others
 
-    [:octicons-arrow-right-24: 지역·기간 다운로드 매뉴얼](https://app.notion.com/p/3f6d6194d591833f9b5901533509de59){ .notion }
+    [:octicons-arrow-right-24: Regional download manual](ocean-color-download.md)
 
--   **CMEMS GlobColour L3** · Daily
+-   **CMEMS GlobColour L3** · daily
 
     ---
 
-    1997.09.04 – present · 4 km · Level 3
+    1997-09-04 – present · 4 km · Level 3
 
     [:octicons-link-external-24: OCEANCOLOUR_GLO_BGC_L3_MY_009_103](https://data.marine.copernicus.eu/product/OCEANCOLOUR_GLO_BGC_L3_MY_009_103/description)
 
--   **CMEMS GlobColour L4** · Daily, Monthly
+-   **CMEMS GlobColour L4** · daily, monthly
 
     ---
 
-    1997.09.01 – present · 4 km · Level 4, **daily gap-free** (cloud-free 내삽)
+    1997-09-01 – present · 4 km · Level 4, **daily gap-free** (cloud-free interpolation)
 
     [:octicons-link-external-24: OCEANCOLOUR_GLO_BGC_L4_MY_009_104](https://data.marine.copernicus.eu/product/OCEANCOLOUR_GLO_BGC_L4_MY_009_104/description)
 
@@ -46,7 +46,7 @@ Chl-a 등을 관측하는 해색 위성 자료입니다.
 
     ---
 
-    GlobColour 원 제공처
+    Original GlobColour distribution site
 
     [:octicons-link-external-24: GlobColour - Home](https://hermes.acri.fr/index.php)
 
@@ -66,5 +66,5 @@ Chl-a 등을 관측하는 해색 위성 자료입니다.
 
 ## Geostationary: GOCI & GOCI-II
 
-- [GOCI & GOCI-II 정리](https://app.notion.com/p/939d6194d59183109b97013ba86bc773){ .notion }
-- 자료 다운로드 기관은 [Korea · China Satellite Centers](centers.md) 참고
+- [GOCI & GOCI-II download routes and Python snippet](goci.md)
+- Distribution centers: see [Korea Satellite Centers](korea-centers.md)

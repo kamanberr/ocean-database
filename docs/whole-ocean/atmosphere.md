@@ -1,6 +1,6 @@
-# :material-weather-partly-cloudy: Atmosphere
+# :material-weather-partly-cloudy: Atmosphere <span class="date">[2026.05.12]</span>
 
-해상풍, 강수, 열속, 구름 등 대기 자료와 대기 재분석입니다. 태풍 자료는 [Typhoon & Hurricane](../topics/typhoon.md) 페이지에서 관리합니다.
+Atmospheric data and reanalyses: surface wind, precipitation, heat flux, clouds. Typhoon data are kept on the [Typhoon & Hurricane](../topics/typhoon.md) page.
 
 ## Reanalysis
 
@@ -10,10 +10,9 @@
 
     ---
 
-    ECMWF 5세대 대기 재분석
+    Fifth-generation ECMWF atmospheric reanalysis
 
-    [:octicons-arrow-right-24: ERA5 data download using Python](https://app.notion.com/p/ebad6194d591826987d6813d0c10d483){ .notion } <span class="date">[2025.08.25]</span><br>
-    [:octicons-arrow-right-24: Download ERA5 data](https://app.notion.com/p/6add6194d59183529a4581af7de35ffc){ .notion } <span class="date">[2024.11.26]</span><br>
+    [:octicons-arrow-right-24: How to download ERA5 (web, Python, MATLAB)](era5-download.md)<br>
     [:octicons-link-external-24: ERA5 (ECMWF)](https://www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era5)<br>
     [:octicons-link-external-24: ECMWF datasets](https://www.ecmwf.int/en/forecasts/datasets)<br>
     [:octicons-link-external-24: ECMWF real-time products catalogue](https://www.ecmwf.int/en/forecasts/datasets/catalogue-ecmwf-real-time-products)
@@ -31,7 +30,7 @@
 
     ---
 
-    JRA-55 기반, 위성 및 다른 재분석으로 보정한 해양–해빙 모형 구동용 지표 자료 (Tsujino et al. 2020)
+    Surface dataset for driving ocean and sea-ice models, based on JRA-55 and corrected with satellite and other reanalysis products (Tsujino et al. 2020)
 
     [:octicons-download-24: JRA55-do (MRI-JMA)](https://climate.mri-jma.go.jp/pub/ocean/JRA55-do/)
 
@@ -39,7 +38,7 @@
 
     ---
 
-    NCEP-NCAR Reanalysis 및 NCAR 자료 서비스
+    NCEP-NCAR Reanalysis and NCAR data services
 
     [:octicons-download-24: NCEP-NCAR Reanalysis 1 (NOAA PSL)](https://psl.noaa.gov/data/gridded/data.ncep.reanalysis.html)<br>
     [:octicons-link-external-24: NCAR data services](https://ncar.ucar.edu/what-we-offer/data-services)
@@ -48,12 +47,21 @@
 
     ---
 
-    Climate Data Store와 Atmosphere Data Store
+    Climate Data Store and Atmosphere Data Store
 
     [:octicons-link-external-24: Climate Data Store (CDS)](https://cds.climate.copernicus.eu/datasets)<br>
     [:octicons-link-external-24: Atmosphere Data Store (ADS)](https://ads.atmosphere.copernicus.eu/datasets)
 
 </div>
+
+<figure markdown="span">
+  ![NCEP-NCAR Reanalysis 1 page (NOAA PSL)](../assets/whole-ocean/atmosphere/ncep_reanalysis1_psl.png){ loading=lazy }
+  <figcaption>NCEP-NCAR Reanalysis 1 page (NOAA PSL)</figcaption>
+</figure>
+<figure markdown="span">
+  ![NCEP-NCAR Reanalysis 1 variables (NOAA PSL)](../assets/whole-ocean/atmosphere/ncep_reanalysis1_variables.png){ loading=lazy }
+  <figcaption>NCEP-NCAR Reanalysis 1 variables (NOAA PSL)</figcaption>
+</figure>
 
 ??? quote "JRA55-do description (from a published study)"
     One atmospheric reanalysis dataset is the surface dataset developed for driving ocean-sea-ice models (JRA55-do; Tsujino et al. 2020)
@@ -71,7 +79,7 @@
 
     ---
 
-    전 지구 위성 해상풍 L3 (NRT 및 multi-year)
+    Global satellite surface wind, L3 (NRT and multi-year)
 
     [:octicons-link-external-24: WIND_GLO_PHY_L3_NRT_012_002](https://data.marine.copernicus.eu/product/WIND_GLO_PHY_L3_NRT_012_002/description)<br>
     [:octicons-link-external-24: WIND_GLO_PHY_L3_MY_012_005](https://data.marine.copernicus.eu/product/WIND_GLO_PHY_L3_MY_012_005/description)
@@ -80,9 +88,9 @@
 
     ---
 
-    GPCP, GPM 등 위성 강수 자료
+    Satellite precipitation products such as GPCP and GPM
 
-    [:octicons-arrow-right-24: Download AMSR-2](https://app.notion.com/p/f14d6194d59182c08420817715d0122c){ .notion } <span class="date">[2024.10.21]</span><br>
+    [:octicons-arrow-right-24: Download AMSR-2](satellite/microwave.md)<br>
     [:octicons-download-24: GPCP (NOAA PSL)](https://psl.noaa.gov/data/gridded/data.gpcp.html)<br>
     [:octicons-link-external-24: GPM data directory (NASA)](https://gpm.nasa.gov/data/directory)<br>
     [:octicons-link-external-24: CDS: satellite-precipitation](https://cds.climate.copernicus.eu/datasets/satellite-precipitation?tab=overview)<br>
@@ -100,11 +108,16 @@
 
     ---
 
-    대기–해양 경계 계류 관측
+    Moored observations at the air-sea interface
 
     [:octicons-link-external-24: PMEL Ocean Climate Stations](https://www.pmel.noaa.gov/ocs/research-overview)
 
 </div>
+
+<figure markdown="span">
+  ![J-OFURO website](../assets/whole-ocean/atmosphere/jofuro_website.png){ loading=lazy }
+  <figcaption>J-OFURO website</figcaption>
+</figure>
 
 ## Radiation, clouds & aerosols
 
@@ -114,7 +127,7 @@
 
     ---
 
-    지표 복사 플럭스와 구름 자료
+    Surface radiative fluxes and cloud data
 
     [:octicons-download-24: CERES data (NASA LaRC)](https://ceres.larc.nasa.gov/data/)<br>
     [:octicons-link-external-24: CERES (ASDC)](https://asdc.larc.nasa.gov/project/CERES)
@@ -131,7 +144,7 @@
 
     ---
 
-    구름·에어로졸 라이다 위성
+    Cloud and aerosol lidar satellite
 
     [:octicons-link-external-24: CALIPSO (ASDC)](https://asdc.larc.nasa.gov/project/CALIPSO)
 
@@ -145,26 +158,34 @@
 
 </div>
 
+<figure markdown="span">
+  ![CERES data portal](../assets/whole-ocean/atmosphere/ceres_data_portal.png){ loading=lazy }
+  <figcaption>CERES data portal</figcaption>
+</figure>
+<figure markdown="span">
+  ![CERES project page (ASDC)](../assets/whole-ocean/atmosphere/ceres_asdc_project.png){ loading=lazy }
+  <figcaption>CERES project page (ASDC)</figcaption>
+</figure>
+
 ## Korea & Asia-Pacific
 
-=== "KMA: 기후 변화"
+=== "KMA: climate change"
 
-    - [종합기후변화 감시](http://www.climate.go.kr/home/09_monitoring/)
-    - [기후정보포털](http://www.climate.go.kr/home/)
-    - [기상청 기후예측정보서비스](https://www.kma.go.kr/cpd/index.html)
+    - [Climate change monitoring (종합기후변화 감시)](http://www.climate.go.kr/home/09_monitoring/)
+    - [Climate information portal (기후정보포털)](http://www.climate.go.kr/home/)
+    - [KMA climate prediction service](https://www.kma.go.kr/cpd/index.html)
 
-=== "KMA: 기상 자료"
+=== "KMA: weather data"
 
-    - [국립기상과학원 연구자료 제공 목록](http://www.nims.go.kr/?sub_num=1124)
-    - [기상자료개방포털](https://data.kma.go.kr/cmmn/main.do)
-    - [기상청 날씨마루 (기상기후 빅데이터 분석 플랫폼)](https://bd.kma.go.kr/kma2020/)
-    - [기상청 API허브](https://apihub.kma.go.kr/apiList.do?seqApi=3)
-    - [해양기상부이 (기상청 날씨누리)](https://www.weather.go.kr/w/observation/sea/buoy-obs.do)
+    - [NIMS research data list](http://www.nims.go.kr/?sub_num=1124)
+    - [KMA open data portal (기상자료개방포털)](https://data.kma.go.kr/cmmn/main.do)
+    - [KMA Nalssi-Maru (weather and climate big-data platform)](https://bd.kma.go.kr/kma2020/)
+    - [KMA API Hub](https://apihub.kma.go.kr/apiList.do?seqApi=3)
+    - [Marine meteorological buoys (KMA)](https://www.weather.go.kr/w/observation/sea/buoy-obs.do)
 
 === "APCC"
 
-    [APEC 기후센터 (APCC)](https://www.apcc21.org/?lang=ko)
+    [APEC Climate Center (APCC)](https://www.apcc21.org/?lang=ko)
 
-??? note "Notion 첨부 파일 (이전 예정)"
-    - 이미지: CERES 2개, J-OFURO, NCEP 2개
-    - Notion 상단의 "Toolbox" 링크 미리보기 1개 (대상 확인 필요)
+??? note "Needs checking"
+    A "Toolbox" link preview at the top of the original Notion page had no readable target and could not be migrated.

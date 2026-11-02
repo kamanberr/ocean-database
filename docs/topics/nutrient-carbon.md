@@ -1,6 +1,6 @@
-# :material-flask-outline: Nutrient & Carbon Cycle
+# :material-flask-outline: Nutrient & Carbon Cycle <span class="date">[2025.05.21]</span>
 
-영양염, 탄소, 해양 화학 관측 자료 모음입니다. <span class="date">[2025.05.21]</span>
+Nutrient, carbon, and ocean chemistry observations.
 
 ## Global programs & databases
 
@@ -10,7 +10,7 @@
 
     ---
 
-    해양 미량원소·동위원소 국제 관측 프로그램
+    International program on marine trace elements and isotopes
 
     [:octicons-link-external-24: GEOTRACES](https://www.geotraces.org/)
 
@@ -18,10 +18,15 @@
 
     ---
 
-    표층 해양 CO₂ fugacity 관측 자료 통합 데이터베이스
+    Synthesis database of surface ocean CO₂ fugacity observations
 
     [:octicons-download-24: SOCAT](https://socat.info/)<br>
     [:octicons-link-external-24: About SOCAT (NOAA PMEL)](https://www.pmel.noaa.gov/co2/story/SOCAT)
+
+    <figure markdown="span">
+      ![SOCAT](../assets/topics/nutrient-carbon/socat_overview.png){ loading=lazy }
+      <figcaption>SOCAT</figcaption>
+    </figure>
 
 -   **BCO-DMO**
 
@@ -35,9 +40,17 @@
 
     ---
 
-    Oregon State University 해양 일차생산 자료
+    Ocean primary productivity data from Oregon State University
 
     [:octicons-link-external-24: Ocean Productivity](http://orca.science.oregonstate.edu/index.php)
+
+-   **In situ carbon & chemistry** · GLODAPv2, CoastDOM
+
+    ---
+
+    Ship-based global carbon and chemistry synthesis (GLODAPv2) and the coastal dissolved organic matter database (CoastDOM). Described on the In Situ page
+
+    [:octicons-arrow-right-24: Other in situ datasets (In Situ)](../whole-ocean/in-situ/others.md)
 
 </div>
 
@@ -57,13 +70,13 @@
 
     ---
 
-    전 지구 재구성 표층 pCO₂, 해양-대기 CO₂ flux, pH, alkalinity, DIC, calcite·aragonite 포화도와 불확실성
+    Global reconstructed surface pCO₂, air-sea CO₂ flux, pH, alkalinity, DIC, calcite and aragonite saturation states, with uncertainties
 
     [:octicons-download-24: MULTIOBS_GLO_BIO_CARBON_SURFACE_MYNRT_015_008](https://data.marine.copernicus.eu/product/MULTIOBS_GLO_BIO_CARBON_SURFACE_MYNRT_015_008/description)
 
 </div>
 
-??? info "Surface ocean carbon fields 생산 방법"
+??? info "How the surface ocean carbon fields are produced"
     The product is obtained from an ensemble-based forward feed neural network approach mapping in situ data for
     **surface ocean fugacity** ([SOCAT](https://www.socat.info/), Bakker et al. 2016) and sea surface salinity, temperature,
     sea surface height, chlorophyll a, mixed layer depth and atmospheric CO₂ mole fraction.
@@ -94,7 +107,7 @@
 
     ---
 
-    A quality-controlled and bias adjusted global ocean oxygen profile dataset (海洋科学大数据中心)
+    A quality-controlled and bias adjusted global ocean oxygen profile dataset (Marine Science Data Center, IOCAS)
 
     [:octicons-download-24: Marine Science Data Center (IOCAS)](https://msdc.qdio.ac.cn/data/metadata-special-detail?id=1733027685011034114&otherId=1733027685094920193)
 
@@ -102,11 +115,13 @@
 
     ---
 
-    북태평양 표층 영양염 자료
+    Surface nutrient data for the North Pacific
 
     [:octicons-download-24: North Pacific Surface Nutrients](https://caos.sakura.ne.jp/sao/north-pacific-surface-nutrients/)
 
-</div>
+    <figure markdown="span">
+      ![North Pacific surface nutrients](../assets/topics/nutrient-carbon/north_pacific_surface_nutrients.png){ loading=lazy }
+      <figcaption>North Pacific surface nutrients</figcaption>
+    </figure>
 
-??? note "Notion 첨부 파일 (이전 예정)"
-    SOCAT 이미지 1개, North Pacific surface nutrients 이미지 1개
+</div>

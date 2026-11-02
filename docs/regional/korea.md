@@ -1,134 +1,188 @@
-# :material-map-marker-radius: KOREA Oceanographic Database
+---
+title: Overview
+---
 
-한반도 주변 해역의 관측·위성·재분석 자료를 기관별로 정리했습니다. <span class="date">[2026.03.28]</span>
+# :material-map-marker-radius: KOREA Oceanographic Database <span class="date">[2026.03.28]</span>
 
-<div class="grid cards" markdown>
-
--   :material-ferry: **한반도 연근해 실측 관측 자료 모음**
-
-    ---
-
-    [:octicons-arrow-right-24: 상세 보기](https://app.notion.com/p/2a7d6194d59182168eed019bbdefb897){ .notion }
-
--   :material-satellite-variant: **한반도 연근해 위성 관측 자료 모음**
-
-    ---
-
-    [:octicons-arrow-right-24: 상세 보기](https://app.notion.com/p/486d6194d59183769e2381a2ad773bff){ .notion }
-
--   :material-fish: **어획량 자료** <span class="date">[2025.05.21]</span>
-
-    ---
-
-    [:octicons-arrow-right-24: 상세 보기](https://app.notion.com/p/b22d6194d5918335837b81fc377127ff){ .notion }
-
-</div>
-
-## 해양수산부 (Ministry of Oceans and Fisheries)
+Observational, satellite, and reanalysis datasets for the seas around the Korean Peninsula, organized by institution.
 
 <div class="grid cards" markdown>
 
--   **해양수산부 · 바다하유 (VADAHUB)**
+-   :material-ferry: **In situ observations around Korea**
 
     ---
 
-    해양수산부 공동활용체계 및 자료 다운로드
+    Where to find serial, coastal, research-station, and real-time observations
 
-    [:octicons-link-external-24: Ministry of Oceans and Fisheries](https://www.mof.go.kr/en/index.do)<br>
-    [:octicons-link-external-24: 해양수산부 공동활용체계](https://www.vadahub.go.kr/bigdata/observe/space/index.do)<br>
-    [:octicons-download-24: Data Download (VADAHUB)](https://www.vadahub.go.kr/user/main.do)
+    [:octicons-arrow-right-24: Open](korea-observations.md)
+
+-   :material-satellite-variant: **Satellite observations around Korea**
+
+    ---
+
+    KOSC, SOIS, NOSC, NMSC
+
+    [:octicons-arrow-right-24: Open](korea-satellite.md)
+
+-   :material-fish: **Fisheries catch statistics** <span class="date">[2025.05.21]</span>
+
+    ---
+
+    Production, TAC consumption, catch by species
+
+    [:octicons-arrow-right-24: Open](korea-fisheries.md)
 
 </div>
 
-## NIFS 국립수산과학원
+## Ministry of Oceans and Fisheries (MOF)
 
-[:octicons-link-external-24: 국립수산과학원 OPEN API List](https://www.nifs.go.kr/openApi/actionOpenapiInfoList.do)
+<div class="model-card" markdown>
 
-<div class="grid cards" markdown>
+### MOF · VADAHUB
 
--   **KODC 정선관측자료**
+Data-sharing platform of the Ministry of Oceans and Fisheries, with downloads
 
-    ---
-
-    NIFS Serial Oceanographic Observation
-
-    [:octicons-book-24: How to download “NIFS Serial Oceanographic Observation” data?](https://app.notion.com/p/cefd6194d59182acb9010131d0e3663f){ .notion }
-
--   **KODC 한반도 주변해 수온·염분 기후 평년 자료** · 1966~2023
-
-    ---
-
-    수온·염분 기후 평년장, DIVA 기반 격자 시계열
-
-    [:octicons-link-external-24: KODC Atlas overview](https://www.nifs.go.kr/kodc/ocean-info/atlas/overview)<br>
-    [:octicons-download-24: Continuous Gridded Time Series of T/S around the Korean Peninsula using DIVA (v1, SEANOE)](https://www.seanoe.org/data/01006/111799/)
-
--   **KODC 연안정지관측자료** · 1933~2023
-
-    ---
-
-    연안 정지점 관측 자료
-
-    [:octicons-link-external-24: KODC 연안정지관측 overview](https://www.nifs.go.kr/kodc/observe/coastal/overview)
-
--   **실시간 해양수산환경 관측시스템 (RISA)**
-
-    ---
-
-    실시간 관측
-
-    [:octicons-link-external-24: RISA](https://www.nifs.go.kr/risa/main.risa)
-
--   **SOIS (Satellite Ocean Information System)**
-
-    ---
-
-    NOAA & Suomi NPP 위성 자료
-
-    [:octicons-link-external-24: e-연구바다](https://www.nifs.go.kr/portal/me/soisA/actionSoisTrenchSearch.do)
+[:octicons-link-external-24: Ministry of Oceans and Fisheries](https://www.mof.go.kr/en/index.do)<br>
+[:octicons-link-external-24: VADAHUB observation platform](https://www.vadahub.go.kr/bigdata/observe/space/index.do)<br>
+[:octicons-download-24: Data download (VADAHUB)](https://www.vadahub.go.kr/user/main.do)
 
 </div>
 
-## KHOA 국립해양조사원
+## NIFS (National Institute of Fisheries Science)
 
-<div class="grid cards" markdown>
+[:octicons-link-external-24: NIFS OPEN API list](https://www.nifs.go.kr/openApi/actionOpenapiInfoList.do)
 
--   **KHOA**
+<div class="model-card" markdown>
 
-    ---
+### KODC: Serial Oceanographic Observation
 
-    국립해양조사원 및 해양지도. 해양지도에서 양식장 위치 정보 다운로드 가능
+NIFS Serial Oceanographic Observation along fixed lines
 
-    [:octicons-link-external-24: KHOA (English)](http://www.khoa.go.kr/eng/Main.do)<br>
-    [:octicons-link-external-24: KHOA 해양지도](https://www.khoa.go.kr/oceanmap/main.do#)
-
--   **바다누리 · 실시간해양관측정보시스템**
-
-    ---
-
-    Ocean Data in Grid Framework. 부이, 표층 뜰개 등
-
-    [:octicons-link-external-24: 바다누리 해양정보 지도](https://khoa.go.kr/oceandata/oceaninfo/map.do)
-
--   **NOSC (National Ocean Satellite Center)** · GOCI-II
-
-    ---
-
-    GOCI-II 자료 다운로드 (OPeNDAP 제공)
-
-    [:octicons-link-external-24: NOSC](https://www.nosc.go.kr/eng/main.do)<br>
-    [:octicons-download-24: OPeNDAP: GOCI-II](https://nosc.go.kr/opendap/GOCI-II/contents.html)
+[:octicons-book-24: How to download NIFS Serial Oceanographic Observation data](korea-nifs-download.md)
 
 </div>
 
-??? info "바다누리 자료 이용 시 참고 (전화 문의 결과)"
-    - 부이, 표층 뜰개 자료 등 바다누리에서 제공하는 자료들은 **KST (한국 표준시)** 기준으로 제공된다고 합니다.
-    - 바다누리에서 다운로드 받을 수 있는 표층 뜰개 중에 SVP drifter가 있는데, 이 drifter는 GDP program에는 포함되지 않는다고 합니다.
-    - 표층 뜰개 자료는 현재 개별로 다운받을 수 있게 서비스하고 있으며, 한 번에 다운로드 받을 수 있는 별도의 방법은 현재로서는 없다고 합니다. [2025.05.01 기준]
+<div class="model-card" markdown>
 
-??? example "Python & OPeNDAP: GOCI-II data download"
-    위 OPeNDAP 링크에 접속해 원하는 nc 파일을 찾은 뒤 “html” 옵션을 클릭합니다.
-    그 “html” 주소를 아래 코드의 변수 `url`에 넣습니다.
+### KODC: T/S climatology around the Korean Peninsula
+
+1966–2023
+{ .spec }
+
+Temperature and salinity climatology, and a DIVA-based gridded time series
+
+[:octicons-link-external-24: KODC Atlas overview](https://www.nifs.go.kr/kodc/ocean-info/atlas/overview)<br>
+[:octicons-download-24: Continuous Gridded Time Series of T/S around the Korean Peninsula using DIVA (v1, SEANOE)](https://www.seanoe.org/data/01006/111799/)
+
+</div>
+
+<div class="model-card" markdown>
+
+### KODC: Coastal station observations
+
+1933–2023
+{ .spec }
+
+Long-term observations at fixed coastal stations
+
+[:octicons-link-external-24: KODC coastal station overview](https://www.nifs.go.kr/kodc/observe/coastal/overview)
+
+<figure markdown="span">
+  ![KODC coastal station observation overview](../assets/regional/korea/kodc_coastal_station_overview.png){ loading=lazy }
+  <figcaption>KODC coastal station observation overview</figcaption>
+</figure>
+
+</div>
+
+<div class="model-card" markdown>
+
+### RISA (Real-time Information System for Aquaculture environment)
+
+Real-time observations
+
+[:octicons-link-external-24: RISA](https://www.nifs.go.kr/risa/main.risa)
+
+</div>
+
+<div class="model-card" markdown>
+
+### SOIS (Satellite Ocean Information System)
+
+NOAA and Suomi NPP satellite data
+
+[:octicons-link-external-24: e-Research Sea](https://www.nifs.go.kr/portal/me/soisA/actionSoisTrenchSearch.do)
+
+</div>
+
+## KHOA (Korea Hydrographic and Oceanographic Agency)
+
+<div class="model-card" markdown>
+
+### KHOA
+
+Agency homepage and the KHOA ocean map. Aquaculture farm locations can be downloaded from the ocean map.
+
+[:octicons-link-external-24: KHOA (English)](http://www.khoa.go.kr/eng/Main.do)<br>
+[:octicons-link-external-24: KHOA ocean map](https://www.khoa.go.kr/oceanmap/main.do#)
+
+<figure markdown="span">
+  ![Aquaculture farm locations can be downloaded from the KHOA ocean map, as shown here](../assets/regional/korea/khoa_oceanmap_aquafarm_download.png){ loading=lazy }
+  <figcaption>Aquaculture farm locations can be downloaded from the KHOA ocean map, as shown here</figcaption>
+</figure>
+
+</div>
+
+<div class="model-card" markdown>
+
+### Badanuri · Real-time Ocean Observation Information System
+
+Ocean Data in Grid Framework: buoys, surface drifters, and more
+
+[:octicons-link-external-24: Badanuri ocean information map](https://khoa.go.kr/oceandata/oceaninfo/map.do)
+
+??? info "Notes on Badanuri data (from a phone inquiry)"
+    - Buoy, surface drifter, and other data served by Badanuri are given in **KST (Korea Standard Time)**.
+    - The SVP drifters downloadable from Badanuri are **not part of the GDP program**.
+    - Surface drifter data can only be downloaded one at a time; there is no bulk download at present. [as of 2025.05.01]
+
+</div>
+
+<div class="model-card" markdown>
+
+### Current schematic around Korea
+
+Schematic ocean current data for the seas around the Korean Peninsula, downloadable from Badanuri
+
+[:octicons-download-24: Badanuri ocean information map](https://khoa.go.kr/oceandata/oceaninfo/map.do)
+
+<figure markdown="span">
+  ![Download page for the current schematic data](../assets/regional/korea/current_schema_download_site.png){ loading=lazy }
+  <figcaption>Download page for the current schematic data</figcaption>
+</figure>
+
+</div>
+
+<div class="model-card" markdown>
+
+### NOSC (National Ocean Satellite Center)
+
+GOCI-II
+{ .spec }
+
+GOCI-II data download, with OPeNDAP access
+
+[:octicons-link-external-24: NOSC](https://www.nosc.go.kr/eng/main.do)<br>
+[:octicons-download-24: OPeNDAP: GOCI-II](https://nosc.go.kr/opendap/GOCI-II/contents.html)
+
+??? example "Python and OPeNDAP: GOCI-II data download"
+    Open the OPeNDAP link above, find the nc file you need, and click the "html" option.
+
+    <figure markdown="span">
+      ![The html option on the OPeNDAP directory listing](../assets/regional/korea/goci2_opendap_html_option.png){ loading=lazy }
+      <figcaption>The html option on the OPeNDAP directory listing</figcaption>
+    </figure>
+
+    Put that "html" address into the variable `url` in the code below.
 
     ```py title="Download a GOCI-II file via OPeNDAP"
     import wget
@@ -136,67 +190,54 @@
     wget.download(url)
     ```
 
-## MEIS 해양환경측정망
+</div>
 
-<div class="grid cards" markdown>
+## MEIS (Marine Environment Information System)
 
--   **MEIS 해양환경측정망**
+<div class="model-card" markdown>
 
-    ---
+### MEIS marine environment monitoring network
 
-    해양환경 정기 관측. 지도 화면은 어떤 관측 자료가 있는지 확인하는 데 유용함
+Regular marine environment monitoring. The map view is useful for checking which observations exist where.
 
-    [:octicons-link-external-24: MEIS 항만 관측](https://www.meis.go.kr/mei/observe/port.do)<br>
-    [:octicons-link-external-24: MEIS 관측망 지도](https://www.meis.go.kr/map/oemsBaseMap.do)
-
--   **바다거북 이동 경로**
-
-    ---
-
-    [:octicons-arrow-right-24: 바다거북 이동경로 다운로드](https://app.notion.com/p/020d6194d59182b8bb8d8173ca00587e){ .notion }
+[:octicons-link-external-24: MEIS port observations](https://www.meis.go.kr/mei/observe/port.do)<br>
+[:octicons-link-external-24: MEIS monitoring network map](https://www.meis.go.kr/map/oemsBaseMap.do)
 
 </div>
 
-## KIOST 한국해양과학기술원
+<div class="model-card" markdown>
 
-<div class="grid cards" markdown>
+### Sea turtle tracks
 
--   **KIOST**
+Published tracking data and how to request the MBRIS open-data API
 
-    ---
-
-    한국해양과학기술원 및 해양과학도서관
-
-    [:octicons-link-external-24: KIOST](https://www.kiost.ac.kr/eng.do)<br>
-    [:octicons-link-external-24: 해양과학도서관](https://library.kiost.ac.kr/)<br>
-    [:octicons-link-external-24: KIOST Data Portal](https://rdc.zeronesoft.kr/eng/dataPortal) (사이트 연결 안 됨)
-
--   **KORS 해양과학기지**
-
-    ---
-
-    이어도, 신안가거초, 옹진소청초 해양과학기지. 경험상 해양과학기지 홈페이지보다 바다누리에서 자료를 받는 것이 더 용이함
-
-    [:octicons-link-external-24: KORS Data Portal](https://kors.kiost.ac.kr/data/dataPortal)<br>
-    [:octicons-download-24: 바다누리 해양정보 지도](https://khoa.go.kr/oceandata/oceaninfo/map.do)<br>
-    [:octicons-book-24: 이어도 과학기지 자료 정리 논문 (데이터 포함, Scientific Data)](https://www.nature.com/articles/s41597-026-06769-4)
-
--   **KOSC (Korea Ocean Satellite Center)** · GOCI, GOCI-II
-
-    ---
-
-    [:octicons-download-24: GOCI & GOCI-II Data Search](https://kosc.kiost.ac.kr/gociSearch/view.nm?menuCd=11&lang=ko&url=gociSearch)
-
--   **OCPC (Ocean Climate Prediction Center)**
-
-    ---
-
-    해면 수온, 해수면, 해상강수량, 해면기압, 해상기온, 해상풍속, 유의파고, 평균파주기, 해빙 면적·두께, 엘니뇨·라니냐, 인도양 쌍극진동, 양자강(장강) 담수 유입량
-
-    [:octicons-link-external-24: OCPC (oceanclimate.kr)](https://oceanclimate.kr/en/)<br>
-    [:octicons-link-external-24: OCPC (ocpc.kr)](https://www.ocpc.kr/)
+[:octicons-arrow-right-24: How to download sea turtle tracks](korea-sea-turtle.md)
 
 </div>
+
+## KIOST (Korea Institute of Ocean Science and Technology)
+
+<div class="model-card" markdown>
+
+### KIOST
+
+Institute homepage and the Ocean Science Library
+
+[:octicons-link-external-24: KIOST](https://www.kiost.ac.kr/eng.do)<br>
+[:octicons-link-external-24: Ocean Science Library](https://library.kiost.ac.kr/)<br>
+[:octicons-link-external-24: KIOST Data Portal](https://rdc.zeronesoft.kr/eng/dataPortal) (site not reachable)
+
+</div>
+
+<div class="model-card" markdown>
+
+### KORS (Korea Ocean Research Stations)
+
+Ieodo, Sinan-Gageocho, and Ongjin-Socheongcho ocean research stations. In practice, downloading from Badanuri is easier than from the KORS site.
+
+[:octicons-link-external-24: KORS data portal](https://kors.kiost.ac.kr/data/dataPortal)<br>
+[:octicons-download-24: Badanuri ocean information map](https://khoa.go.kr/oceandata/oceaninfo/map.do)<br>
+[:octicons-book-24: Data paper on the Ieodo station (Scientific Data, with data)](https://www.nature.com/articles/s41597-026-06769-4)
 
 ??? info "Location of KORS"
     | Location | Longitude (°) | Latitude (°) | Longitude (DMS) | Latitude (DMS) | Observation start |
@@ -224,199 +265,254 @@
         'Color', 'magenta', 'HorizontalAlignment', 'right', 'FontWeight', 'Bold', 'FontSize', 15,'Fontname','Consolas');
     ```
 
-## Research datasets (East Sea, Korean marginal seas)
+</div>
 
-<div class="grid cards" markdown>
+<div class="model-card" markdown>
 
--   **CREAMS / EAST-I Hydrographic CTD** · 1993~2016
+### KOSC (Korea Ocean Satellite Center)
 
-    ---
+GOCI, GOCI-II
+{ .spec }
 
-    East Sea (Japan Sea) 19회 국제 공동 조사, 922개 CTD 수온·염분 프로파일
-
-    [:octicons-download-24: figshare dataset](https://figshare.com/articles/dataset/Data_submit_Scientific_Data_zip/5358058/2?file=9209548)
-
--   **KIOST_CTD** · 1983~1991
-
-    ---
-
-    한반도 주변 연근해 916개 정점 CTD 수온·염분 (Year, Month, Day, Lon, Lat, depth, T, S)
-
-    [:octicons-download-24: Hydrographic observation by KIOST](https://sciwatch.kiost.ac.kr/handle/2020.kiost/46591?mode=simple)
-
--   **(SNU) EC1 mooring** · 1996.11~2023.04
-
-    ---
-
-    울릉도–독도 사이 울릉해저간극(UIG) 심층 계류 (37.33°N, 131.45°E, 수심 약 2,300 m)
-
-    [:octicons-download-24: SNU OOL: EC1 mooring data](http://ool.snu.ac.kr/bbs/board.php?bo_table=sub3_2_b&wr_id=3)<br>
-    [:octicons-download-24: SEANOE (1996-11 ~ 2020-11)](https://www.seanoe.org/data/00677/78916/)<br>
-    [:octicons-download-24: SEANOE (2020-11-12 ~ 2023-04-25)](https://www.seanoe.org/data/00904/101590/)
-
--   **(SNU) ESROB** · 1999.04~2020.10
-
-    ---
-
-    East Sea Real-time Ocean Buoy, 묵호항 동쪽 약 8 km (37° 34.38'N, 129° 12.918'E, 수심 130 m)
-
-    [:octicons-download-24: SNU OOL: ESROB data](http://ool.snu.ac.kr/bbs/board.php?bo_table=sub3_2_b&wr_id=5)<br>
-    [:octicons-download-24: SEANOE (1999-04-25 ~ 2016-08-01)](https://www.seanoe.org/data/00466/57744/)<br>
-    [:octicons-download-24: SEANOE (2016-08-05 ~ 2020-10-27)](https://www.seanoe.org/data/00718/82957/)
-
--   **(SNU) SAVEX15**
-
-    ---
-
-    Shallow-water Acoustic Variability EXperiment, 계류 및 선박 관측 자료
-
-    [:octicons-download-24: SEANOE: SAVEX15](https://www.seanoe.org/data/00611/72285/)
-
--   **(SNU) Deep moored current, southwestern East Sea**
-
-    ---
-
-    동해 남서부 심층 계류 유속·해양 관측
-
-    [:octicons-download-24: SEANOE dataset](https://www.seanoe.org/data/00611/72344/)
-
--   **ONR Japan/East Sea**
-
-    ---
-
-    Hydrographic Data Status
-
-    [:octicons-link-external-24: ONR Japan/East Sea data (UCSD)](http://sam.ucsd.edu/onr_data/)
+[:octicons-download-24: GOCI & GOCI-II data search](https://kosc.kiost.ac.kr/gociSearch/view.nm?menuCd=11&lang=ko&url=gociSearch)
 
 </div>
 
-??? info "EC1 mooring 상세"
-    울릉도–독도 사이의 37.33°N, 131.45°E, 수심 약 2,300 m에 설치된 계류(mooring) 플랫폼으로, 울릉해저간극(UIG, Ulleung Interplain Gap)에서
-    심층 흐름의 시간적 변동성을 정량적으로 관측하기 위해 1996년 11월부터 운용되어 왔다. 이 계류는 subsurface mooring 방식으로
-    계류선에 부착된 장비들의 측정 시간 간격 및 배터리 용량을 고려하여 약 1년마다 회수 후 재계류하는 방식으로 관리되어 왔다.
-    현재(2020.09.22. 기준) 23번째 계류 관측을 진행 중이다. 관측 장비는 3개의 표준 수심(400, 1400, 2200 m)에서 RCM과 Aquadopp을
-    장착하였고, 일부 기간에는 ADCP, SBE 39, SBE-37을 장착하였다. 장비별 측정 시간 간격은 15분, 30분 또는 60분으로 대부분 60분 이내로
-    관측을 실시하였다. 2017년부터 1400 m와 2250 m에 용존 산소 센서를 추가로 장착하여 관측하기 시작하였다.
+<div class="model-card" markdown>
 
-??? info "ESROB 상세"
-    East Sea Real-time Ocean Buoy (ESROB)는 묵호항에서 8 km 정도 떨어진(37° 34.38'N, 129° 12.918'E) 수심 130 m에 설치되어 있는
-    해양관측 부이이다. ESROB은 1999년 4월 25일부터 현재까지 운용되고 있다. 부이에 장착된 대기 및 해양관측 장비로부터 얻어진 자료는
-    실시간으로 서버에 전송하여 해양 모니터링을 실현하고 있다. 최초 설치 시기부터 주로 물리 변수(풍속, 파고, 수온, 염분, 유속)를
-    관측하였으나 2011년 4월부터 해양 생물 및 화학 자료 관련 관측장비를 추가로 장착하고, 2011년 10월부터는 장·단파 복사에너지 센서를
-    장착하여 연안복합해양부이로서 다학제간 연구에 필요한 양질의 자료를 획득하는 것을 목표로 한다. 부이 유지와 관련된 사항은
-    (주)오트로닉스에서 담당하고 있고, 자사의 선박인 탐사2호를 이용하여 매달 현장 정기점검과 문제 발생 시 상시 점검, 그리고 1년에
-    1회 정도 부이를 완전히 회수하여 육상에서 보수, 수리 및 점검 후 재계류를 실시하고 있다.
+### OCPC (Ocean Climate Prediction Center)
 
-## KOPRI 극지연구소
+SST, sea level, marine precipitation, sea level pressure, marine air temperature, wind speed, significant wave height, mean wave period, sea ice extent and thickness, El Niño and La Niña, Indian Ocean Dipole, and Changjiang (Yangtze) freshwater discharge
 
-<div class="grid cards" markdown>
-
--   **KOPRI · KPoPS**
-
-    ---
-
-    극지연구소 및 극지e야기 포털
-
-    [:octicons-link-external-24: 극지연구소](https://eng.kopri.re.kr/kopri/)<br>
-    [:octicons-link-external-24: 극지e야기, KPoPS](https://www.koreapolarportal.or.kr/)
-
--   **KPDC (Korea Polar Data Center)**
-
-    ---
-
-    1988년 세종기지에서 시작된 극지 연구 데이터 수집·관리. 과학적·비상업적 목적으로 이용 신청 시 원시데이터 제공
-
-    [:octicons-download-24: 극지데이터센터](https://kpdc.kopri.re.kr/)
-
--   **KAOS (북극해 환경변화 통합 관측-전망 시스템)**
-
-    ---
-
-    서북극해 물리·화학·생물 관측 자료와 해빙-해양-생태계 변화 및 미래 전망 가시화 (웹 GIS)
-
-    [:octicons-link-external-24: K-AOOS](https://kaos.kopri.re.kr/uat/uia/actionAnonymousLogin.do)
+[:octicons-link-external-24: OCPC (oceanclimate.kr)](https://oceanclimate.kr/en/)<br>
+[:octicons-link-external-24: OCPC (ocpc.kr)](https://www.ocpc.kr/)
 
 </div>
 
-## 기타 기관
+## Research datasets (East Sea and Korean marginal seas)
 
-<div class="grid cards" markdown>
+<div class="model-card" markdown>
 
--   **KOEM 해양환경공단**
+### CREAMS / EAST-I hydrographic CTD
 
-    ---
+1993–2016
+{ .spec }
 
-    [:octicons-link-external-24: 해양환경공단](https://www.koem.or.kr/site/koem/main.do)
+922 CTD temperature and salinity profiles from 19 international joint surveys in the East Sea (Japan Sea), under the CREAMS program and the EAST-I project
 
--   **APCC (APEC Climate Center)**
+[:octicons-download-24: figshare dataset](https://figshare.com/articles/dataset/Data_submit_Scientific_Data_zip/5358058/2?file=9209548)
 
-    ---
+</div>
 
-    기후 예측 정보 및 CLIK 도구
+<div class="model-card" markdown>
 
-    [:octicons-link-external-24: APCC](https://www.apcc21.org/?lang=ko)<br>
-    [:octicons-link-external-24: CLIK - Climate Information Toolkit](https://cliks.apcc21.org/)
+### KIOST_CTD
 
--   **JOISS (Jurisdictional Ocean Information Sharing System)**
+1983–1991
+{ .spec }
 
-    ---
+CTD temperature and salinity at 916 stations around the Korean Peninsula (Year, Month, Day, Lon, Lat, depth, T, S)
 
-    [:octicons-link-external-24: JOISS](https://joiss.kr/joiss/?lang=en)<br>
-    [:octicons-link-external-24: JOISS GeoNetwork catalog](https://joiss.kr/geonetwork/srv/eng/catalog.search#/metadata/a3dc83b7-7795-440a-88e9-ea5ce9c85f79)
+[:octicons-download-24: Hydrographic observation by KIOST](https://sciwatch.kiost.ac.kr/handle/2020.kiost/46591?mode=simple)
 
--   **Jeju coastal environment information**
+</div>
 
-    ---
+<div class="model-card" markdown>
 
-    [:octicons-link-external-24: Jeju coastal environment information](http://203.253.203.84/index_eng.php)
+### (SNU) EC1 mooring
+
+1996.11–2023.04
+{ .spec }
+
+Deep mooring in the Ulleung Interplain Gap (UIG) between Ulleungdo and Dokdo (37.33°N, 131.45°E, about 2,300 m depth)
+
+[:octicons-download-24: SNU OOL: EC1 mooring data](http://ool.snu.ac.kr/bbs/board.php?bo_table=sub3_2_b&wr_id=3)<br>
+[:octicons-download-24: SEANOE (1996-11 to 2020-11)](https://www.seanoe.org/data/00677/78916/)<br>
+[:octicons-download-24: SEANOE (2020-11-12 to 2023-04-25)](https://www.seanoe.org/data/00904/101590/)
+
+??? info "About EC1"
+    The EC1 mooring, at 37.33°N, 131.45°E between Ulleungdo and Dokdo in about 2,300 m of water, has been operated since November 1996
+    to quantify the temporal variability of the deep flow through the Ulleung Interplain Gap (UIG). It is a subsurface mooring, recovered
+    and redeployed about once a year according to the sampling intervals and battery capacity of the attached instruments. As of
+    2020-09-22 the 23rd deployment was in progress. RCM and Aquadopp current meters are mounted at three standard depths (400, 1400,
+    and 2200 m), with ADCP, SBE 39, and SBE 37 instruments during some periods. Sampling intervals are 15, 30, or 60 minutes, mostly
+    within 60 minutes. Dissolved oxygen sensors were added at 1400 m and 2250 m in 2017.
+
+</div>
+
+<div class="model-card" markdown>
+
+### (SNU) ESROB
+
+1999.04–2020.10
+{ .spec }
+
+East Sea Real-time Ocean Buoy, about 8 km east of Mukho Harbor (37° 34.38'N, 129° 12.918'E, 130 m depth)
+
+[:octicons-download-24: SNU OOL: ESROB data](http://ool.snu.ac.kr/bbs/board.php?bo_table=sub3_2_b&wr_id=5)<br>
+[:octicons-download-24: SEANOE (1999-04-25 to 2016-08-01)](https://www.seanoe.org/data/00466/57744/)<br>
+[:octicons-download-24: SEANOE (2016-08-05 to 2020-10-27)](https://www.seanoe.org/data/00718/82957/)
+
+??? info "About ESROB"
+    The East Sea Real-time Ocean Buoy (ESROB) is moored about 8 km off Mukho Harbor (37° 34.38'N, 129° 12.918'E) in 130 m of water and
+    has operated since 25 April 1999. Data from its atmospheric and oceanic sensors are transmitted to a server in real time for ocean
+    monitoring. Physical variables (wind, waves, temperature, salinity, currents) have been measured from the start; biological and
+    chemical sensors were added in April 2011 and short- and long-wave radiation sensors in October 2011, making it a multidisciplinary
+    coastal buoy. Maintenance is carried out by Otronix Co., with monthly inspections from the vessel Tamsa 2, additional visits when
+    problems arise, and full recovery for onshore servicing about once a year.
+
+</div>
+
+<div class="model-card" markdown>
+
+### (SNU) SAVEX15
+
+Moored and ship-based data from the Shallow-water Acoustic Variability EXperiment
+
+[:octicons-download-24: SEANOE: SAVEX15](https://www.seanoe.org/data/00611/72285/)
+
+</div>
+
+<div class="model-card" markdown>
+
+### (SNU) Deep moored currents, southwestern East Sea
+
+Deep moored current and hydrographic measurements in the southwestern East Sea (Japan Sea)
+
+[:octicons-download-24: SEANOE dataset](https://www.seanoe.org/data/00611/72344/)
+
+</div>
+
+<div class="model-card" markdown>
+
+### ONR Japan/East Sea
+
+Hydrographic data status
+
+[:octicons-link-external-24: ONR Japan/East Sea data (UCSD)](http://sam.ucsd.edu/onr_data/)
+
+</div>
+
+## KOPRI (Korea Polar Research Institute)
+
+<div class="model-card" markdown>
+
+### KOPRI · KPoPS
+
+Institute homepage and the Korea Polar Portal Service
+
+[:octicons-link-external-24: KOPRI](https://eng.kopri.re.kr/kopri/)<br>
+[:octicons-link-external-24: KPoPS](https://www.koreapolarportal.or.kr/)
+
+</div>
+
+<div class="model-card" markdown>
+
+### KPDC (Korea Polar Data Center)
+
+Collects and manages all research data from Korean polar research since the King Sejong Station began in 1988. Raw data are provided on request for scientific, non-commercial use.
+
+[:octicons-download-24: Korea Polar Data Center](https://kpdc.kopri.re.kr/)
+
+</div>
+
+<div class="model-card" markdown>
+
+### KAOS (Korea Arctic Ocean Observing System)
+
+Physical, chemical, and biological observations from the western Arctic Ocean, with a web GIS that visualizes past and present sea ice, ocean, and ecosystem change together with future projections
+
+[:octicons-link-external-24: K-AOOS](https://kaos.kopri.re.kr/uat/uia/actionAnonymousLogin.do)
+
+</div>
+
+## Other institutions
+
+<div class="model-card" markdown>
+
+### KOEM (Korea Marine Environment Management Corporation)
+
+[:octicons-link-external-24: KOEM](https://www.koem.or.kr/site/koem/main.do)
+
+</div>
+
+<div class="model-card" markdown>
+
+### APCC (APEC Climate Center)
+
+Climate prediction information and the CLIK toolkit
+
+[:octicons-link-external-24: APCC](https://www.apcc21.org/?lang=ko)<br>
+[:octicons-link-external-24: CLIK: Climate Information Toolkit](https://cliks.apcc21.org/)
+
+</div>
+
+<div class="model-card" markdown>
+
+### JOISS (Jurisdictional Ocean Information Sharing System)
+
+[:octicons-link-external-24: JOISS](https://joiss.kr/joiss/?lang=en)<br>
+[:octicons-link-external-24: JOISS GeoNetwork catalog](https://joiss.kr/geonetwork/srv/eng/catalog.search#/metadata/a3dc83b7-7795-440a-88e9-ea5ce9c85f79)
+
+</div>
+
+<div class="model-card" markdown>
+
+### Jeju coastal environment information
+
+[:octicons-link-external-24: Jeju coastal environment information](http://203.253.203.84/index_eng.php)
 
 </div>
 
 ## Extra sources
 
-<div class="grid cards" markdown>
+<div class="model-card" markdown>
 
--   **Korea Shape file**
+### Korea shapefile
 
-    ---
+National Atlas of Korea (National Geographic Information Institute)
 
-    국토지리정보원 국가지도집
-
-    [:octicons-link-external-24: National Atlas of Korea (NGII)](http://nationalatlas.ngii.go.kr/pages/page_1159.php)
-
--   **대한민국 영해 한계선 및 기선**
-
-    ---
-
-    [:octicons-download-24: 공공데이터포털 (data.go.kr)](https://www.data.go.kr/data/15114331/fileData.do)
-
--   **대한민국 강**
-
-    ---
-
-    [:octicons-download-24: HOT OSM Korea waterways (HDX)](https://data.humdata.org/dataset/hotosm_kor_waterways)
-
--   **대한해협 수송량**
-
-    ---
-
-    시계열 figure는 NIFS, raw data는 바다누리 (내려받기 → 공유자료 → 대한해협 수송량)
-
-    [:octicons-link-external-24: 자료 시계열 (NIFS, figure only)](https://www.nifs.go.kr/board/actionBoard0057List.do?selectPage=&)<br>
-    [:octicons-download-24: 바다누리 해양정보 서비스](https://khoa.go.kr/oceandata/main.do)
+[:octicons-link-external-24: National Atlas of Korea (NGII)](http://nationalatlas.ngii.go.kr/pages/page_1159.php)
 
 </div>
 
-??? info "대한해협 수송량 산출 방식"
-    1. 자료 시계열: NIFS 링크에서는 시계열 figure만 확인 가능하며, raw data는 따로 제공되지 않음.
-    2. 자료 다운로드: 바다누리 해양정보 서비스 → **내려받기** → **공유자료** → **대한해협 수송량**. 최근에 raw data를 제공하는 서비스가 새로 열림.
+<div class="model-card" markdown>
 
-    - 제주해협(유입량): 완도 및 제주 조위관측자료 활용
-    - 제주도–큐슈(유입량): 대한해협(유출량) − 제주해협(유입량)
-    - 대한해협(유출량): 부산 및 하카타 조위관측자료 활용
-    - 대한해협 내 서수도(유출량): 부산 및 이즈하라 조위관측자료 활용
-    - 대한해협 내 동수도(유출량): 이즈하라 및 하카타 조위관측자료 활용
+### Territorial sea limits and baselines of Korea
 
-??? note "Notion 첨부 파일 (이전 예정)"
-    `Current_schema.zip` (한반도 주변 해류 모식도 데이터), `Basemap.zip` (Korea shape file),
-    `해양수산부_국립해양조사원_영해한계선및직선기선_20240705.zip`, 스크린샷 이미지 4개 (연안정지관측, 해양지도 양식장, 해류 모식도 사이트, GOCI-II OPeNDAP)
+[:octicons-download-24: Public Data Portal (data.go.kr)](https://www.data.go.kr/data/15114331/fileData.do)
+
+</div>
+
+<div class="model-card" markdown>
+
+### Rivers of Korea
+
+[:octicons-download-24: HOT OSM Korea waterways (HDX)](https://data.humdata.org/dataset/hotosm_kor_waterways)
+
+</div>
+
+<div class="model-card" markdown>
+
+### Korea Strait transport
+
+Time-series figures at NIFS; raw data at Badanuri (Download → Shared data → Korea Strait transport)
+
+[:octicons-link-external-24: Time series (NIFS, figures only)](https://www.nifs.go.kr/board/actionBoard0057List.do?selectPage=&)<br>
+[:octicons-download-24: Badanuri ocean information service](https://khoa.go.kr/oceandata/main.do)
+
+??? info "How the Korea Strait transport is derived"
+    1. Time series: the NIFS link shows figures only; raw data are not provided there.
+    2. Download: Badanuri ocean information service → **Download** → **Shared data** → **Korea Strait transport**. A service providing the raw data opened recently.
+
+    - Jeju Strait (inflow): from the Wando and Jeju tide gauges
+    - Jeju to Kyushu (inflow): Korea Strait (outflow) minus Jeju Strait (inflow)
+    - Korea Strait (outflow): from the Busan and Hakata tide gauges
+    - Western channel of the Korea Strait (outflow): from the Busan and Izuhara tide gauges
+    - Eastern channel of the Korea Strait (outflow): from the Izuhara and Hakata tide gauges
+
+</div>
+
+??? note "Data files"
+    `Current_schema.zip` (current schematic data), `Basemap.zip` (Korea shapefile), and
+    `해양수산부_국립해양조사원_영해한계선및직선기선_20240705.zip` (territorial sea limits) will be hosted separately.

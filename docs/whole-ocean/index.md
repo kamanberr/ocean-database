@@ -1,6 +1,6 @@
 # Whole Ocean
 
-전 지구 관측 자료와 수치 모형 산출물입니다.
+Global observations and numerical model output.
 
 <div class="grid cards" markdown>
 
@@ -8,40 +8,32 @@
 
     ---
 
-    SST, Ocean Color, SSH, Current, SSS, SAR, GRACE 등 위성 자료
+    SST, ocean color, SSH, currents, SSS, SAR, GRACE and other satellite data
 
-    [:octicons-arrow-right-24: 상세 목록](satellite/index.md)
-
--   :material-waves: **Drifter & Argo**
-
-    ---
-
-    Argo profile·격자·유속 product, GDP 등 표층 뜰개
-
-    [:octicons-arrow-right-24: 상세 목록](drifter-argo.md)
+    [:octicons-arrow-right-24: Details](satellite/index.md)
 
 -   :material-ferry: **In Situ**
 
     ---
 
-    WOD, EN4, CORA, 선박 hydrography, 계류, 조위 관측
+    Profile archives, Argo, drifters, ship-based hydrography, moorings, tide gauges, gridded T/S products
 
-    [:octicons-arrow-right-24: 상세 목록](in-situ.md)
+    [:octicons-arrow-right-24: Details](in-situ/index.md)
 
 -   :material-monitor: **Model**
 
     ---
 
-    HYCOM, GLORYS, ORAS5, ECCO 등 재분석·예보 산출물
+    HYCOM, GLORYS12v1, ORAS5, ECCO and other reanalysis and forecast products
 
-    [:octicons-arrow-right-24: 상세 목록](model.md)
+    [:octicons-arrow-right-24: Details](model.md)
 
 -   :material-weather-partly-cloudy: **Atmosphere**
 
     ---
 
-    ERA5, MERRA-2, JRA55-do, 해상풍, 강수, 복사·구름
+    ERA5, MERRA-2, JRA55-do, surface wind, precipitation, radiation and clouds
 
-    [:octicons-arrow-right-24: 상세 목록](atmosphere.md)
+    [:octicons-arrow-right-24: Details](atmosphere.md)
 
 </div>

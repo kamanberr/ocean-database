@@ -1,10 +1,14 @@
-# :material-snowflake: Polar
+# :material-snowflake: Polar <span class="date">[2026.10.29]</span>
 
-해빙, 적설, 빙상 질량, 극지 현장관측 자료입니다. **2026.08.25 갱신.**
+Sea ice, snow, ice-sheet mass and polar in situ data. **Updated 2026.08.25.**
 
-??? info "Sea-ice area와 sea-ice extent의 차이"
+??? info "Difference between sea-ice area and sea-ice extent"
+    <figure markdown="span">
+      ![Difference between sea-ice area and sea-ice extent (source: EGU Blog)](../assets/etc/polar/sea_ice_area_vs_extent.png){ loading=lazy }
+      <figcaption>Difference between sea-ice area and sea-ice extent (source: EGU Blog)</figcaption>
+    </figure>
+
     Source: [EGU Blog: Did you know the difference between sea-ice area and sea-ice extent?](https://blogs.egu.eu/divisions/cr/2020/04/10/did-you-know-the-difference-between-sea-ice-area-and-sea-ice-extent/)
-    (설명 그림은 Notion 첨부 이미지, 이전 예정)
 
 ## Learn
 
@@ -19,7 +23,7 @@
 
     ---
 
-    빙권 자료 통합 아카이브
+    Integrated cryosphere data archives
 
     [:octicons-link-external-24: NSIDC](https://nsidc.org/home)<br>
     [:octicons-link-external-24: NOAA NCEI Arctic & Antarctic products](https://www.ncei.noaa.gov/products/arctic-antarctic-products-data-information)<br>
@@ -29,7 +33,7 @@
 
     ---
 
-    북극 자료 아카이브
+    Arctic data archive
 
     [:octicons-link-external-24: NOAA PSL Arctic Data](https://psl.noaa.gov/arctic/data/)
 
@@ -37,19 +41,19 @@
 
     ---
 
-    남극 빙하 정보와 해빙 농도 자료
+    Antarctic glacier information and sea-ice concentration data
 
     [:octicons-link-external-24: AntarcticGlaciers.org](https://www.antarcticglaciers.org/)<br>
     [:octicons-download-24: Global Ocean Sea Ice Concentration CDRs and ICDRs from PMW data (OSI-SAF)](https://data.marine.copernicus.eu/product/SEAICE_GLO_SEAICE_L4_REP_OBSERVATIONS_011_009/description)
 
--   **Korea: 극지 관련 자료**
+-   **Korea: polar data**
 
     ---
 
-    국내 극지 정보 포털
+    Korean polar information portals
 
-    [:octicons-link-external-24: 극지e야기 (KPoPS)](https://www.koreapolarportal.or.kr/)<br>
-    [:octicons-link-external-24: 극지연구소 (KOPRI)](https://eng.kopri.re.kr/eng/)
+    [:octicons-link-external-24: Korea Polar Portal (KPoPS)](https://www.koreapolarportal.or.kr/)<br>
+    [:octicons-link-external-24: Korea Polar Research Institute (KOPRI)](https://eng.kopri.re.kr/eng/)
 
 </div>
 
@@ -77,7 +81,7 @@
 
     ---
 
-    남극 빙상 질량 변화
+    Antarctic ice-sheet mass change
 
     [:octicons-link-external-24: GravIS (GFZ Gravity Information Service)](https://gravis.gfz.de/ais)<br>
     [:octicons-link-external-24: Ice Sheets: Earth Indicator (NASA Science)](https://science.nasa.gov/earth/explore/earth-indicators/ice-sheets/)
@@ -86,7 +90,7 @@
 
     ---
 
-    L-band radiometry와 radar altimeter 기반 해빙 두께 병합 자료
+    Sea-ice thickness merged from L-band radiometry and radar altimetry
 
     [:octicons-download-24: SEAICE_GLO_PHY_L4_NRT_011_014](https://data.marine.copernicus.eu/product/SEAICE_GLO_PHY_L4_NRT_011_014/description)
 
@@ -94,7 +98,7 @@
 
     ---
 
-    위성 기반 해빙 두께(북극), 농도, 해빙 가장자리·유형
+    Satellite-derived sea-ice thickness (Arctic), concentration, edge and type
 
     [:octicons-download-24: Sea ice thickness (Arctic)](https://cds.climate.copernicus.eu/datasets/satellite-sea-ice-thickness?tab=overview)<br>
     [:octicons-download-24: Sea ice concentration](https://cds.climate.copernicus.eu/datasets/satellite-sea-ice-concentration?tab=overview)<br>
@@ -143,7 +147,7 @@
 
     ---
 
-    북극 표류 부이 관측
+    Arctic drifting buoy observations
 
     [:octicons-link-external-24: IABP Maps](https://iabp.apl.uw.edu/IABP_Maps.html)
 
@@ -151,7 +155,7 @@
 
     ---
 
-    CTD 및 지구화학 자료
+    CTD and geochemistry data
 
     [:octicons-download-24: BGEP: CTD and geochemistry](https://www2.whoi.edu/site/beaufortgyre/data/ctd-and-geochemistry/)
 
@@ -159,11 +163,8 @@
 
     ---
 
-    북극 표류 관측 프로그램
+    Arctic drift observation programme
 
     [:octicons-link-external-24: MOSAiC Expedition](https://mosaic-expedition.org/)
 
 </div>
-
-??? note "Notion 첨부 파일 (이전 예정)"
-    Sea-ice area vs. extent 설명 그림 1개 (`image.png`)

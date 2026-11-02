@@ -1,6 +1,6 @@
-# :material-waves: Wave
+# :material-waves: Wave <span class="date">[2025.04.15]</span>
 
-파랑 현장 관측, 위성, 모델 자료 모음입니다. <span class="date">[2025.04.15]</span>
+In situ, satellite, and model wave data.
 
 ## In-situ observation
 
@@ -10,17 +10,22 @@
 
     ---
 
-    국내외 파랑 부이 관측 자료
+    Wave buoy observations in Korea and abroad
 
-    [:octicons-download-24: 바다누리 해양정보 서비스 (KHOA)](https://www.khoa.go.kr/oceangrid/gis/category/observe/observeSearch.do?type=EYS#none)<br>
+    [:octicons-download-24: Badanuri Marine Information Service (KHOA)](https://www.khoa.go.kr/oceangrid/gis/category/observe/observeSearch.do?type=EYS#none)<br>
     [:octicons-download-24: BODC NODB wave data series](https://www.bodc.ac.uk/data/bodc_database/waves/)<br>
     [:octicons-download-24: Ireland wave buoy (DigitalOcean.ie)](https://www.digitalocean.ie/Data/DownloadWaveData)
+
+    <figure markdown="span">
+      ![Badanuri wave buoys](../assets/topics/wave/khoa_badanuri_buoy.png){ loading=lazy }
+      <figcaption>Badanuri wave buoys</figcaption>
+    </figure>
 
 -   **Tide gauge**
 
     ---
 
-    AVISO calibration sites 조위 자료
+    Tide gauge data at AVISO calibration sites
 
     [:octicons-download-24: AVISO tide gauge data](https://www.aviso.altimetry.fr/en/data/calval/in-situ/absolute-calibration/download-tide-gauge-data.html)
 
@@ -36,7 +41,7 @@
 
     ---
 
-    Copernicus 현장 파랑 관측 product
+    Copernicus in situ wave observation products
 
     [:octicons-download-24: Global Ocean Delayed Mode Wave product](https://data.marine.copernicus.eu/product/INSITU_GLO_WAV_DISCRETE_MY_013_045/description)<br>
     [:octicons-download-24: Global Ocean In-Situ NRT Observations](https://data.marine.copernicus.eu/product/INSITU_GLO_PHYBGCWAV_DISCRETE_MYNRT_013_030/services)<br>
@@ -46,10 +51,15 @@
 
     ---
 
-    Wave Glider 관측 자료
+    Wave Glider observations
 
     [:octicons-download-24: Instrumented Wave Gliders for Air-Sea (UCSD Library)](https://library.ucsd.edu/dc/collection/bb10662128)<br>
     [:octicons-download-24: SASSIE Arctic Wave Glider Data, Fall 2022 (PO.DAAC)](https://podaac.jpl.nasa.gov/dataset/SASSIE_L2_WAVEGLIDERS_V1)
+
+    <figure markdown="span">
+      ![Wave Glider](../assets/topics/wave/wave_glider.png){ loading=lazy }
+      <figcaption>Wave Glider</figcaption>
+    </figure>
 
 -   **Saildrone**
 
@@ -63,7 +73,7 @@
 
     ---
 
-    Lagrangian Drifter Lab의 방향 파랑 스펙트럼 drifter
+    Directional wave spectra drifter from the Lagrangian Drifter Lab
 
     [:octicons-link-external-24: DWS - Lagrangian Drifter Lab](https://gdp.ucsd.edu/ldl/dwsd/)<br>
     [:octicons-link-external-24: News: DWS drifter](https://gdp.ucsd.edu/ldl/news-dws-drifter/)
@@ -94,9 +104,14 @@
 
     ---
 
-    고도계 기반 내부조석 product
+    Altimetry-based internal tide product
 
     [:octicons-download-24: Internal tide - MIOST](https://www.aviso.altimetry.fr/en/data/products/auxiliary-products/internal-tide-miost.html)
+
+    <figure markdown="span">
+      <video src="../assets/topics/wave/miost_m2_baroclinic_tide.mp4" autoplay loop muted playsinline controls style="max-width:100%"></video>
+      <figcaption>MIOST M2 baroclinic tide, global ocean</figcaption>
+    </figure>
 
 </div>
 
@@ -127,6 +142,4 @@
 ## Other sources
 
 - [:octicons-download-24: Public Archive (ERDA, Univ. of Copenhagen)](https://erda.ku.dk/archives/969a4d819822c8f0325cb22a18f64eb8/published-archive.html)
-
-??? note "Notion 첨부 파일 (이전 예정)"
-    `HFNER_2021.pdf`, `MIOST_IT-M2baroclinictide_globalocean.gif`, 바다누리 부이 이미지 1개, Wave Glider 이미지 1개
+- [:octicons-book-24: Häfner et al. (2021), J. Atmos. Oceanic Technol.](https://doi.org/10.1175/JTECH-D-20-0185.1)

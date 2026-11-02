@@ -42,6 +42,95 @@ theme:
 plugins:
   - search:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])'
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: ko
+          name: 한국어
+          build: true
+          site_description: 다양한 공개 해양 자료의 다운로드 경로 모음
+          nav_translations:
+            Home: 홈
+            Whole Ocean: 전 지구 자료
+            Satellite: 위성
+            Sea Surface Temperature: 해수면 온도
+            Ocean Color: 해색
+            Data Portals & Tools: 자료 포털·도구
+            PO.DAAC MATLAB Manual: PO.DAAC MATLAB 매뉴얼
+            Korea Satellite Centers: 국내 위성 센터
+            In Situ: 현장 관측
+            Model: 모델
+            Atmosphere: 대기
+            Processed Product: 가공 자료
+            Ocean & Climate Index: 해양·기후 지수
+            Sea Level & OHC: 해수면·해양 열용량
+            Atlas & Climatology: 아틀라스·기후값
+            Mixed Layer Depth: 혼합층 깊이
+            Topics: 주제별
+            Typhoon & Hurricane: 태풍·허리케인
+            Nutrient & Carbon Cycle: 영양염·탄소 순환
+            Ecological Oceanography: 생태 해양학
+            Freshwater / River Discharge: 담수·하천 유출
+            Wave: 파랑
+            Marine Heat Wave: 해양 열파
+            Regional: 지역별
+            Korea: 한국
+            Japan: 일본
+            Pacific Ocean: 태평양
+            Atlantic Ocean: 대서양
+            Indian Ocean: 인도양
+            Bathymetry & Boundary: 수심·경계
+            Bathymetry: 수심
+            Boundary: 경계
+            Etc.: 기타
+            Data download with code: 코드로 자료 받기
+            Useful MATLAB Code: 유용한 MATLAB 코드
+            Data used in papers: 논문에 쓰인 자료
+            Image of Ocean: 바다 이미지
+            Stommel Diagram: Stommel 다이어그램
+            Polar: 극지
+            Resources: 참고 자료
+            GHRSST: GHRSST
+            Ocean Color Download Manual: 해색 자료 지역 다운로드
+            GOCI & GOCI-II: GOCI & GOCI-II
+            Sea Surface Height & Altimeter: 해수면 높이·고도계
+            Current: 해류
+            Sea Surface Salinity: 표층 염분
+            Microwave (AMSR-2): 마이크로파 (AMSR-2)
+            SAR: SAR
+            GRACE: GRACE
+            Multi-platform archives: 통합 아카이브
+            How to download WOD: WOD 다운로드 방법
+            Argo: Argo
+            Drifter: 뜰개
+            How to download GDP data: GDP 자료 다운로드 방법
+            CMEMS drifter processing: CMEMS drifter 자료 처리
+            Ship: 선박
+            Mooring: 계류
+            Tide gauge: 조위 관측
+            Gridded T/S products: 격자 수온·염분 product
+            EN4 download guide: EN4 다운로드 안내
+            Other in situ datasets: 기타 현장 관측 자료
+            How to download HYCOM: HYCOM 다운로드 방법
+            How to download ERA5: ERA5 다운로드 방법
+            Volume Transport: 해류 수송량
+            World Ocean Atlas: World Ocean Atlas
+            In Situ Observations: 실측 관측 자료
+            Satellite Observations: 위성 관측 자료
+            Fisheries Catch Statistics: 어획량 자료
+            NIFS Serial Observation Download: NIFS 정선관측자료 다운로드
+            Sea Turtle Tracks: 바다거북 이동경로
+            JAMSTEC Model Products: JAMSTEC 모형 산출물
+            JODC Data: JODC 자료
+            NEAR-GOOS: NEAR-GOOS
+            CMEMS / Copernicus: CMEMS / Copernicus
 
 markdown_extensions:
   - admonition
@@ -83,18 +172,44 @@ nav:
       - Satellite:
           - whole-ocean/satellite/index.md
           - Sea Surface Temperature: whole-ocean/satellite/sst.md
+          - GHRSST: whole-ocean/satellite/ghrsst.md
           - Ocean Color: whole-ocean/satellite/ocean-color.md
+          - Ocean Color Download Manual: whole-ocean/satellite/ocean-color-download.md
+          - GOCI & GOCI-II: whole-ocean/satellite/goci.md
+          - Sea Surface Height & Altimeter: whole-ocean/satellite/ssh.md
+          - Current: whole-ocean/satellite/current.md
+          - Sea Surface Salinity: whole-ocean/satellite/sss.md
+          - Microwave (AMSR-2): whole-ocean/satellite/microwave.md
+          - SAR: whole-ocean/satellite/sar.md
+          - GRACE: whole-ocean/satellite/grace.md
           - Data Portals & Tools: whole-ocean/satellite/portals.md
-          - Korea · China Centers: whole-ocean/satellite/centers.md
-      - Drifter & Argo: whole-ocean/drifter-argo.md
-      - In Situ: whole-ocean/in-situ.md
+          - PO.DAAC MATLAB Manual: whole-ocean/satellite/podaac-manual.md
+          - Korea Satellite Centers: whole-ocean/satellite/korea-centers.md
+      - In Situ:
+          - whole-ocean/in-situ/index.md
+          - Multi-platform archives: whole-ocean/in-situ/archives.md
+          - How to download WOD: whole-ocean/in-situ/wod-download.md
+          - Argo: whole-ocean/in-situ/argo.md
+          - Drifter: whole-ocean/in-situ/drifter.md
+          - How to download GDP data: whole-ocean/in-situ/gdp-download.md
+          - CMEMS drifter processing: whole-ocean/in-situ/cmems-drifter-processing.md
+          - Ship: whole-ocean/in-situ/ship.md
+          - Mooring: whole-ocean/in-situ/mooring.md
+          - Tide gauge: whole-ocean/in-situ/tide-gauge.md
+          - Gridded T/S products: whole-ocean/in-situ/gridded.md
+          - EN4 download guide: whole-ocean/in-situ/en4.md
+          - Other in situ datasets: whole-ocean/in-situ/others.md
       - Model: whole-ocean/model.md
+      - How to download HYCOM: whole-ocean/hycom-download.md
       - Atmosphere: whole-ocean/atmosphere.md
+      - How to download ERA5: whole-ocean/era5-download.md
   - Processed Product:
       - processed/index.md
       - Ocean & Climate Index: processed/climate-index.md
+      - Volume Transport: processed/volume-transport.md
       - Sea Level & OHC: processed/sea-level-ohc.md
       - Atlas & Climatology: processed/atlas-climatology.md
+      - World Ocean Atlas: processed/woa.md
       - Mixed Layer Depth: processed/mld.md
   - Topics:
       - topics/index.md
@@ -106,9 +221,20 @@ nav:
       - Marine Heat Wave: topics/marine-heatwave.md
   - Regional:
       - regional/index.md
-      - Korea: regional/korea.md
-      - Japan: regional/japan.md
-      - Pacific Ocean: regional/pacific.md
+      - Korea:
+          - regional/korea.md
+          - In Situ Observations: regional/korea-observations.md
+          - Satellite Observations: regional/korea-satellite.md
+          - Fisheries Catch Statistics: regional/korea-fisheries.md
+          - NIFS Serial Observation Download: regional/korea-nifs-download.md
+          - Sea Turtle Tracks: regional/korea-sea-turtle.md
+      - Japan:
+          - regional/japan.md
+          - JAMSTEC Model Products: regional/japan-jamstec-models.md
+          - JODC Data: regional/japan-jodc.md
+      - Pacific Ocean:
+          - regional/pacific.md
+          - NEAR-GOOS: regional/pacific-near-goos.md
       - Atlantic Ocean: regional/atlantic.md
       - Indian Ocean: regional/indian.md
   - Bathymetry & Boundary:
@@ -121,6 +247,7 @@ nav:
       - Useful MATLAB Code: etc/matlab-code.md
       - Data used in papers: etc/papers.md
       - Image of Ocean: etc/images.md
+      - CMEMS / Copernicus: etc/cmems-copernicus.md
       - Stommel Diagram: etc/stommel.md
       - Polar: etc/polar.md
   - Resources: resources.md

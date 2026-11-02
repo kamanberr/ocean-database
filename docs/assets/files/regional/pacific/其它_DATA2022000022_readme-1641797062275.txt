@@ -1,0 +1,6 @@
+
+The .mat files of  figure1g-h figure2g-h figure3a-f are from the moored data used in Figures 1-3, respectively. 
+
+The data can be viewed by MATLAB software.
+
+If you use these data to publish a scientifc paper, please cite our paper for the data source and at the same send us an emial to inform us (Dr. Zifei Chen, chenzifei@qdio.ac.cn;  or Dr. Fei Yu, yuf@qdio.ac.cn).  

@@ -1,6 +1,6 @@
 # :material-toolbox-outline: Etc.
 
-다운로드 코드, 유용한 MATLAB 코드, 논문 자료 저장소, 해양 이미지 등입니다.
+Download code, useful MATLAB code, data repositories for published papers, ocean imagery, and portal guides.
 
 ## Etc.
 
@@ -10,33 +10,41 @@
 
     ---
 
-    HYCOM, GHRSST, AMSR-2, SAR, GOCI-II, Bathymetry 다운로드 코드 (MATLAB, Python, R)
+    Download code for HYCOM, GHRSST, AMSR-2, SAR, GOCI-II and bathymetry (MATLAB, Python, R)
 
-    [:octicons-arrow-right-24: 상세 목록](download-code.md)
+    [:octicons-arrow-right-24: Details](download-code.md)
 
 -   :material-code-braces: **Useful MATLAB Code**
 
     ---
 
-    Sea water toolbox, 격자 추출·변환 코드
+    Seawater toolboxes and grid extraction and conversion code
 
-    [:octicons-arrow-right-24: 상세 목록](matlab-code.md)
+    [:octicons-arrow-right-24: Details](matlab-code.md)
 
 -   :material-file-document-multiple-outline: **Data used in papers** <span class="date">[2024.11.02]</span>
 
     ---
 
-    논문 원자료를 공유하는 대표적인 저장소
+    Major repositories where authors share the raw data behind their papers
 
-    [:octicons-arrow-right-24: 상세 목록](papers.md)
+    [:octicons-arrow-right-24: Details](papers.md)
 
 -   :material-image-multiple-outline: **Image of Ocean**
 
     ---
 
-    해양 사진·영상 아카이브 (NOAA PMEL, WHOI, Ifremer, JAMSTEC)
+    Ocean photo and video archives (NOAA PMEL, WHOI, Ifremer, JAMSTEC)
 
-    [:octicons-arrow-right-24: 상세 목록](images.md)
+    [:octicons-arrow-right-24: Details](images.md)
+
+-   :material-fish: **CMEMS / Copernicus**
+
+    ---
+
+    How to search the Copernicus Marine catalogue, and a caution on using its products
+
+    [:octicons-arrow-right-24: Details](cmems-copernicus.md)
 
 </div>
 
@@ -48,16 +56,16 @@
 
     ---
 
-    시공간 규모 다이어그램 관련 문헌
+    Literature on space-time scale diagrams
 
-    [:octicons-arrow-right-24: 상세 목록](stommel.md)
+    [:octicons-arrow-right-24: Details](stommel.md)
 
 -   :material-snowflake: **Polar**
 
     ---
 
-    해빙, 적설, 극지 현장관측 자료 (2026.08.25 갱신)
+    Sea ice, snow and polar in situ data (updated 2026.08.25)
 
-    [:octicons-arrow-right-24: 상세 목록](polar.md)
+    [:octicons-arrow-right-24: Details](polar.md)
 
 </div>

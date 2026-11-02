@@ -1,107 +1,144 @@
-# :material-earth: Atlantic Ocean
+# :material-earth: Atlantic Ocean <span class="date">[2025.03.15]</span>
 
-대서양 순환(AMOC) 모니터링, 계류 부이, 반복 관측선 자료입니다. <span class="date">[2025.03.15]</span>
+AMOC monitoring, moored buoy arrays, and repeat sections in the Atlantic.
 
 ## AMOC monitoring
 
-<div class="grid cards" markdown>
+<div class="model-card" markdown>
 
--   **RAPID** · 26.5°N
+### RAPID
 
-    ---
+26.5°N
+{ .spec }
 
-    Monitoring the Atlantic Meridional Overturning Circulation at 26.5°N
+Monitoring the Atlantic Meridional Overturning Circulation at 26.5°N
 
-    [:octicons-link-external-24: RAPID (Climate Data Guide)](https://climatedataguide.ucar.edu/climate-data/rapid-monitoring-atlantic-meridional-overturning-circulation-265%25C2%25B0n)
+[:octicons-link-external-24: RAPID (Climate Data Guide)](https://climatedataguide.ucar.edu/climate-data/rapid-monitoring-atlantic-meridional-overturning-circulation-265%25C2%25B0n)
 
--   **OSNAP**
+</div>
 
-    ---
+<div class="model-card" markdown>
 
-    Overturning in the Subpolar North Atlantic Program
+### OSNAP
 
-    [:octicons-link-external-24: OSNAP](https://www.o-snap.org/)
+Overturning in the Subpolar North Atlantic Program
 
--   **CMEMS AMOC indicators** · 26°N, reanalysis
+[:octicons-link-external-24: OSNAP](https://www.o-snap.org/)
 
-    ---
+</div>
 
-    AMOC time series and profile from reanalysis
+<div class="model-card" markdown>
 
-    [:octicons-link-external-24: AMOC timeseries at 26N](https://marine.copernicus.eu/access-data/ocean-monitoring-indicators/atlantic-meridional-overturning-circulation-amoc-timeseries)<br>
-    [:octicons-link-external-24: AMOC profile at 26N](https://marine.copernicus.eu/access-data/ocean-monitoring-indicators/atlantic-meridional-overturning-circulation-amoc-profile)
+### CMEMS AMOC indicators
+
+26°N, reanalysis
+{ .spec }
+
+AMOC time series and profile from reanalysis
+
+[:octicons-link-external-24: AMOC time series at 26°N](https://marine.copernicus.eu/access-data/ocean-monitoring-indicators/atlantic-meridional-overturning-circulation-amoc-timeseries)<br>
+[:octicons-link-external-24: AMOC profile at 26°N](https://marine.copernicus.eu/access-data/ocean-monitoring-indicators/atlantic-meridional-overturning-circulation-amoc-profile)
 
 </div>
 
 ## Moored buoy arrays
 
-<div class="grid cards" markdown>
+<div class="model-card" markdown>
 
--   **PIRATA** (Global Tropical Moored Buoy Array)
+### PIRATA (Global Tropical Moored Buoy Array)
 
-    ---
+The Atlantic component of TAO / TRITON / **PIRATA** / RAMA
 
-    TAO / TRITON / **PIRATA** / RAMA 중 대서양 배열
+[:octicons-download-24: Data Display and Delivery (PMEL)](https://www.pmel.noaa.gov/tao/drupal/disdel/)<br>
+[:octicons-link-external-24: French PIRATA cruises: acoustic data (SEANOE)](https://www.seanoe.org/data/00602/71379/)
 
-    [:octicons-download-24: Data Display and Delivery (PMEL)](https://www.pmel.noaa.gov/tao/drupal/disdel/)<br>
-    [:octicons-link-external-24: French PIRATA cruises: acoustic data (SEANOE)](https://www.seanoe.org/data/00602/71379/)
+<figure markdown="span">
+  ![PIRATA array](../assets/regional/atlantic/pirata_array.png){ loading=lazy }
+  <figcaption>PIRATA array</figcaption>
+</figure>
 
--   **OceanSITES**
+</div>
 
-    ---
+<div class="model-card" markdown>
 
-    Data catalog: TRITON, RAMA, PIRATA, KEO 등
+### OceanSITES
 
-    [:octicons-download-24: Coriolis OceanSITES GDAC (THREDDS)](http://tds0.ifremer.fr/thredds/CORIOLIS-OCEANSITES-GDAC-OBS/CORIOLIS-OCEANSITES-GDAC-OBS.html)
+Data catalog: TRITON, RAMA, PIRATA, KEO, and others
+
+[:octicons-download-24: Coriolis OceanSITES GDAC (THREDDS)](http://tds0.ifremer.fr/thredds/CORIOLIS-OCEANSITES-GDAC-OBS/CORIOLIS-OCEANSITES-GDAC-OBS.html)
 
 </div>
 
 ## Gulf of Mexico
 
-<div class="grid cards" markdown>
+<div class="model-card" markdown>
 
--   **GRIIDC**
+### GRIIDC
 
-    ---
+Gulf of Mexico Research Initiative Information and Data Cooperative
 
-    Gulf of Mexico Research Initiative Information and Data Cooperative
+[:octicons-link-external-24: GRIIDC](https://www.griidc.org/)
 
-    [:octicons-link-external-24: GRIIDC](https://www.griidc.org/)
+<figure markdown="span">
+  ![GRIIDC](../assets/regional/atlantic/griidc.png){ loading=lazy }
+  <figcaption>GRIIDC</figcaption>
+</figure>
 
--   **HYCOM Gulf of Mexico (GOMu0.04)**
+</div>
 
-    ---
+<div class="model-card" markdown>
 
-    Numerical model
+### HYCOM Gulf of Mexico (GOMu0.04)
 
-    [:octicons-link-external-24: HYCOM GOMu0.04 expt_90.1m000](https://www.hycom.org/data/gomu0pt04/expt-90pt1m000)
+Numerical model
+
+[:octicons-link-external-24: HYCOM GOMu0.04 expt_90.1m000](https://www.hycom.org/data/gomu0pt04/expt-90pt1m000)
+
+<figure markdown="span">
+  ![HYCOM Gulf of Mexico](../assets/regional/atlantic/hycom_gulf_of_mexico.png){ loading=lazy }
+  <figcaption>HYCOM Gulf of Mexico</figcaption>
+</figure>
 
 </div>
 
 ## Repeat sections and cruises
 
-<div class="grid cards" markdown>
+<div class="model-card" markdown>
 
--   **Oleander Project**
+### Oleander Project
 
-    ---
+[:octicons-link-external-24: Oleander (Stony Brook)](http://po.msrc.sunysb.edu/Oleander/)<br>
+[:octicons-link-external-24: Oleander (URI)](http://www.po.gso.uri.edu/rafos/research/ole/index.html)
 
-    [:octicons-link-external-24: Oleander (Stony Brook)](http://po.msrc.sunysb.edu/Oleander/)<br>
-    [:octicons-link-external-24: Oleander (URI)](http://www.po.gso.uri.edu/rafos/research/ole/index.html)
-
--   **L'ATALANTE 2008**
-
-    ---
-
-    [:octicons-link-external-24: SFB 754: L'Atalante](https://www.sfb754.de/l-atalante)
-
--   **ORSTOM XBT Network**
-
-    ---
-
-    [:octicons-link-external-24: ORSTOM XBT (IRD Brest)](https://www.brest.ird.fr/xbt/xbt_ors2.html)
+<figure markdown="span">
+  ![Oleander track](../assets/regional/atlantic/oleander_track.png){ loading=lazy }
+  <figcaption>Oleander track</figcaption>
+</figure>
 
 </div>
 
-??? note "Notion 첨부 파일 (이전 예정)"
-    PIRATA 배열도, Gulf 자료 화면 2개, Oleander 항로도, L'ATALANTE 2008 이미지 2개
+<div class="model-card" markdown>
+
+### L'ATALANTE 2008
+
+[:octicons-link-external-24: SFB 754: L'Atalante](https://www.sfb754.de/l-atalante)
+
+<figure markdown="span">
+  ![L'ATALANTE 2008](../assets/regional/atlantic/atalante_2008_1.png){ loading=lazy }
+  <figcaption>L'ATALANTE 2008</figcaption>
+</figure>
+
+<figure markdown="span">
+  ![L'ATALANTE 2008](../assets/regional/atlantic/atalante_2008_2.png){ loading=lazy }
+  <figcaption>L'ATALANTE 2008</figcaption>
+</figure>
+
+</div>
+
+<div class="model-card" markdown>
+
+### ORSTOM XBT Network
+
+[:octicons-link-external-24: ORSTOM XBT (IRD Brest)](https://www.brest.ird.fr/xbt/xbt_ors2.html)
+
+</div>
