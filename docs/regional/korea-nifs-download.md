@@ -29,7 +29,3 @@ Download routes for the NIFS (KODC) serial oceanographic observations, plus comp
     It used to be possible to download much longer periods at once instead of two years; that shortcut no longer works.
     Older files by sea area: `정선해양관측정보_1993_2022_서해.xls`, `_1993_2022_남해.xls`, `_1993_2022_동중국해.xls`,
     `_2015_2022_동해.xls`, `_2000_2014_동해.xls`, `_1993_1999_동해.xls`.
-
-??? note "Data files"
-    The compiled files that were attached to the Notion page (`NIFS_KODC_ALL_1969_2024.zip`, the bi-yearly `정선해양_관측정보_*.xlsx` files, and the older `정선해양관측정보_*.xls` files) are institutional data and are **not redistributed here**. Please download the data yourself from KODC using the method above.
-

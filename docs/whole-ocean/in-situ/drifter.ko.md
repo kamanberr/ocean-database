@@ -100,10 +100,6 @@ Argo float 자료는 [Argo](argo.md) 페이지를 참고하세요.
     6. 너무 긴 시간 범위, 너무 큰 공간 범위, 너무 많은 데이터셋을 요청하면 download가 거부됩니다
        (예: drifting buoy를 요청했을 때 300개 안팎까지만 허용되었음). 기간을 나눠서 다운받는 것을 권합니다.
 
-??? note "데이터 파일"
-    Notion 페이지에 첨부되어 있던 지역 추출 자료(동중국해·동해 CMEMS drifter CSV, CORA drifter 묶음)는
-    **여기서는 재배포하지 않습니다**. 위에 링크된 CMEMS 제품 페이지와 Coriolis data selection에서 직접 받을 수 있습니다.
-
 ## WOCE surface drifters
 
 - [WOCE Global Data Resource (NOAA NCEI)](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:NODC-WOCE-GDR)

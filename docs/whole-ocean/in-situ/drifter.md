@@ -100,11 +100,6 @@ Argo float data are on the [Argo](argo.md) page.
     6. Requests with too long a time range, too large an area, or too many datasets are rejected
        (for drifting buoys, roughly 300 was the limit). Splitting the period into several downloads is recommended.
 
-??? note "Data files"
-    The regional extractions that were attached to the Notion page (CMEMS drifter CSV for the East China Sea and East Sea,
-    and the CORA drifter archives) are **not redistributed here**. They can be retrieved from the CMEMS product page and the
-    Coriolis data selection linked above.
-
 ## WOCE surface drifters
 
 - [WOCE Global Data Resource (NOAA NCEI)](https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.nodc:NODC-WOCE-GDR)

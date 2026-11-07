@@ -170,8 +170,3 @@ ETOPO 2022, SRTM15+, S2Shores는 아래 MathWorks 툴박스를 설치하고 그 
   ![HYCOM 격자(GLBb, GLBv, GLBy) 비교](../assets/bathymetry/bathymetry/hycom_grid_comparison.png){ loading=lazy }
   <figcaption>HYCOM 격자(GLBb, GLBv, GLBy) 비교</figcaption>
 </figure>
-
-??? note "데이터 파일"
-    Notion 페이지에 첨부되어 있던 GEBCO 2023 영역 자료와 HYCOM depth 파일은 **저장소에 포함하지 않습니다**.
-    위의 GEBCO·HYCOM 다운로드 링크에서 직접 만들 수 있습니다.
-

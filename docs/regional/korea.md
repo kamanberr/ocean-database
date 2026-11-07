@@ -517,9 +517,3 @@ Time-series figures at NIFS; raw data at Badanuri (Download → Shared data → 
     - Eastern channel of the Korea Strait (outflow): from the Izuhara and Hakata tide gauges
 
 </div>
-
-??? note "Data files"
-    The files that were attached to the Notion page (`Current_schema.zip`, `Basemap.zip`, and the KHOA territorial sea
-    limits zip) are **not included in this repository**. The current schematic and the territorial sea limits can be
-    downloaded from the sources linked above.
-

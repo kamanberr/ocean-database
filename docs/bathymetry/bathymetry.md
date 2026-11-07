@@ -170,8 +170,3 @@ Open the `topo` folder inside the directory of the HYCOM experiment you use and 
   ![Comparison of HYCOM grids (GLBb, GLBv, GLBy)](../assets/bathymetry/bathymetry/hycom_grid_comparison.png){ loading=lazy }
   <figcaption>Comparison of HYCOM grids (GLBb, GLBv, GLBy)</figcaption>
 </figure>
-
-??? note "Data files"
-    The GEBCO 2023 regional subsets and the HYCOM depth files that were attached to the Notion page are **not included
-    in this repository**. They can be regenerated from the GEBCO and HYCOM download links above.
-
