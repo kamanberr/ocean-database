@@ -549,7 +549,7 @@ IAP/CAS의 격자 수온·해양 열용량 자료입니다.
 | 7 | 130°E, 11~17.5°N | 2017.10~2017.11 (태풍 Lan) | [CAS ODC](https://msdc.qdio.ac.cn/data/metadata-special-detail?id=1722854892608958466&otherId=1722854892692844545) · [논문 (JGR)](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023JC020187) | 5, 6, 9 |
 | 8 | M1 146°E 25°N, M2 122.67°E 22.3°N, M3 126°E 18°N | 2017.04~2020.12 | [CAS ODC](https://msdc.qdio.ac.cn/data/metadata-special-detail?id=1769562088985939969&otherId=1769562089216626690) · [프리프린트 (EGUsphere)](https://egusphere.copernicus.org/preprints/2026/egusphere-2025-6538/) | 1 (M1) |
 | 9 | 130°E, 8.5~15°N (M1~M4) | 2015.09~2020.09 | [Zenodo](https://zenodo.org/records/11318020) · [논문 (JGR)](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024JC021495) | 5, 6, 7 |
-| 10 | 128°E, 필리핀 북부 해분 | | [Zenodo](https://zenodo.org/records/19604676) (사용 전 저자 Dr. Jie Ma, jma@qdio.ac.cn 에 문의) | |
+| 10 | 128.0°E, 20.45°N (필리핀 북부 해분) | 2021.12~2025.05 | [Zenodo](https://doi.org/10.5281/zenodo.19604675) · [Paper (JGR Oceans, 2026)](https://doi.org/10.1029/2026JC024576) | |
 
 ??? info "1~10번 계류 상세 설명"
     **1. 146°E, 25°N·30°N (2017.08~2017.12).** 서태평양 태풍 Sanvu 시기의 아표층 계류 관측 자료로, 품질 관리 후 필터링한
@@ -667,8 +667,12 @@ IAP/CAS의 격자 수온·해양 열용량 자료입니다.
       <figcaption>CASSON 계류 상세</figcaption>
     </figure>
 
-    **10. 128°E.** 필리핀 북부 해분의 potential temperature와 유속 자료로, "Topographic Organization of Abyssal
-    Intraseasonal Variability in the Northern Philippine Sea Basin" (JGR Oceans 투고)의 보충 자료입니다.
+    **10. 128.0°E, 20.45°N (2021.12~2025.05).** 필리핀 북부 해분의 CASSON 전층 계류로, 수심 약 5,200 m 지점에
+    2021년 12월 10일 설치되어 2023년 12월 5일 회수 후 같은 위치에 재설치되었으며, 표층부터 약 4,900 m까지의 유속 기록을 제공합니다.
+    [Ma et al. (2026, JGR Oceans)](https://doi.org/10.1029/2026JC024576)에서 topographic Rossby wave와 일치하는
+    두 개의 저층 강화 계절내 변동 밴드(약 83일, 113일)를 보이는 데 사용되었습니다. Potential temperature와 유속 자료는
+    [Zenodo (Ma, 2026)](https://doi.org/10.5281/zenodo.19604675)에 공개되어 있으며, 사용 전 저자(Dr. Jie Ma, jma@qdio.ac.cn)에게
+    연락해 달라는 안내가 붙어 있습니다.
 
 ??? warning "가입 필요 또는 접근 불가 자료"
     **(가입 필요) NPOCE data access:** [NPOCE data access](http://npoce.org.cn/dateAcc.aspx) (가입 후 접근 가능한 경로, 아직 시도해 보지 않았습니다)

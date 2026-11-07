@@ -549,7 +549,7 @@ The numbering follows the original Notion page. Several datasets share stations 
 | 7 | 130°E, 11 to 17.5°N | 2017.10 to 2017.11 (Typhoon Lan) | [CAS ODC](https://msdc.qdio.ac.cn/data/metadata-special-detail?id=1722854892608958466&otherId=1722854892692844545) · [Paper (JGR)](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023JC020187) | 5, 6, 9 |
 | 8 | M1 146°E 25°N, M2 122.67°E 22.3°N, M3 126°E 18°N | 2017.04 to 2020.12 | [CAS ODC](https://msdc.qdio.ac.cn/data/metadata-special-detail?id=1769562088985939969&otherId=1769562089216626690) · [Preprint (EGUsphere)](https://egusphere.copernicus.org/preprints/2026/egusphere-2025-6538/) | 1 (M1) |
 | 9 | 130°E, 8.5 to 15°N (M1 to M4) | 2015.09 to 2020.09 | [Zenodo](https://zenodo.org/records/11318020) · [Paper (JGR)](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024JC021495) | 5, 6, 7 |
-| 10 | 128°E, Northern Philippine Basin | | [Zenodo](https://zenodo.org/records/19604676) (contact the author, Dr. Jie Ma, jma@qdio.ac.cn, before use) | |
+| 10 | 128.0°E, 20.45°N (Northern Philippine Basin) | 2021.12 to 2025.05 | [Zenodo](https://doi.org/10.5281/zenodo.19604675) · [Paper (JGR Oceans, 2026)](https://doi.org/10.1029/2026JC024576) | |
 
 ??? info "Details of moorings 1 to 10"
     **1. 146°E, 25°N and 30°N (2017.08 to 2017.12).** Subsurface mooring observations during Typhoon Sanvu in the western Pacific:
@@ -669,8 +669,11 @@ The numbering follows the original Notion page. Several datasets share stations 
       <figcaption>CASSON mooring detail</figcaption>
     </figure>
 
-    **10. 128°E.** Potential temperature and velocity in the Northern Philippine Basin, supplementary to "Topographic Organization of Abyssal
-    Intraseasonal Variability in the Northern Philippine Sea Basin" (submitted to JGR Oceans).
+    **10. 128.0°E, 20.45°N (2021.12 to 2025.05).** CASSON nearly full-depth mooring in the northern Philippine Basin, water depth about 5,200 m:
+    deployed on 10 December 2021, recovered on 5 December 2023 and redeployed at the same site, with velocity records spanning the surface to
+    about 4,900 m. Used in [Ma et al. (2026, JGR Oceans)](https://doi.org/10.1029/2026JC024576) to show two bottom-intensified intraseasonal
+    bands (about 83 and 113 days) consistent with topographic Rossby waves. Potential temperature and velocity data are on
+    [Zenodo (Ma, 2026)](https://doi.org/10.5281/zenodo.19604675); the record asks users to contact the author (Dr. Jie Ma, jma@qdio.ac.cn) before use.
 
 ??? warning "Datasets that require registration or are not accessible"
     **Registration required: NPOCE data access.** [NPOCE data access](http://npoce.org.cn/dateAcc.aspx) (accessible after registration; not yet tried)
