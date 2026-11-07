@@ -675,6 +675,15 @@ The numbering follows the original Notion page. Several datasets share stations 
     bands (about 83 and 113 days) consistent with topographic Rossby waves. Potential temperature and velocity data are on
     [Zenodo (Ma, 2026)](https://doi.org/10.5281/zenodo.19604675); the record asks users to contact the author (Dr. Jie Ma, jma@qdio.ac.cn) before use.
 
+    <figure markdown="span">
+      ![Mooring location in the northern Philippine Basin](../assets/regional/pacific/mooring10_npb_location_ma2026.jpg){ loading=lazy }
+      <figcaption>Study region and mooring location (yellow star, 128.0°E, 20.45°N). Figure 1 of Ma et al. (2026), JGR Oceans. © 2026 AGU</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![Depth-time sections of U and V at the mooring](../assets/regional/pacific/mooring10_uv_depth_time_ma2026.png){ loading=lazy }
+      <figcaption>Depth-time sections of zonal (U) and meridional (V) velocity, December 2021 to May 2025. From Ma et al. (2026), JGR Oceans. © 2026 AGU</figcaption>
+    </figure>
+
 ??? warning "Datasets that require registration or are not accessible"
     **Registration required: NPOCE data access.** [NPOCE data access](http://npoce.org.cn/dateAcc.aspx) (accessible after registration; not yet tried)
 
@@ -777,11 +786,6 @@ The numbering follows the original Notion page. Several datasets share stations 
       ![Deep-current moorings in the Southern Philippine Basin](../assets/regional/pacific/spb_deep_currents_130e.png){ loading=lazy }
       <figcaption>Deep-current moorings in the Southern Philippine Basin</figcaption>
     </figure>
-
-??? note "Data files"
-    The data files that were attached to the Notion page (submissions and archives from Chinese data centers, and a
-    near-inertial flow MAT file) are **not redistributed here**, because access to the original archives requires
-    registration. Please use the linked data centers directly.
 
 ## Taiwan
 

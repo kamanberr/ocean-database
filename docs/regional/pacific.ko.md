@@ -674,6 +674,15 @@ IAP/CAS의 격자 수온·해양 열용량 자료입니다.
     [Zenodo (Ma, 2026)](https://doi.org/10.5281/zenodo.19604675)에 공개되어 있으며, 사용 전 저자(Dr. Jie Ma, jma@qdio.ac.cn)에게
     연락해 달라는 안내가 붙어 있습니다.
 
+    <figure markdown="span">
+      ![필리핀 북부 해분 계류 위치](../assets/regional/pacific/mooring10_npb_location_ma2026.jpg){ loading=lazy }
+      <figcaption>연구 해역과 계류 위치 (노란 별, 128.0°E, 20.45°N). Ma et al. (2026, JGR Oceans) Figure 1. © 2026 AGU</figcaption>
+    </figure>
+    <figure markdown="span">
+      ![계류 지점의 U, V 깊이-시간 단면](../assets/regional/pacific/mooring10_uv_depth_time_ma2026.png){ loading=lazy }
+      <figcaption>동서(U)·남북(V) 유속의 깊이-시간 단면, 2021년 12월~2025년 5월. Ma et al. (2026, JGR Oceans). © 2026 AGU</figcaption>
+    </figure>
+
 ??? warning "가입 필요 또는 접근 불가 자료"
     **(가입 필요) NPOCE data access:** [NPOCE data access](http://npoce.org.cn/dateAcc.aspx) (가입 후 접근 가능한 경로, 아직 시도해 보지 않았습니다)
 
@@ -776,10 +785,6 @@ IAP/CAS의 격자 수온·해양 열용량 자료입니다.
       ![필리핀 남부 해분 심층 유속 계류](../assets/regional/pacific/spb_deep_currents_130e.png){ loading=lazy }
       <figcaption>필리핀 남부 해분 심층 유속 계류</figcaption>
     </figure>
-
-??? note "데이터 파일"
-    Notion 페이지에 첨부되어 있던 자료 파일(중국 자료센터 제출본·아카이브, near-inertial flow MAT 파일)은
-    원 자료센터가 가입·승인제로 운영되므로 **여기서는 재배포하지 않습니다**. 링크된 자료센터를 직접 이용해 주세요.
 
 ## 대만
 
