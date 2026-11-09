@@ -137,7 +137,7 @@ If you use the toolbox, a **rating under Review** on the MathWorks page would be
 </figure>
 
 <figure markdown="span">
-  ![Badanuri ocean information service: BADA2024 gridded bathymetry (TXT and NetCDF download)](../assets/bathymetry/bathymetry/khoa_bathymetry_2.png){ loading=lazy }
+  ![Badanuri ocean information service: BADA2024 gridded bathymetry (TXT and NetCDF download)](../assets/bathymetry/bathymetry/khoa_badanuri_bada2024.png){ loading=lazy }
   <figcaption>Badanuri ocean information service: BADA2024 gridded bathymetry (TXT and NetCDF download)</figcaption>
 </figure>
 

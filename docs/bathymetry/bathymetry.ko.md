@@ -137,7 +137,7 @@ ETOPO 2022, SRTM15+, S2Shores는 아래 MathWorks 툴박스를 설치하고 그 
 </figure>
 
 <figure markdown="span">
-  ![바다누리 해양정보 서비스: BADA2024 격자형 수심 (TXT, NetCDF 다운로드)](../assets/bathymetry/bathymetry/khoa_bathymetry_2.png){ loading=lazy }
+  ![바다누리 해양정보 서비스: BADA2024 격자형 수심 (TXT, NetCDF 다운로드)](../assets/bathymetry/bathymetry/khoa_badanuri_bada2024.png){ loading=lazy }
   <figcaption>바다누리 해양정보 서비스: BADA2024 격자형 수심 (TXT, NetCDF 다운로드)</figcaption>
 </figure>
 
