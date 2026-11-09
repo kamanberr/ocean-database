@@ -15,7 +15,7 @@
 
     ---
 
-    꾸준히 버전을 업데이트하여 제공. **가장 최신 버전은 2024입니다.**
+    매년 새 버전으로 업데이트되는 전 지구 수심 격자 자료
 
     [:octicons-download-24: GEBCO Gridded Bathymetry Data Download](https://download.gebco.net/)
 
@@ -55,7 +55,8 @@
 
     Sentinel-2 wave inversion 기반 전 지구 연안 수심. AVISO+ 계정 필요
 
-    [:octicons-arrow-right-24: Data access & references](#s2shores)
+    [:octicons-arrow-right-24: Data access & references](#s2shores)<br>
+    [:octicons-download-24: MATLAB 다운로드 코드](#matlab-download-script)
 
 </div>
 
@@ -99,8 +100,7 @@ ETOPO 2022, SRTM15+, S2Shores는 아래 MathWorks 툴박스를 설치하고 그 
 
     영해 경계 문제 때문에 대한민국 주변 해역에 대해서만 수심 자료를 처리한 것으로 보임
 
-    [:octicons-link-external-24: KHOA 바다누리: 수심 자료](http://www.khoa.go.kr/oceangrid/gis/category/observe/observeSearch.do?type=EYS#none)<br>
-    [:octicons-arrow-right-24: 읽기 코드 (MATLAB)](#khoa-bada)<br>
+    [:octicons-link-external-24: KHOA 바다누리: 수심 자료](https://khoa.go.kr/oceandata/oceaninfo/map.do)<br>
     [:octicons-book-24: 참고: 수심측량자료를 사용한 해양수치모델 전용 수심 데이터 제작 (한국해안·해양공학회논문집, 2019)](https://doi.org/10.9765/KSCOE.2019.31.3.146)
 
 -   **JODC** · 500 m
@@ -137,22 +137,9 @@ ETOPO 2022, SRTM15+, S2Shores는 아래 MathWorks 툴박스를 설치하고 그 
 </figure>
 
 <figure markdown="span">
-  ![KHOA 수심 자료 화면 2](../assets/bathymetry/bathymetry/khoa_bathymetry_2.png){ loading=lazy }
-  <figcaption>KHOA 수심 자료 화면 2</figcaption>
+  ![바다누리 해양정보 서비스: BADA2024 격자형 수심 (TXT, NetCDF 다운로드)](../assets/bathymetry/bathymetry/khoa_bathymetry_2.png){ loading=lazy }
+  <figcaption>바다누리 해양정보 서비스: BADA2024 격자형 수심 (TXT, NetCDF 다운로드)</figcaption>
 </figure>
-
-??? example "Read BADA bathymetry (xyz) and grid it"
-
-    ```matlab title="Read BADA bathymetry (xyz) and grid it"
-    clc; clear; close all; % reset
-    bathy = importdata("C:\Users\User\OneDrive\문서\MATLAB\BADA Ver.1.txt"); % load
-    bedlat0 = bathy.data(:,1); bedlon0 = bathy.data(:,2); bed0 = bathy.data(:,3);
-
-    lonlim = [129 133];   latlim = [35 38.5]; % set longitude, latitude range for interpolation
-    bed = griddata(bedlon0, bedlat0, bed0, lonlim(1):0.01:lonlim(end),(latlim(1):0.01:latlim(end))'); bed=bed';
-    bed=bed*(-1); bedlon = lonlim(1):0.01:lonlim(end); bedlat = latlim(1):0.01:latlim(end);
-    save bathy_bada.mat bedlon bedlat bed; % save
-    ```
 
 ## 모델 격자: HYCOM 3.1 topo { #model-grid-hycom-31-topo }
 

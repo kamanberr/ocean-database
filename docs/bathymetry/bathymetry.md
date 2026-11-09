@@ -15,7 +15,7 @@ Global and regional bathymetry datasets, with code to download and process them.
 
     ---
 
-    Updated regularly. **The latest version is 2024.**
+    Global gridded bathymetry, updated with a new release every year
 
     [:octicons-download-24: GEBCO Gridded Bathymetry Data Download](https://download.gebco.net/)
 
@@ -55,7 +55,8 @@ Global and regional bathymetry datasets, with code to download and process them.
 
     Global coastal bathymetry from Sentinel-2 wave inversion. AVISO+ account required
 
-    [:octicons-arrow-right-24: Data access & references](#s2shores)
+    [:octicons-arrow-right-24: Data access & references](#s2shores)<br>
+    [:octicons-download-24: MATLAB download script](#matlab-download-script)
 
 </div>
 
@@ -99,8 +100,7 @@ If you use the toolbox, a **rating under Review** on the MathWorks page would be
 
     Bathymetry appears to be processed only for the seas around Korea, presumably because of territorial boundary issues
 
-    [:octicons-link-external-24: KHOA Badanuri: bathymetry](http://www.khoa.go.kr/oceangrid/gis/category/observe/observeSearch.do?type=EYS#none)<br>
-    [:octicons-arrow-right-24: Reading code (MATLAB)](#khoa-bada)<br>
+    [:octicons-link-external-24: KHOA Badanuri: bathymetry](https://khoa.go.kr/oceandata/oceaninfo/map.do)<br>
     [:octicons-book-24: Reference: Bathymetry data for ocean numerical models from survey data (JKSCOE, 2019, in Korean)](https://doi.org/10.9765/KSCOE.2019.31.3.146)
 
 -   **JODC** · 500 m
@@ -137,22 +137,9 @@ If you use the toolbox, a **rating under Review** on the MathWorks page would be
 </figure>
 
 <figure markdown="span">
-  ![KHOA bathymetry, screen 2](../assets/bathymetry/bathymetry/khoa_bathymetry_2.png){ loading=lazy }
-  <figcaption>KHOA bathymetry, screen 2</figcaption>
+  ![Badanuri ocean information service: BADA2024 gridded bathymetry (TXT and NetCDF download)](../assets/bathymetry/bathymetry/khoa_bathymetry_2.png){ loading=lazy }
+  <figcaption>Badanuri ocean information service: BADA2024 gridded bathymetry (TXT and NetCDF download)</figcaption>
 </figure>
-
-??? example "Read BADA bathymetry (xyz) and grid it"
-
-    ```matlab title="Read BADA bathymetry (xyz) and grid it"
-    clc; clear; close all; % reset
-    bathy = importdata("C:\Users\User\OneDrive\문서\MATLAB\BADA Ver.1.txt"); % load
-    bedlat0 = bathy.data(:,1); bedlon0 = bathy.data(:,2); bed0 = bathy.data(:,3);
-
-    lonlim = [129 133];   latlim = [35 38.5]; % set longitude, latitude range for interpolation
-    bed = griddata(bedlon0, bedlat0, bed0, lonlim(1):0.01:lonlim(end),(latlim(1):0.01:latlim(end))'); bed=bed';
-    bed=bed*(-1); bedlon = lonlim(1):0.01:lonlim(end); bedlat = latlim(1):0.01:latlim(end);
-    save bathy_bada.mat bedlon bedlat bed; % save
-    ```
 
 ## Model grid: HYCOM 3.1 topo
 
